@@ -16,3 +16,12 @@ if (son % 2 === 0) {
     console.log("Siz toq son kiritingiz");
 
 }
+// ==============
+let sinf = 12
+if (sinf < 12) {
+    console.log("Siz hali maktabda oqiysz");
+    
+} else {
+    console.log("siz maktabni bitirgansz");
+    
+}
