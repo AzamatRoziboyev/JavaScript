@@ -46,7 +46,7 @@ if (son1 > 0) {
 else {
     console.log("bu son manfiy");
 }
-// ========parol==
+// ========parol=====
 let parol = "qweqwe"
 if (parol === "qweqwe") {
     console.log("kampyuter ochildi");
