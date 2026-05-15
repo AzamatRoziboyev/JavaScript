@@ -20,29 +20,38 @@ if (son % 2 === 0) {
 let sinf = 1
 if (sinf < 12) {
     console.log("Siz hali maktabda oqiysz");
-    
+
 } else {
     console.log("siz maktabni bitirgansz");
-    
+
 }
 // ==================
 let havo = 1
 if (havo > 29) {
     console.log("Bugun havo issiq");
-    
+
 } else {
     console.log("bugun havo yaxshi");
-    
+
 }
 // =================
 let son1 = -1
 if (son1 > 0) {
     console.log("bu son musbat");
-    
+
 } else if (son1 === 0) {
     console.log("bu nol");
-    
+
 }
 else {
     console.log("bu son manfiy");
-} 
+}
+// ========parol==
+let parol = "qweqwe"
+if (parol === "qweqwe") {
+    console.log("kampyuter ochildi");
+
+} else {
+    console.log("bu kod xato");
+
+}
