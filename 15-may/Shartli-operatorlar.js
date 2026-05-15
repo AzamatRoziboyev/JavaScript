@@ -34,3 +34,15 @@ if (havo > 29) {
     console.log("bugun havo yaxshi");
     
 }
+// =================
+let son1 = -1
+if (son1 > 0) {
+    console.log("bu son musbat");
+    
+} else if (son1 === 0) {
+    console.log("bu nol");
+    
+}
+else {
+    console.log("bu son manfiy");
+} 
