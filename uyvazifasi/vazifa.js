@@ -34,3 +34,4 @@ else {
     console.log("D - qoniqarsiz");
     
 }
+// ===========
