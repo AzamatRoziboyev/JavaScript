@@ -10,7 +10,27 @@ let son = 2
 if (son > 0) {
     console.log("bu son musbat");
     
-} else {
+} else if (son >= 0) {
+    console.log("bu nol");
+    
+} 
+else {
     console.log("bu son manfiy");
+    
+}
+// ================
+let ball = 95
+if (ball >= 95) {
+    console.log("A - a'lo");
+    
+} else if (ball >= 80) {
+    console.log("B - yaxshi");
+    
+} else if (ball >= 70) {
+    console.log("C - qoniqarli");
+    
+}
+else {
+    console.log("D - qoniqarsiz");
     
 }
