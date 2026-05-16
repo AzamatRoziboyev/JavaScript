@@ -5,3 +5,12 @@ if (havo < 29) {
 } else {
     console.log("bugun havo issiq");
 }
+// ============
+let son = 2
+if (son > 0) {
+    console.log("bu son musbat");
+    
+} else {
+    console.log("bu son manfiy");
+    
+}
