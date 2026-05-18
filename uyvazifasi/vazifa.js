@@ -19,7 +19,7 @@ else {
     
 }
 // ================
-let ball = 95
+let ball = 100
 if (ball >= 95) {
     console.log("A - a'lo");
     
