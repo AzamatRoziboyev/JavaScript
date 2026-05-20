@@ -32,4 +32,5 @@ if (son2 > 0) {
     console.log("bu son manfiy", son2 -2);
     
 }
+ 
             
