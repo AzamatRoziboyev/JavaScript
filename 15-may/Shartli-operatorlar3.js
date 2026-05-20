@@ -7,14 +7,29 @@
     
 // }
 // ^====2
-let son1 = -2
-if (son1 > 0) {
-    console.log("Bu son musbat", son1 +1);
+// let son1 = 0
+// if (son1 > 0) {
+//     console.log("Bu son musbat", son1 +1);
     
-} else if (son1 === 0) {
-    console.log("bu son noll");
+// } else if (son1 === 0) {
+//     console.log("bu son noll");
     
+// } else {
+//     console.log("Bu son manfiy", son1 -2);
+    
+// }
+// &&=====3
+let son2 = 0
+if (son2 > 0) {
+    console.log("bu son musbat", son2 +1);
+    
+} else if (son2 === 0) {
+        son2 = 10 
+        console.log(son2);
+        
+
 } else {
-    console.log("Bu son manfiy", son1 -2);
+    console.log("bu son manfiy", son2 -2);
     
 }
+            
