@@ -19,7 +19,7 @@
     
 // }
 // &&=====3
-let son2 = 0
+let son2 = -3
 if (son2 > 0) {
     console.log("bu son musbat", son2 +1);
     
