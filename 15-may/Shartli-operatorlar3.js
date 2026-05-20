@@ -17,7 +17,7 @@
 // } else {
 //     console.log("Bu son manfiy", son1 -2);
     
-// }
+// } 
 // &&=====3
 let son2 = -3
 if (son2 > 0) {
