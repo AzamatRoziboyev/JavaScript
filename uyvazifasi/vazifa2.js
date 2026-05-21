@@ -16,18 +16,34 @@
     
 // }
 // &&==========3
-let havo = 20
-if (havo >= 30) {
-    console.log("Bugun havo yaxshi");
+// let havo = 20
+// if (havo >= 30) {
+//     console.log("Bugun havo yaxshi");
     
-} else if (havo <= 20) {
-    console.log("Bugun havo salqin");
+// } else if (havo <= 20) {
+//     console.log("Bugun havo salqin");
     
-} else if (havo >= -1) {
-    console.log("Bugun havo soviq");
+// } else if (havo >= -1) {
+//     console.log("Bugun havo soviq");
+    
+// }
+// else {
+//     console.log("Bugun havo issiq");
+    
+// }
+// *==========4
+let ball = 53
+if (ball >= 90) {
+    console.log("A'lo");
+    
+} else if (ball >= 80) {
+    console.log("yaxshi");
+    
+} else if (ball >= 60) {
+    console.log("qaniqarli");
     
 }
 else {
-    console.log("Bugun havo issiq");
+    console.log("qaniqarsz");
     
 }
