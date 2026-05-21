@@ -7,7 +7,7 @@
     
 // }
 // ^===========
-// let sinf = 12
+// let sinf = 4
 // if (sinf < 11) {
 //     console.log("siz maktabda oqiysz");
     
