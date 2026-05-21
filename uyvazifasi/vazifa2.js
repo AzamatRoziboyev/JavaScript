@@ -32,7 +32,7 @@
     
 // }
 // *==========4
-let ball = 53
+let ball = 95
 if (ball >= 90) {
     console.log("A'lo");
     
