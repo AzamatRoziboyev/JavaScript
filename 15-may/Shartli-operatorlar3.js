@@ -33,11 +33,12 @@
     
 // }         
 // **===========4
-let a = 12
-if (a % 2 !== 0) {
-    console.log("a soni toq son");
+// let a = 11
+// if (a % 2 !== 0) {
+//     console.log("a soni toq son");
     
-} else {
-    console.log("a soni toq son emas");
+// } else {
+//     console.log("a soni toq son emas");
     
-}
+// }
+//^ ===========5
