@@ -19,16 +19,18 @@
     
 // } 
 // &&=====3
-let son2 = -3
-if (son2 > 0) {
-    console.log("bu son musbat", son2 +1);
+// let son2 = -3
+// if (son2 > 0) {
+//     console.log("bu son musbat", son2 +1);
     
-} else if (son2 === 0) {
-        son2 = 10 
-        console.log(son2);
+// } else if (son2 === 0) {
+//         son2 = 10 
+//         console.log(son2);
         
 
-} else {
-    console.log("bu son manfiy", son2 -2);
+// } else {
+//     console.log("bu son manfiy", son2 -2);
     
-}         
+// }         
+// **===========4
+let A = 1
