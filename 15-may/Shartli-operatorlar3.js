@@ -42,12 +42,12 @@
 
 // }
 //^ ===========5
-let A = 3
-let B = 2
-if (A > 2 && B <= 3) {
-    console.log(true);
+// let A = 3
+// let B = 2
+// if (A > 2 && B <= 3) {
+//     console.log(true);
 
-} else {
-    console.log(false);
+// } else {
+//     console.log(false);
 
-}
+// }
