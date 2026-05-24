@@ -19,7 +19,7 @@
 //     console.log(son1);
     
 // }
-// ^============
+// ^============3
 // let katta = prompt ("Soni kiriting")
 // if (katta > 100) {
 //     console.log("Bu katta son");
@@ -28,3 +28,13 @@
 //     console.log("Bu kickiki son");
     
 // }
+// *===========4
+// let login = prompt ("Loginni kiriting")
+// if (login === "admin") {
+//     console.log("Xush kelibsiz admin");
+    
+// } else {
+//     console.log("Login xato");
+    
+// }
+// &============5
