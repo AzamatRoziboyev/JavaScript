@@ -25,14 +25,24 @@
 //         console.log("Noto'g'ri kun");
 // }
 // !============2
-let oy = 1
+let oy = 3
 switch (oy) {
-    case oy >= 1 || oy <= 2 || oy === 12:
-        console.log("Qish");
-       break 
     case oy >= 3 || oy <=5:
         console.log("Baxor");
-    
+        break
+    case oy >= 6 || oy <=8:
+        console.log(Yoz);
+        break
+    case oy >= 9 || oy <= 11:
+        console.log(Kuz);
+        break
+     case oy >= 1 || oy <= 2 || oy === 12:
+        console.log("Qish");
+       break 
+    default:
+        console.log("Siz kiritgan son mos kelmadi");
+        
+        
 }
 
 
