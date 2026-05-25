@@ -39,19 +39,19 @@
 let til = eng
 switch (til) {
     case eng:
-        console.log(Hello);
+        console.log("Hello");
         break
     case uzb:
-        console.log(Salom);
+        console.log("Salom");
         break
     case rus:
-        console.log(Prevet);
+        console.log("Prevet");
         break
     case hind:
-        console.log(Namaste);
+        console.log("Namaste");
         break
     case korean:
-        console.log(Annyonghaseyo);
+        console.log("Annyonghaseyo");
         break
     default:
         console.log("boshqa til");
