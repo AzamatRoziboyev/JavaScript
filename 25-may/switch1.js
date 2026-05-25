@@ -36,7 +36,7 @@
 
 
 // ^===========3
-let til = rus
+let til = eng
 switch (til) {
     case eng:
         console.log(Hello);
@@ -52,6 +52,9 @@ switch (til) {
         break
     case korean:
         console.log(Annyonghaseyo);
+        break
+    default:
+        console.log("boshqa til");
         
         
         
