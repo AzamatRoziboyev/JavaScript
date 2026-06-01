@@ -3,7 +3,21 @@
     
 //  }
 // *=========2
-for (let boshlash = 3; boshlash <=22; boshlash++ ) {
-   console.log(boshlash);
+// for (let boshlash = 3; boshlash <=22; boshlash++ ) {
+//    console.log(boshlash);
    
+// }
+// ^==========3
+// for (let i = 0; i < 101; i++) {
+//    if (i % 2 === 0) {
+//       console.log(i);
+      
+//    }
+// }
+// ^=========4
+for (let i = 0; i < 101; i++) {
+   if (i % 2 !== 0) {
+      console.log(i);
+      
+   }
 }
