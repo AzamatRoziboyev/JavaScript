@@ -3,3 +3,7 @@
     
 //  }
 // *=========2
+for (let boshlash = 3; boshlash <=22; boshlash++ ) {
+   console.log(boshlash);
+   
+}
