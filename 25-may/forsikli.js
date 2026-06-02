@@ -28,7 +28,7 @@
          
 // }
 // &=========6
-for (let a = 0; a <= 10; a++) {
-   console.log(a**2);
+// for (let a = 0; a <= 1000; a++) {
+//    console.log(a**2);
    
-}
+// }
