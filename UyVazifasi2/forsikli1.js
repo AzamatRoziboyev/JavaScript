@@ -3,7 +3,9 @@
     
 // }
 // *==========2
-for (let k = 0; k <= 1000; k++) {
-    console.log(k**3);
-    
+for (let i = 0; i < 100; i++) {
+   if (i % 2 !== 0) {
+      console.log(i);
+      
+   }
 }
