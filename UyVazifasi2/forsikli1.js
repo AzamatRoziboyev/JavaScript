@@ -3,9 +3,9 @@
     
 // }
 // *==========2
-for (let i = 0; i < 100; i++) {
-   if (i % 2 !== 0) {
-      console.log(i);
+for (let k = 0; k <= 1000; k++) {
+   if (k % 3 !== 0 && k % 4 !== 0) {
+      console.log(k**3);
       
    }
 }
