@@ -3,12 +3,12 @@
     
 // }
 // *====3 va 4 bolinadiganlar======2
-for (let k = 0; k <= 1000; k++) {
-   if (k % 3 !== 0 && k % 4 !== 0) {
-      console.log(k**3);
+// for (let k = 0; k <= 1000; k++) {
+//    if (k % 3 !== 0 && k % 4 !== 0) {
+//       console.log(k**3);
       
-   }
-}
+//    }
+// }
 // ^========5 ga 2 qoldiqsiz bolinadiganlar
 // for (let b = 0; b <= 1000; b++) {
 //     if (b % 5 !== 0 && b % 2 !== 0) {
