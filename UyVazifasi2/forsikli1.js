@@ -10,12 +10,12 @@
 //    }
 // }
 // ^========5 ga 2 qoldiqsiz bolinadiganlar
-// for (let b = 0; b <= 1000; b++) {
-//     if (b % 5 !== 0 && b % 2 !== 0) {
-//         console.log(b);
+for (let b = 0; b <= 1000; b++) {
+    if (b % 5 !== 0 && b % 2 !== 0) {
+        console.log(b);
         
-//     }
-// }
+    }
+}
 // for (let i = 10; i >= 1; i--) {
 //     console.log(i);
     
