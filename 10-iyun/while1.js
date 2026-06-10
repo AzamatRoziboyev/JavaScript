@@ -4,3 +4,5 @@
 //     son = son + 1
     
 // }
+//! ========1 dan 20 gacha sonlarni yigindisini topish
+
