@@ -12,6 +12,5 @@
 //     natija = natija + son1
 //     son1 = son1 + 1
 
-    
 // }
 // console.log(natija)
