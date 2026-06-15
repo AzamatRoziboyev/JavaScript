@@ -43,12 +43,12 @@
 // } while (i === 7) 
 //     console.log("xato");
 // *1 dan 10 gacha faqat juft sonlarni chiqarish
-let i = 1
-do {
-    if (i % 2 == 0) {
-        console.log(i);
+// let i = 1
+// do {
+//     if (i % 2 == 0) {
+//         console.log(i);
         
-    } 
-    i++
-} while (i <= 10)
+//     } 
+//     i++
+// } while (i <= 10)
     
