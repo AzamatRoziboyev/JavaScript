@@ -1,4 +1,8 @@
+// !for shartli siks
+// !while shartsiz sikl
+// *8========1
 // let son = 5 
+
 // son1 = 7 
 // {
 //     console.log(son + son1);
