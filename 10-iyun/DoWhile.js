@@ -8,11 +8,11 @@
 //     i++
 // } while (i < 100)
 // *toq sonlarni qubni chiqarish
-let i = 1
-do {
-    if (i % 2 !== 0) {
-        console.log(i ** 3);
+// let i = 1
+// do {
+//     if (i % 2 !== 0) {
+//         console.log(i ** 3);
         
-    }
-    i++
-} while (i < 100)
+//     }
+//     i++
+// } while (i < 100)
