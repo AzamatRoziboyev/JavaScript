@@ -42,4 +42,12 @@
 //     } 
 //     i++
 // } while (i <= 10)
-    
+// *1 dan 10 gacha faqat toq sonlarni chiqarish   
+// let i = 1
+// do {
+//     if (i % 2 !== 0) {
+//         console.log(i);
+        
+//     } 
+//     i++
+// } while (i <= 10)
