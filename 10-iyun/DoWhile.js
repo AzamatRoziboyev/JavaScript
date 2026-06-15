@@ -32,7 +32,12 @@
     
 // } while (i <= 3)
 // *7 soni kiritguncha kirmasin 
+// let son = 0;
 
+// do {
+//     son =prompt("Son kiriting:");
+// } while (son != 7);
+// console.log("7 kiritildi!");
 // *1 dan 10 gacha faqat juft sonlarni chiqarish
 // let i = 1
 // do {
@@ -51,3 +56,17 @@
 //     } 
 //     i++
 // } while (i <= 10)
+// * betilgan soni 5 marta takrorlab chiqarish
+// let i = 1    
+// do {
+//     console.log(3);
+//     i++
+    
+// } while (i <= 5)
+// *foydalanuvchi stop yozmaguncha kiritilmasin 
+// let son = "stop";
+
+// do {
+//     son =prompt("Son kiriting:");
+// } while (son !== "stop");
+// console.log("stop kiritildi!");
