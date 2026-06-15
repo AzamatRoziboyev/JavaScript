@@ -32,16 +32,7 @@
     
 // } while (i <= 3)
 // *7 soni kiritguncha kirmasin 
-// let i = 7
-// do {
-//     if (i === 7) {
-//         console.log("toxtang");
-        
-//     }
-//     i++
-    
-// } while (i === 7) 
-//     console.log("xato");
+
 // *1 dan 10 gacha faqat juft sonlarni chiqarish
 // let i = 1
 // do {
