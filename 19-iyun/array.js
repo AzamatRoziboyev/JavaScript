@@ -4,10 +4,10 @@ let names = ["Saidjon", "Shohjahon", "Azamat", "suxrob", "Jahongir", "Bekzod", "
 //     console.log(names[i]);
     
 // }
-for (let ozgaruvchi of names) {
-    console.log(ozgaruvchi);
+// for (let ozgaruvchi of names) {
+//     console.log(ozgaruvchi);
     
-}
+// }
  
 // // console.log(names);
 // console.log(names[0])
@@ -23,6 +23,29 @@ for (let ozgaruvchi of names) {
 // console.log(massiv0);
 // console.log(massiv1);
 // console.log(names.length);
+
+// ^Methods
+let poshMethods = names.popMethods()
+console.log(names); //*oxiriga qoshish
+
+//*oxiridan bitta olib tashlaydi
+let popMethods = names.pop()
+console.log(names);
+console.log(popMethods);
+
+// *boshiga qoshadi
+let ushiftMethods = names.unshift("Boshiga qoshiladi")
+console.log(names);
+
+//*boshidan bitta olib tashlaydi
+let shiftMethods = names.shift()
+console.log(names);
+console.log(shiftMethods);
+
+
+
+
+
 
 
 
