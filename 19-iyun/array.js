@@ -8,11 +8,11 @@ console.log(names[4])
 // *==============uzunligi 4ga teng bo'sh array
 let massiv = new Array(4)
 let massiv0 = new Array(4,1,2,3,5)
-let massiv1 =
-console.log(massiv);
-console.log(massiv0);
-console.log(massiv1);
-console.log(names.length);
+// let massiv1 =
+// console.log(massiv);
+// console.log(massiv0);
+// console.log(massiv1);
+// console.log(names.length);
 
 
 
