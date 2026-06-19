@@ -25,7 +25,7 @@ let names = ["Saidjon", "Shohjahon", "Azamat", "suxrob", "Jahongir", "Bekzod", "
 // console.log(names.length);
 
 // ^Methods
-let poshMethods = names.popMethods()
+let poshMethods = names.push(1)
 console.log(names); //*oxiriga qoshish
 
 //*oxiridan bitta olib tashlaydi
