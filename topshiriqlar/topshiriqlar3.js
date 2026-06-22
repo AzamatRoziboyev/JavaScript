@@ -33,6 +33,14 @@
 //     }
 // }
 // console.log(musbat.length);
+//*1 dan 100 gacha bo'lgan barcha sonlarning yig'indisini for yordamida toping {6}
+// let sum = 0
+// for (let i = 1; i <= 100; i++) {
+//     sum += i
+// }
+// console.log(sum);
+
+
 
 
 
