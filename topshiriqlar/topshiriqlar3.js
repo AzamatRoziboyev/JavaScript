@@ -39,6 +39,13 @@
 //     sum += i
 // }
 // console.log(sum);
+//* Foydalanuvchi kiritgan sonning faktorialini for yordamida hisoblang {7}
+// let n = parseInt(prompt("sonni kititing"))
+// let k = 1 
+// for (let i = 1; i <= n; i++) {
+//         k *= i
+// }
+// console.log(k);
 
 
 
