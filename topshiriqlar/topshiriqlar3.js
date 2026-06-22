@@ -23,5 +23,14 @@
 //     console.log(i);
     
 // }
-
+//*Berilgan massivdagi musbat sonlar nechta ekanligini hisoblang (for) {5}
+let arr = [-1, 1, 3, -12, 6, 4, -22, 6]
+let musbat = []
+for(let i of arr) {
+    if (i > 0) {
+        musbat.push(i)
+        
+    }
+}
+console.log(musbat.length);
 
