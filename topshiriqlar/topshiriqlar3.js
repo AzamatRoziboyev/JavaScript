@@ -3,12 +3,20 @@
     
 // }
 // *whileda faqat juft sonlarni chiqarish
-let i = 1
-while (i <= 20) {
-    if (i % 2 === 0) {
-        console.log(i);
+// let i = 1
+// while (i <= 20) {
+//     if (i % 2 === 0) {
+//         console.log(i);
         
-    }
-    i++
-}
+//     }
+//     i++
+// }
+// **foydalanuvchi 0 yozmaguncha kiritilmasin 
+// let son = 0
+// do {
+//     son = parseInt(prompt("Soni kiriting"))
+// } while (son !== 0)
+//     console.log(0);
+
+    
 
