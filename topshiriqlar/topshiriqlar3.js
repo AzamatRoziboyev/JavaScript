@@ -55,7 +55,7 @@
 //     sum += i    
 // }
 // console.log(sum);
-//*1 dan 15 gacha bo'lgan sonlarning kvadratini for yordamida chiqaring
+//*1 dan 15 gacha bo'lgan sonlarning kvadratini for yordamida chiqaring {13}
     // for (let i = 1; i <= 15; i++) {
     //     console.log(i**2);
         
