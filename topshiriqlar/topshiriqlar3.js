@@ -55,6 +55,13 @@
 //     sum += i    
 // }
 // console.log(sum);
+//*1 dan 15 gacha bo'lgan sonlarning kvadratini for yordamida chiqaring
+let n = parseInt(prompt("sonni kititing"))
+let k = 1 
+for (let i = 1; i <= 15; i++) {
+        k *= i
+}
+console.log(k);
 
 
 
