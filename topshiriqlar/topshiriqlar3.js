@@ -56,10 +56,10 @@
 // }
 // console.log(sum);
 //*1 dan 15 gacha bo'lgan sonlarning kvadratini for yordamida chiqaring
-for (let i = 1; i <= 15; i++) {
-    console.log(i**2);
-    
-}
+    // for (let i = 1; i <= 15; i++) {
+    //     console.log(i**2);
+        
+    // }
 
 
 
