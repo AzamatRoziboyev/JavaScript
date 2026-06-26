@@ -20,6 +20,6 @@
 // console.log(arr);
 
 //* oratadaki elementni olib orniga yangi element qoyish
-let arr = [23, 54, 76, 54, 346, 234, 213, 12, 31, 3, 4, 5, 345, 3, 4, 53, 54]
-arr.splice(1, 15, 7)
-console.log(arr);
+// let arr = [23, 54, 76, 54, 346, 234, 213, 12, 31, 3, 4, 5, 345, 3, 4, 53, 54]
+// arr.splice(1, 15, 7)
+// console.log(arr);
