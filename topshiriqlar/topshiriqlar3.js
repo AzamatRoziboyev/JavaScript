@@ -74,15 +74,25 @@
 
 // if (massiv[2] !== undefined) {
 //     console.log(massiv[2]); 
+// }x`
+
+//*Berilgan massivning birinchi va oxirgi elementlarini if yordamida almashtiring {19}// let arr = [10, 20, 30, 40, 50];
+//^{1-usul}
+// let oxiri = arr.pop()
+// let boshi = arr.shift()
+// arr.push(boshi)
+// arr.unshift(oxiri)
+// console.log(arr);
+//^{2- usul}
+// let massiv = [10, 20, 30, 40, 50];
+
+// if (massiv.length > 1) {
+//     let temp = massiv[0];
+//     massiv[0] = massiv[massiv.length - 1];
+//     massiv[massiv.length - 1] = temp;
 // }
 
-//*Berilgan massivning birinchi va oxirgi elementlarini if yordamida almashtiring {19}
-let arr = [10, 20, 30, 40, 50];
-let oxiri = arr.pop()
-let boshi = arr.shift()
-arr.push(boshi)
-arr.unshift(oxiri)
-console.log(arr);
+// console.log(massiv);
 
 
 
