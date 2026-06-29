@@ -55,17 +55,23 @@
 //     sum += i    
 // }
 // console.log(sum);
+
 //*1 dan 15 gacha bo'lgan sonlarning kvadratini for yordamida chiqaring {13}
     // for (let i = 1; i <= 15; i++) {
     //     console.log(i**2);
         
     // }
-//*
-let son = -1
-do {
-    son = parseInt(prompt("Soni kiriting"))
-} while (son !== -1)
-    console.log(-1);
+
+//*Foydalanuvchi -1 raqamini kiritguncha sonlarni qabul qilishni davom ettiring (do/while) {16}
+// let son = -1
+// do {
+//     son = parseInt(prompt("Soni kiriting"))
+// } while (son !== -1)
+//     console.log(-1);
+
+//*Berilgan massivning 2-indeksidagi elementni if yordamida chiqaring {17}
+
+
 
 
 
