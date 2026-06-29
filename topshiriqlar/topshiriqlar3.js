@@ -61,10 +61,11 @@
         
     // }
 //*
-let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,114,3,23,4,324,32,4,32,4,23,42,4,2,4,324]
-for (let i = 0; i <= arr.length; i++) {
-  console.log(arr[i])
-}
+let son = -1
+do {
+    son = parseInt(prompt("Soni kiriting"))
+} while (son !== -1)
+    console.log(-1);
 
 
 
