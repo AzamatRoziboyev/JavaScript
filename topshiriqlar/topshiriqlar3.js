@@ -91,7 +91,6 @@
 //     massiv[0] = massiv[massiv.length - 1];
 //     massiv[massiv.length - 1] = temp;
 // }
-
 // console.log(massiv);
 
 
