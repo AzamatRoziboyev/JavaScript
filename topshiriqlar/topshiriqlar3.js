@@ -70,8 +70,11 @@
 //     console.log(-1);
 
 //*Berilgan massivning 2-indeksidagi elementni if yordamida chiqaring {17}
+// let massiv = [10, 20, 30, 40, 50];
 
-
+// if (massiv[2] !== undefined) {
+//     console.log(massiv[2]); 
+// }
 
 
 
