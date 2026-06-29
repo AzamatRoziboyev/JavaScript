@@ -76,6 +76,15 @@
 //     console.log(massiv[2]); 
 // }
 
+//*Berilgan massivning birinchi va oxirgi elementlarini if yordamida almashtiring {19}
+let arr = [10, 20, 30, 40, 50];
+let oxiri = arr.pop()
+let boshi = arr.shift()
+arr.push(boshi)
+arr.unshift(oxiri)
+console.log(arr);
+
+
 
 
 
