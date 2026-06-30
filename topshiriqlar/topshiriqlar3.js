@@ -1,13 +1,13 @@
 // for (let i = 0; i <= 10; i++) {
 //     console.log(i);
-    
+
 // }
 // *whileda faqat juft sonlarni chiqarish {2}
 // let i = 1
 // while (i <= 20) {
 //     if (i % 2 === 0) {
 //         console.log(i);
-        
+
 //     }
 //     i++
 // }
@@ -21,7 +21,7 @@
 // let arr = ["Shoxruz", 12, "46", false, true, undefined, Boolean, Number, String]    
 // for (let i of arr) {
 //     console.log(i);
-    
+
 // }
 //*Berilgan massivdagi musbat sonlar nechta ekanligini hisoblang (for) {5}
 // let arr = [-1, 1, 3, -12, 6, 4, -22, 6]
@@ -29,7 +29,7 @@
 // for(let i of arr) {
 //     if (i > 0) {
 //         musbat.push(i)
-        
+
 //     }
 // }
 // console.log(musbat.length);
@@ -57,10 +57,10 @@
 // console.log(sum);
 
 //*1 dan 15 gacha bo'lgan sonlarning kvadratini for yordamida chiqaring {13}
-    // for (let i = 1; i <= 15; i++) {
-    //     console.log(i**2);
-        
-    // }
+// for (let i = 1; i <= 15; i++) {
+//     console.log(i**2);
+
+// }
 
 //*Foydalanuvchi -1 raqamini kiritguncha sonlarni qabul qilishni davom ettiring (do/while) {16}
 // let son = -1
@@ -93,10 +93,15 @@
 // }
 // console.log(massiv);
 
+//*Berilgan massiv elementlarining o'rtacha qiymatini for yordamida toping {21}
+// let arr = [2, 4, 6, 8, 10]
+// let sum = 0;
+//  for (let i = 0; i < arr.length; i++) {
+//     sum +=arr[i]
+//  }
+//  let average = sum / arr.length
+//  console.log("ortacha qiymat", average);
+ 
 
 
 
-
-
-
-    
