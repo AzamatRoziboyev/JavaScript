@@ -129,9 +129,10 @@ let arr = [2, 7, 1, 5, 9];
 let found = false;
 
 for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 5)
-        found = true;
+    if (arr[i] === 5){
+         found = true;
         break
+    } 
 }
 if (found) {
     console.log("5 Raqami bor");
