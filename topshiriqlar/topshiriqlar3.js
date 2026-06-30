@@ -141,8 +141,23 @@
 //     console.log("5 raqami yoq");
 
 // }
-//* 1 dan 20 gacha bo'lgan sonlarning kubini while yordamida chiqaring {25}
+//* 1 dan 20 gacha bo'lgan sonlarning kubini while yordamida chiqaring {26}
+// let arr = 1
+// while (arr <= 20) {
+//     console.log(arr ** 3);
+//     arr++
 
+// }
+//* Foydalanuvchi kiritgan sonning juft yoki toq ekanligini if yordamida aniqlang {27}
+let arr =prompt("sonni kiriting!")
+if (arr > 0) {
+    console.log("bu son musbat");
+    
+}  
+else {
+    console.log("bu son manfiy");
+    
+}
 
 
 
