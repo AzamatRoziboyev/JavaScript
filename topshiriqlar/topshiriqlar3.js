@@ -149,15 +149,15 @@
 
 // }
 //* Foydalanuvchi kiritgan sonning juft yoki toq ekanligini if yordamida aniqlang {27}
-let arr =prompt("sonni kiriting!")
-if (arr > 0) {
-    console.log("bu son musbat");
+// let arr =prompt("sonni kiriting!")
+// if (arr > 0) {
+//     console.log("bu son musbat");
     
-}  
-else {
-    console.log("bu son manfiy");
+// }  
+// else {
+//     console.log("bu son manfiy");
     
-}
+// }
 
 
 
