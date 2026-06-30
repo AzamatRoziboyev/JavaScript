@@ -141,6 +141,8 @@
 //     console.log("5 raqami yoq");
 
 // }
+//* 1 dan 20 gacha bo'lgan sonlarning kubini while yordamida chiqaring {25}
+
 
 
 
