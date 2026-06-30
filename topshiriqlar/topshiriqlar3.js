@@ -125,22 +125,22 @@
 // console.log("Musbat sonlar yig'indisi:", sum);
 
 //* Berilgan massivda 5 raqami bor yoki yo'qligini for va if yordamida tekshiring {25}
-let arr = [2, 7, 1, 5, 9];
-let found = false;
+// let arr = [2, 7, 1, 5, 9];
+// let found = false;
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 5){
-         found = true;
-        break
-    } 
-}
-if (found) {
-    console.log("5 Raqami bor");
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 5){
+//          found = true;
+//         break
+//     } 
+// }
+// if (found) {
+//     console.log("5 Raqami bor");
 
-} else {
-    console.log("5 raqami yoq");
+// } else {
+//     console.log("5 raqami yoq");
 
-}
+// }
 
 
 
