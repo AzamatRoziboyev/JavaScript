@@ -102,7 +102,7 @@
 //  let average = sum / arr.length
 //  console.log("ortacha qiymat", average);
 //* Berilgan massivdagi barcha musbat sonlarning yig'indisini for yordamida toping {23}
-//& ozimki
+//& oz
 // let arr = [1,2,3,4,5,6,7,]
 // let sum = 0;
 // for (let i of arr) {
