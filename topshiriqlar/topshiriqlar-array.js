@@ -1,4 +1,4 @@
 //* 1-topshiriq (flat)
-let arr = [[1, [2, [3, [4, 5]]], 6]]
-console.log(arr.flat[3]);
+let arr = [1, [2, [3, [4, 5]]], 6]
+console.log(arr.flat(3));
 
