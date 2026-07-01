@@ -64,6 +64,8 @@
 // });
 
 //* 12-topshiriq (indexOf)
+let arr = ["a", "b", "c", "b", "d", "b"];
+console.log(arr.indexOf("b"));
 
 
 
