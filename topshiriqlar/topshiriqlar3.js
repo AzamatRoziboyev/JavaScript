@@ -162,9 +162,9 @@
 // }
 
 
-let sonlar = [1, 2, 3, 4, 5, 6];
-let juftlar = sonlar.filter((n) => n % 2 !== 0);
-console.log(juftlar)
+// let sonlar = [1, 2, 3, 4, 5, 6];
+// let juftlar = sonlar.filter((n) => n % 2 !== 0);
+// console.log(juftlar)
 
 
 
