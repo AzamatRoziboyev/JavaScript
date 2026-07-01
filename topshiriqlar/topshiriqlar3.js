@@ -167,8 +167,8 @@
 // console.log(juftlar)
 
 
-let sonlar = [1, 2, 3, 4, 5];
-let yigindi = sonlar.reduce((yigindi, n) => yig + n, 0);
+let sonlar = [1, 2, 3, 4, 5,];
+let yigindi = sonlar.reduce((yigindi, n) => yigindi + n, 0);
 console.log(yigindi); 
 
 
