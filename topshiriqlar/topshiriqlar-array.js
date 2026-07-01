@@ -64,8 +64,27 @@
 // });
 
 //* 12-topshiriq (indexOf)
-let arr = ["a", "b", "c", "b", "d", "b"];
-console.log(arr.indexOf("b"));
+// let arr = ["a", "b", "c", "b", "d", "b"];
+// console.log(arr.indexOf("b"));
+//^  chatgpt niki
+// let harflar = ["a", "b", "c", "b", "d", "b"];
+
+// let count = 0;
+// let index = harflar.indexOf("b"); // birinchi "b" ni topadi
+
+// while (index !== -1) {
+//     count++;
+//     index = harflar.indexOf("b", index + 1); // keyingi "b" ni qidiradi
+// }
+
+// console.log("b harfi", count, "marta uchradi.");
+
+//* 13-topshiriq (map)
+let temperaturalar = [0, 20, 37, 100];
+let farengeyt = temperaturalar.map(temp => temp * 9 / 5 + 32);
+console.log(farengeyt);
+
+
 
 
 
