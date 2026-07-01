@@ -15,9 +15,9 @@
 
 //*.reduce() 🔵 Yangi qaytaradi
 //^yigindi chiqarish
-let sonlar = [1, 2, 3, 4, 5];
-let yigindi = sonlar.reduce((acc, n) => acc + n, 0);
-console.log(yigindi); // 15
+// let sonlar = [1, 2, 3, 4, 5];
+// let yigindi = sonlar.reduce((acc, n) => acc + n, 0);
+// console.log(yigindi); // 15
 
 
 
