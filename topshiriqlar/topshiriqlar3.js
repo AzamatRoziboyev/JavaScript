@@ -162,15 +162,6 @@
 // }
 
 
-// let sonlar = [1, 2, 3, 4, 5, 6];
-// let juftlar = sonlar.filter((n) => n % 2 !== 0);
-// console.log(juftlar)
-
-
-// let sonlar = [1, 2, 3, 4, 5,];
-// let yigindi = sonlar.reduce((yigindi, n) => yigindi + n, 0);
-// console.log(yigindi); 
-
 
 
 
