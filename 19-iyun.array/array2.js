@@ -5,7 +5,7 @@ console.log(arr[4]); {11}
 console.log(arr[5][1][3][1]); {19}
 console.log(arr[5][1][4]); {20}
 console.log(arr[5][2]); {21}
-console.log(arr [6]); {23}
+// console.log(arr [6]); {23}
 
 
 
