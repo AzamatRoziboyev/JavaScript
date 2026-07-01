@@ -80,10 +80,63 @@
 // console.log("b harfi", count, "marta uchradi.");
 
 //* 13-topshiriq (map)
-let temperaturalar = [0, 20, 37, 100];
-let farengeyt = temperaturalar.map(temp => temp * 9 / 5 + 32);
-console.log(farengeyt);
+// let temperaturalar = [0, 20, 37, 100];
+// let farengeyt = temperaturalar.map(temp => temp * 9 / 5 + 32);
+// console.log(farengeyt);
 
+//*  14-topshiriq (shift)
+//^chatgpt
+    // let navbat = ["mijoz1", "mijoz2", "mijoz3", "mijoz4"];
+    // while (navbat.length > 0) {
+    //     let mijoz = navbat.shift(); 
+    //     console.log(`${mijoz} xizmat ko'rmoqda`);
+    // }
+
+//* 15-topshiriq (entries)
+// let arr = ["osh", "manti", "lag'mon"];
+// for (let [index, taom] of arr.entries()) {
+//     console.log(`${index + 1}-taom: ${taom}`);
+// }
+
+//* 16-topshiriq (lastIndexOf)
+// let arr = ["login", "click", "scroll", "click", "logout", "click"];
+// console.log(arr.lastIndexOf("click"));
+
+//*  17-topshiriq (filter)
+// let foydalanuvchilar = [{ism:"Ali", faol:true}, {ism:"Vali", faol:false}, {ism:"Guli", faol:true}];
+// let faol = foydalanuvchilar 
+// .filter (foydalanuvchilar => foydalanuvchilar.faol)
+// .map (foydalanuvchilar => foydalanuvchilar.ism)
+// console.log(faol);
+
+//* 18-topshiriq (findLastIndex)
+// let arr = [3, 5, 2, 4, 5, 1];
+// let boholar = arr.findLastIndex((n) => n > 4)
+// console.log(boholar);
+
+//* 19-topshiriq (reduce)
+//^chatgpt
+// let savat = [
+//     { nom: "non", narx: 5000, soni: 2 },
+//     { nom: "sut", narx: 8000, soni: 1 }
+// ];
+// let jami = savat.reduce((sum, mahsulot) => {
+//     return sum + (mahsulot.narx * mahsulot.soni);
+// }, 0);
+// console.log(jami);
+
+//*20-topshiriq (find)
+// let arr = [2, 4, 6, 7, 8, 10];
+// let natija = arr.find((n) => n % 2 !== 0);{
+//     console.log(natija);
+//     // if (natija !== undefined) {
+//     //     console.log(natija);
+        
+//     // } else {
+//     //     console.log("topilmadi");
+        
+//     // }
+// }
 
 
 
