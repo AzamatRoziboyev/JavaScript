@@ -13,6 +13,11 @@
 // let juftlar = sonlar.filter((n) => n % 2 === 0);
 // console.log(juftlar);
 
+//*.reduce() 🔵 Yangi qaytaradi
+//^yigindi chiqarish
+let sonlar = [1, 2, 3, 4, 5];
+let yigindi = sonlar.reduce((acc, n) => acc + n, 0);
+console.log(yigindi); // 15
 
 
 
