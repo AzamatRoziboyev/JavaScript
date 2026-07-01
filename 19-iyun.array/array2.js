@@ -8,10 +8,10 @@
 // console.log(arr [6]); {23}
 
 //*.filter() 🔵 Yangi qaytaradi
-//^juft sonlarni 
+//^juft sonlarni chiqarish
 let sonlar = [1, 2, 3, 4, 5, 6];
 let juftlar = sonlar.filter((n) => n % 2 === 0);
-console.log(juftlar); // [2, 4, 6]
+console.log(juftlar);
 
 
 
