@@ -63,6 +63,8 @@
 //   console.log(`Narx: ${yangiNarx} so'm`);
 // });
 
+//* 12-topshiriq (indexOf)
+
 
 
 
