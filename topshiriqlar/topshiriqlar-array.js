@@ -129,13 +129,13 @@
 // let arr = [2, 4, 6, 7, 8, 10];
 // let natija = arr.find((n) => n % 2 !== 0);{
 //     console.log(natija);
-//     // if (natija !== undefined) {
-//     //     console.log(natija);
+    // if (natija !== undefined) {
+    //     console.log(natija);
         
-//     // } else {
-//     //     console.log("topilmadi");
+    // } else {
+    //     console.log("topilmadi");
         
-//     // }
+    // }
 // }
 
 
