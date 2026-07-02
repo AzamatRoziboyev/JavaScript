@@ -138,9 +138,18 @@
     // }
 // }
 
-//*
-let arr = [[85, 90], [70, [60, 65]], [95]];
-console.log(arr.flat(2));
+//*21-topshiriq (flat)
+// let arr = [[85, 90], [70, [60, 65]], [95]];
+// console.log(arr.flat(2));
+
+//*  22-topshiriq (push)
+let arr = ["Fizika: 4"];
+arr.push("Matematika: 5", "Kimyo: 3")
+arr.forEach((arr, index) => {
+    console.log(arr);
+    
+})
+
 
 
 
