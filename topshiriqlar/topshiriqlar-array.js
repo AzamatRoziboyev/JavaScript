@@ -151,9 +151,19 @@
 // })
 
 //* 23-topshiriq (findIndex)
-let arr = [{ nom: "stol", narx: 150000 }, { nom: "stul", narx: 45000 }, { nom: "shkaf", narx: 300000 }];
-let maxsulotlar = arr.findIndex(itms => itms.narx === 100000) 
-console.log(maxsulotlar);
+// let arr = [{ nom: "stol", narx: 150000 }, { nom: "stul", narx: 45000 }, { nom: "shkaf", narx: 300000 }];
+// let maxsulotlar = arr.findIndex(itms => itms.narx < 100000) 
+// console.log(maxsulotlar);
+// console.log(arr);
+// console.log(arr.splice(0, 1,));
+
+//*24-topshiriq (splice)
+let arr = [1, 2, 3, 4, 5, 6, 7];
+let ortaIndex = Math.floor(arr.length / 2);
+arr.splice(ortaIndex, 0, 99);
+console.log(arr);
+
+
 
 
 
