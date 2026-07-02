@@ -47,7 +47,7 @@
 // for (let val of arr.values()) {
 //     if (val % 2 === 0) 
 //         console.log(val);
-        
+
 // }
 
 //* 10-topshiriq (findLast)
@@ -86,11 +86,11 @@
 
 //*  14-topshiriq (shift)
 //^chatgpt
-    // let navbat = ["mijoz1", "mijoz2", "mijoz3", "mijoz4"];
-    // while (navbat.length > 0) {
-    //     let mijoz = navbat.shift(); 
-    //     console.log(`${mijoz} xizmat ko'rmoqda`);
-    // }
+// let navbat = ["mijoz1", "mijoz2", "mijoz3", "mijoz4"];
+// while (navbat.length > 0) {
+//     let mijoz = navbat.shift(); 
+//     console.log(`${mijoz} xizmat ko'rmoqda`);
+// }
 
 //* 15-topshiriq (entries)
 // let arr = ["osh", "manti", "lag'mon"];
@@ -129,13 +129,13 @@
 // let arr = [2, 4, 6, 7, 8, 10];
 // let natija = arr.find((n) => n % 2 !== 0);{
 //     console.log(natija);
-    // if (natija !== undefined) {
-    //     console.log(natija);
-        
-    // } else {
-    //     console.log("topilmadi");
-        
-    // }
+// if (natija !== undefined) {
+//     console.log(natija);
+
+// } else {
+//     console.log("topilmadi");
+
+// }
 // }
 
 //*21-topshiriq (flat)
@@ -143,12 +143,18 @@
 // console.log(arr.flat(2));
 
 //*  22-topshiriq (push)
-let arr = ["Fizika: 4"];
-arr.push("Matematika: 5", "Kimyo: 3")
-arr.forEach((arr, index) => {
-    console.log(arr);
-    
-})
+// let arr = ["Fizika: 4"];
+// arr.push("Matematika: 5", "Kimyo: 3")
+// arr.forEach((arr, index) => {
+//     console.log(arr);
+
+// })
+
+//* 23-topshiriq (findIndex)
+let arr = [{ nom: "stol", narx: 150000 }, { nom: "stul", narx: 45000 }, { nom: "shkaf", narx: 300000 }];
+let maxsulotlar = arr.findIndex(itms => itms.narx === 100000) 
+console.log(maxsulotlar);
+
 
 
 
