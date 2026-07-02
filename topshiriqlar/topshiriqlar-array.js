@@ -175,15 +175,10 @@
 //^chatgpt
 // let sahifalar = ["bosh", "biz-haqimizda", "xizmatlar", "aloqa"];
 
-// // 1-marta "orqaga" bosildi
 // let birinchi = sahifalar.pop();
-
-// // 2-marta "orqaga" bosildi
 // let ikkinchi = sahifalar.pop();
-
 // console.log("1-o'chirilgan sahifa:", birinchi);
 // console.log("2-o'chirilgan sahifa:", ikkinchi);
-
 // console.log("Qolgan sahifalar:", sahifalar);
 
 
