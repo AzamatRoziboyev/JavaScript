@@ -158,12 +158,33 @@
 // console.log(arr.splice(0, 1,));
 
 //*24-topshiriq (splice)
-let arr = [1, 2, 3, 4, 5, 6, 7];
-let ortaIndex = Math.floor(arr.length / 2);
-arr.splice(ortaIndex, 0, 99);
-console.log(arr);
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let ortaIndex = Math.floor(arr.length / 2);
+// arr.splice(ortaIndex, 0, 99);
+// console.log(arr);
 
+//*25-topshiriq (keys)
+// let arr = ["x", "y", "z"];
+// let key = [...arr.keys()]
+// for (let i = key.length -1; i >=0; i--) {
+//     console.log(key[i]);
+    
+// }
 
+//*
+//^chatgpt
+// let sahifalar = ["bosh", "biz-haqimizda", "xizmatlar", "aloqa"];
+
+// // 1-marta "orqaga" bosildi
+// let birinchi = sahifalar.pop();
+
+// // 2-marta "orqaga" bosildi
+// let ikkinchi = sahifalar.pop();
+
+// console.log("1-o'chirilgan sahifa:", birinchi);
+// console.log("2-o'chirilgan sahifa:", ikkinchi);
+
+// console.log("Qolgan sahifalar:", sahifalar);
 
 
 
