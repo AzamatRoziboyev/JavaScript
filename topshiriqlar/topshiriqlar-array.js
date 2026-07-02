@@ -171,10 +171,9 @@
     
 // }
 
-//*
+//* 26-topshiriq (pop)
 //^chatgpt
 // let sahifalar = ["bosh", "biz-haqimizda", "xizmatlar", "aloqa"];
-
 // let birinchi = sahifalar.pop();
 // let ikkinchi = sahifalar.pop();
 // console.log("1-o'chirilgan sahifa:", birinchi);
