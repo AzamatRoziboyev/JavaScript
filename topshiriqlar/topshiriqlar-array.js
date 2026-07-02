@@ -180,6 +180,113 @@
 // console.log("2-o'chirilgan sahifa:", ikkinchi);
 // console.log("Qolgan sahifalar:", sahifalar);
 
+//* 27-topshiriq (reduceRight)
+// let sonlar = [1, 2, 3, 4];
+// let natija = sonlar.reduceRight((acc, curr) => acc.concat(curr), []);
+// console.log(natija);
+
+//* 28-topshiriq (unshift)
+//  let arr = ["hujjatlarni tayyorlash"];
+//  arr.unshift("Eng muhim: byudjetni tasdiqlash")
+//  console.log(arr);
+
+//*29-topshiriq (values)
+// let ballar = [55, 70, 43, 88, 91];
+// let sanoq = 0;
+// for (let ball of ballar.values()) {
+//     if (ball < 60) {
+//         sanoq++;
+//     }
+// }
+// console.log(sanoq);
+ 
+//*30-topshiriq (findLast)
+// let arr = [200, -50, 300, -120, 400, -30];
+// let natija = arr.findLast((n) => n < 0);
+// console.log(natija);
+
+//*  31-topshiriq (forEach)
+// let harorat = [18, 22, 25, 30, 15];
+
+// harorat.forEach((temp, index) => {
+//     if (temp >= 25) {
+//         console.log(`Kun ${index + 1}: issiq`);
+//     } else {
+//         console.log(`Kun ${index + 1}: salqin`);
+//     }
+// });
+
+//*32-topshiriq (indexOf)
+// let arr = ["qizil", "yashil", "ko'k"];
+// let ranglar = arr.indexOf("sariq")
+// if (arr !== "sariq") {
+//     console.log("Sriq rang topilad");
+    
+// } else {
+//     console.log("Sriq rang topilmadi");
+    
+// }
+
+//*33-topshiriq (map)
+//*^chatgpt
+// let ismlar = ["ali", "vali", "guli"];
+// let yangiIsmlar = ismlar.map(ism => {
+//     return ism.charAt(0).toUpperCase() + ism.slice(1).toLowerCase();
+// });
+// console.log(yangiIsmlar);
+
+//*  34-topshiriq (shift)
+//  let arr = ["hujjat1.pdf", "hujjat2.pdf", "hujjat3.pdf"];
+//  arr.shift()
+//  console.log(arr.length);
+
+//* 35-topshiriq (entries)
+//^chatgpt
+// let sotuvlar = [1200, 3400, 800];
+// let engKatta = sotuvlar[0];
+// let index = 0;
+// for (let [i, qiymat] of sotuvlar.entries()) {
+//     if (qiymat > engKatta) {
+//         engKatta = qiymat;
+//         index = i;
+//     }
+// }
+// console.log("Eng katta qiymat:", engKatta);
+// console.log("Indeksi:", index);
+
+//*  36-topshiriq (lastIndexOf)
+// let harakatlar = [0, 1, 0, 0, 1, 0, 1];
+// let index = harakatlar.lastIndexOf(1);
+// let natija = harakatlar.slice(index + 1);
+// console.log("Oxirgi 1 ning indeksi:", index);
+
+//*  37-topshiriq (filter)
+//  let arr = [12, 5, 8, 130, 44, 3, 99];
+//  let son = arr.filter(n => n >=10 && n <= 99)
+//  console.log(son);
+
+//*38-topshiriq (findLastIndex)
+// let arr = ["info", "error", "info", "error", "warning"];
+// let son = arr.findLastIndex(n => n === "error")
+// console.log(son);
+
+ //* 39-topshiriq (reduce)
+//  let sozlar = ["JavaScript", "massiv", "metodlari"];
+//  let yigindi = sozlar.reduce((sum, soz) => sum + soz.length,0);
+//  console.log(yigindi);
+
+//* 40-topshiriq (find)
+//  let arr = [{ism:"Bek", staj:2}, {ism:"Anvar", staj:7}, {ism:"Dilnoza", staj:5}];
+//  let natija = arr.find((arr) => arr.staj > 5);
+//  console.log(natija);
+
+ 
+ 
+
+
+
+
+
 
 
 
