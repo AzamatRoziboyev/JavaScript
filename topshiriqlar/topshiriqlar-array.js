@@ -297,9 +297,18 @@
 //*43-topshiriq (findIndex)
 
 //* 50-topshiriq (findLast)
-let arr = [3, 7, 12, 5, 18, 4];
-let son = arr.findLast(n => n  % 5 === 0 )
-console.log(son);
+// let arr = [3, 7, 12, 5, 18, 4];
+// let son = arr.findLast(n  =>  n  % 5 === 0)
+// console.log(son);    
+
+
+// let vazifalar = ["A vazifa", "B vazifa", "C vazifa"];
+// let bajarilgan = [];
+// vazifalar.push("A vazifa", "B vazifa", "C vazifa")
+// let olib = vazifalar.pop() + vazifalar.pop() + vazifalar.pop()
+// console.log(vazifalar);
+
+
 
 
 
