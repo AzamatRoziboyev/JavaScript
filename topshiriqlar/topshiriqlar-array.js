@@ -27,10 +27,10 @@
 // }
 
 //* 6-topshiriq (pop)
-// let arr = []
-// arr.push(1,2,3,4,5,)
-// let yigindi = arr.pop() + arr.pop() + arr.pop();
-// console.log("Yigindi:", yigindi);
+let arr = []
+arr.push(1,2,3,4,5,)
+let yigindi = arr.pop() + arr.pop() + arr.pop();
+console.log("Yigindi:", yigindi);
 
 //*7-topshiriq (reduceRight)
 // let arr = ["JS", "dan", "salom"];
