@@ -15,7 +15,7 @@
 
 //*4-topshiriq (splice)
 // let arr = [10, 20, 30, 40, 50];
-// arr.splice(1, 2, 200, 100)
+// arr.splice(2, 2, 200, 100)
 // console.log(arr);
 
 //*5-topshiriq (keys)
@@ -278,5 +278,10 @@
 //  let natija = arr.find((arr) => arr.staj > 5);
 //  console.log(natija);
 
+ //* 41-topshiriq (flat)
+//  let arr = [[1,2,3],[4,5,6],[7,8,9]];
+//  let yigindi = arr.reduce((b, n) => b + n,);
+// //  console.log(yigindi);
+//  console.log(arr.flat(3));
  
  
