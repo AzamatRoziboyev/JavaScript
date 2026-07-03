@@ -9,9 +9,9 @@
 // console.log(arr.length);
 
 //*3-topshiriq (findIndex)
-// let arr = [{ism:"Ali", ball:75}, {ism:"Vali", ball:40}, {ism:"Guli", ball:90}];
-// let talabalar = arr.findIndex((talabalar) => talabalar.ball < 50) 
-// console.log(talabalar);
+let arr = [{ism:"Ali", ball:75}, {ism:"Vali", ball:40}, {ism:"Guli", ball:90}];
+let talabalar = arr.findIndex((talabalar) => talabalar.ball < 50) 
+console.log(talabalar);
 
 //*4-topshiriq (splice)
 // let arr = [10, 20, 30, 40, 50];
