@@ -59,7 +59,7 @@
 // let narxlar = [1000, 2500, 3200, 4700];
 
 // narxlar.forEach(narx => {
-//   let yangiNarx = narx * 1.15;
+//   let yangiNarx n= arx * 1.15;
 //   console.log(`Narx: ${yangiNarx} so'm`);
 // });
 
@@ -80,6 +80,7 @@
 // console.log("b harfi", count, "marta uchradi.");
 
 //* 13-topshiriq (map)
+//*^chatgpt
 // let temperaturalar = [0, 20, 37, 100];
 // let farengeyt = temperaturalar.map(temp => temp * 9 / 5 + 32);
 // console.log(farengeyt);
