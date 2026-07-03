@@ -284,5 +284,11 @@
 //  let yigindi = bir.reduce((add, n) => add + n, 0)
 //  console.log(bir);
 //  console.log(yigindi);
+
+//*43-topshiriq (findIndex)
+let arr = ["12345", "qwerty", "Str0ng!Pass", "abcdef"];
+let parol = arr.findIndex(n => n > 8)
+console.log(parol);
+
  
  
