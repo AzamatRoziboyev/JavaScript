@@ -280,8 +280,9 @@
 
  //* 41-topshiriq (flat)
  let arr = [[1,2,3],[4,5,6],[7,8,9]];
- let yigindi = arr.reduce((b, n) => b + n, 0);
+ let bir = arr.flat(Infinity) 
+ let yigindi = bir.reduce((add, n) => add + n, 0)
+ console.log(bir);
  console.log(yigindi);
- console.log(arr.flat(3));
  
  
