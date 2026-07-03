@@ -297,7 +297,9 @@
 //*43-topshiriq (findIndex)
 
 //* 50-topshiriq (findLast)
-let arr = []
+let arr = [3, 7, 12, 5, 18, 4];
+let son = arr.findLast(n => n  % 5 === 0 )
+console.log(son);
 
 
 
