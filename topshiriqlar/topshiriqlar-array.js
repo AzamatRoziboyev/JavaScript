@@ -295,9 +295,9 @@
 // console.log(arr);
 
 //*43-topshiriq (findIndex)
-// let arr = ["12345", "qwerty", "Str0ng!Pass", "abcdef"];
-// let parol = arr.findIndex(n => n.length > 8)
-// console.log(parol);
+let arr = ["12345", "qwerty", "Str0ng!Pass", "abcdef"];
+let parol = arr.findIndex(n => n.length > 8)
+console.log(parol);
 
 
 //* 50-topshiriq (findLast)
