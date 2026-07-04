@@ -314,10 +314,10 @@
 // console.log(indeksi);
 
 //* 46-topshiriq (pop)
-let tarix = ["sahifa1", "sahifa2", "sahifa3"];
-let sahifa = tarix.pop()
-console.log("joriy sahifa:", sahifa);
-console.log(tarix.length);
+// let tarix = ["sahifa1", "sahifa2", "sahifa3"];
+// let sahifa = tarix.pop()
+// console.log("joriy sahifa:", sahifa);
+// console.log(tarix.length);
 
 
 
