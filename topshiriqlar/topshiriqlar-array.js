@@ -166,7 +166,7 @@
 // let key = [...arr.keys()]
 // for (let i = key.length -1; i >=0; i--) {
 //     console.log(key[i]);
-    
+
 // }
 
 //* 26-topshiriq (pop)
@@ -197,7 +197,7 @@
 //     }
 // }
 // console.log(sanoq);
- 
+
 //*30-topshiriq (findLast)
 // let arr = [200, -50, 300, -120, 400, -30];
 // let natija = arr.findLast((n) => n < 0);
@@ -219,10 +219,10 @@
 // let ranglar = arr.indexOf("sariq")
 // if (arr !== "sariq") {
 //     console.log("Sriq rang topilad");
-    
+
 // } else {
 //     console.log("Sriq rang topilmadi");
-    
+
 // }
 
 //*33-topshiriq (map)
@@ -268,7 +268,7 @@
 // let son = arr.findLastIndex(n => n === "error")
 // console.log(son);
 
- //* 39-topshiriq (reduce)
+//* 39-topshiriq (reduce)
 //  let sozlar = ["JavaScript", "massiv", "metodlari"];
 //  let yigindi = sozlar.reduce((sum, soz) => sum + soz.length,0);
 //  console.log(yigindi);
@@ -278,7 +278,7 @@
 //  let natija = arr.find((arr) => arr.staj > 5);
 //  console.log(natija);
 
- //* 41-topshiriq (flat)
+//* 41-topshiriq (flat)
 //  let arr = [[1,2,3],[4,5,6],[7,8,9]];
 //  let bir = arr.flat(Infinity) 
 //  let yigindi = bir.reduce((add, n) => add + n, 0)
@@ -333,5 +333,5 @@ console.log(tarix.length);
 
 
 
- 
- 
+
+
