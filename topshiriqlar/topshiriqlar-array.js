@@ -299,6 +299,15 @@
 // let parol = arr.findIndex(n => n.length > 8)
 // console.log(parol);
 
+//*44-topshiriq (splice
+let hafta = ["Dush", "Sesh", "Chor", "Pay", "Juma", "Shan", "Yak"];
+let ishKunlari = hafta.splice(0, 5);
+let damOlishKunlari = hafta.splice(0, 2);
+console.log("Ish kunlari:", ishKunlari);
+console.log("Dam olish kunlari:", damOlishKunlari);
+console.log("Asl massiv:", hafta);
+
+
 
 //* 50-topshiriq (findLast)
 // let arr = [3, 7, 12, 5, 18, 4];
