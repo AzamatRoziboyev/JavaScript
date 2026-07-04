@@ -300,12 +300,21 @@
 // console.log(parol);
 
 //*44-topshiriq (splice
-let hafta = ["Dush", "Sesh", "Chor", "Pay", "Juma", "Shan", "Yak"];
-let ishKunlari = hafta.splice(0, 5);
-let damOlishKunlari = hafta.splice(0, 2);
-console.log("Ish kunlari:", ishKunlari);
-console.log("Dam olish kunlari:", damOlishKunlari);
-console.log("Asl massiv:", hafta);
+// let hafta = ["Dush", "Sesh", "Chor", "Pay", "Juma", "Shan", "Yak"];
+// let ishKunlari = hafta.splice(0, 5);
+// let damOlishKunlari = hafta.splice(0, 2);
+// console.log("Ish kunlari:", ishKunlari);
+// console.log("Dam olish kunlari:", damOlishKunlari);
+// console.log("Asl massiv:", hafta);
+
+//*45-topshiriq (keys)
+// let arr = ["a", "b", "c", "d", "e"];
+// let indeksi = Array.from(arr.keys())
+// indeksi.reverse()
+// console.log(indeksi);
+
+//* 46-topshiriq (pop)
+
 
 
 
