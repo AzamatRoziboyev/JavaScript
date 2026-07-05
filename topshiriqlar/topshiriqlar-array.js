@@ -320,10 +320,22 @@
 // console.log(tarix.length);
 
 //* 47-topshiriq (reduceRight)
+// let arr = ["boshlash", "tekshirish", "yakunlash"];
+// let bosqich = arr.reduceRight((acc, n) => acc + '<-' + n)
+// console.log(bosqich);
 
+//*48-topshiriq (unshift)
+// let yutuqlar = ["2-o'rin"];
+// yutuqlar.unshift("1-o'rin")
+// console.log("Yutuqlar soni: ", yutuqlar.length);
 
-
-
+//*49-topshiriq (values)
+let baholar = [2, 3, 4, 5];
+for (let key of baholar.values()) {
+    if (baholar **)
+    console.log(key);
+    
+}
 //* 50-topshiriq (findLast)
 // let arr = [3, 7, 12, 5, 18, 4];
 // let son = arr.findLast(n  =>  n  % 5 === 0)
