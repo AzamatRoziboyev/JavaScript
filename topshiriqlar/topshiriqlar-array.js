@@ -330,13 +330,13 @@
 // console.log("Yutuqlar soni: ", yutuqlar.length);
 
 //*49-topshiriq (values)
-// let baholar = [2, 3, 4, 5];
-// let iterator = baholar.values();
-// let kopaytma = 1;
-// for (let baho of iterator) {
-//     kopaytma *= baho;
-// }
-// console.log("Ko'paytma:", kopaytma);  
+let baholar = [2, 3, 4, 5];
+let iterator = baholar.values();
+let kopaytma = 1;
+for (let baho of iterator) {
+    kopaytma *= baho;
+}
+console.log("Ko'paytma:", kopaytma);  
 //* 50-topshiriq (findLast)
 // let arr = [3, 7, 12, 5, 18, 4];
 // let son = arr.findLast(n  =>  n  % 5 === 0)
