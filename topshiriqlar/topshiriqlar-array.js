@@ -319,7 +319,7 @@
 // console.log("joriy sahifa:", sahifa);
 // console.log(tarix.length);
 
-
+//* 47-topshiriq (reduceRight)
 
 
 
