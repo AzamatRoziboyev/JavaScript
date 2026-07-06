@@ -14,3 +14,4 @@ let matn = "Kecha juda kuchli yomg'ir shamol bo'ldi va tinmay 2soat yomg'ir yog'
 // console.log(matn.startsWith("Kecha"));//boshidan aniqlaydi true
 // console.log(matn.endsWith("!")); //oxiridan aniqlaydi true
 
+     
