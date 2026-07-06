@@ -10,7 +10,7 @@ let matn = "Kecha juda kuchli yomg'ir shamol bo'ldi va tinmay 2soat yomg'ir yog'
 //  console.log(matn.lastIndexOf("yomg'ir"));
 
 //*includes
-console.log(matn.includes("yomg'irlar"));
+console.log(matn.includes("yomg'irlar")); //false
 
  
 
