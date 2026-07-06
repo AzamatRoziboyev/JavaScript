@@ -1,0 +1,1 @@
+let matn = "kecha ariqdan Shaxruzbrk velsapitda"
