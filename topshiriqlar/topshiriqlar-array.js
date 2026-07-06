@@ -349,9 +349,3 @@
 // console.log(inventar.length);
 // console.log(inventar.indexOf("pirnter"));
 
-for(let s = 0; s <= 10; s++) {
-    if (s % 2 === 0) {
-            console.log(s);
-            
-    } 
-}
