@@ -344,8 +344,8 @@
 // console.log(son);    
 
 //*52-topshiriq (indexOf)
-let inventar = ["noutbuk", "sichqoncha", "klaviatura", "monitor"];
-inventar.push("pirnter")
-console.log(inventar.length);
-console.log(inventar.indexOf("pirnter"));
+// let inventar = ["noutbuk", "sichqoncha", "klaviatura", "monitor"];
+// inventar.push("pirnter")
+// console.log(inventar.length);
+// console.log(inventar.indexOf("pirnter"));
 
