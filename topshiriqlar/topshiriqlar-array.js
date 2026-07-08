@@ -349,9 +349,11 @@
 // console.log(inventar.length);
 // console.log(inventar.indexOf("pirnter"));
 
+//* 53-topshiriq (map)
+
 //*55-topshiriq (entries)
-// let mahsulotlar = ["non", "sut", "tuxum"];
-// for (let i of mahsulotlar.entries()) {
-//     console.log(`#${i[0]} - ${i[1]}`);
+let mahsulotlar = ["non", "sut", "tuxum"];
+for (let i of mahsulotlar.entries()) {
+    console.log(`#${i[0]} - ${i[1]}`);
     
-// }
+}
