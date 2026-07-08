@@ -352,8 +352,11 @@
 //* 53-topshiriq (map)
 
 //*55-topshiriq (entries)
-let mahsulotlar = ["non", "sut", "tuxum"];
-for (let i of mahsulotlar.entries()) {
-    console.log(`#${i[0]} - ${i[1]}`);
-    
-}
+// let mahsulotlar = ["non", "sut", "tuxum"];
+// for (let i of mahsulotlar.entries()) {
+//     console.log(`#${i[0]} - ${i[1]}`);
+
+// }
+//*56-topshiriq (lastIndexOf)
+// let baholar = [5, 4, 5, 3, 5, 2];
+// console.log(baholar.lastIndexOf(5));
