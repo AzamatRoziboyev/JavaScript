@@ -349,3 +349,9 @@
 // console.log(inventar.length);
 // console.log(inventar.indexOf("pirnter"));
 
+//*55-topshiriq (entries)
+let mahsulotlar = ["non", "sut", "tuxum"];
+for (let [i, v] of mahsulotlar.entries()) {
+    console.log(`#${i[0]} - ${i[1]}`);
+    
+}
