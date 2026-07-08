@@ -372,5 +372,9 @@
 //  let harorat = arr.findLastIndex(n => n > 30 )
 //  console.log(harorat);
 
-//*
+//* 60-topshiriq (find)
+let sonlar = [4, 9, 16, 23, 28, 35];
+let arr = sonlar.find(n => n < 23)
+console.log(arr);
+
  
