@@ -363,6 +363,6 @@
 // console.log(baholar.lastIndexOf(5));
 
 //*57-topshiriq (filter)
-let arr = [{ism:"Ali", yosh:17}, {ism:"Vali", yosh:22}, {ism:"Guli", yosh:15}];
-let yosh = arr.filter(n => n.yosh > 18) 
-console.log(yosh);  
+// let arr = [{ism:"Ali", yosh:17}, {ism:"Vali", yosh:22}, {ism:"Guli", yosh:15}];
+// let yosh = arr.filter(n => n.yosh > 18) 
+// console.log(yosh);  
