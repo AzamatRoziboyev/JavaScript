@@ -381,6 +381,7 @@
 // let guruhlar = [["Ali","Vali"], ["Guli"], [], ["Anvar","Bek","Dilnoza"]];
 // console.log(guruhlar.flat(4).length);
 
+//*
 
 
 
