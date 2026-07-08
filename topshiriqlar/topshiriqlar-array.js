@@ -377,5 +377,7 @@
 // let arr = sonlar.find(n => n >= 20)
 // console.log(arr);
 
+//* 61-topshiriq (flat)
+
 
  
