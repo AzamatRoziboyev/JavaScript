@@ -373,8 +373,9 @@
 //  console.log(harorat);
 
 //* 60-topshiriq (find)
-let sonlar = [4, 9, 16, 23, 28, 35];
-let arr = sonlar.find(n => n < 23)
-console.log(arr);
+// let sonlar = [4, 9, 16, 23, 28, 35];
+// let arr = sonlar.find(n => n >= 20)
+// console.log(arr);
+
 
  
