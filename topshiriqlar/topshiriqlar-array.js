@@ -371,4 +371,6 @@
 //  let arr = [22, 25, 30, 18, 33, 20];
 //  let harorat = arr.findLastIndex(n => n > 30 )
 //  console.log(harorat);
+
+//*
  
