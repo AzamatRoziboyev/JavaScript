@@ -378,6 +378,7 @@
 // console.log(arr);
 
 //* 61-topshiriq (flat)
+let guruhlar = [["Ali","Vali"], ["Guli"], [], ["Anvar","Bek","Dilnoza"]];
 
 
  
