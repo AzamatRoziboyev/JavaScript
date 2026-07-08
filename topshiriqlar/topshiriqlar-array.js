@@ -378,7 +378,10 @@
 // console.log(arr);
 
 //* 61-topshiriq (flat)
-let guruhlar = [["Ali","Vali"], ["Guli"], [], ["Anvar","Bek","Dilnoza"]];
+// let guruhlar = [["Ali","Vali"], ["Guli"], [], ["Anvar","Bek","Dilnoza"]];
+// console.log(guruhlar.flat(4).length);
+
+
 
 
  
