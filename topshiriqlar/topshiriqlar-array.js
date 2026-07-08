@@ -149,6 +149,7 @@
 // })
 
 //* 23-topshiriq (findIndex)
+//^chatgpt
 // let arr = [{ nom: "stol", narx: 150000 }, { nom: "stul", narx: 45000 }, { nom: "shkaf", narx: 300000 }];
 // let maxsulotlar = arr.findIndex(itms => itms.narx < 100000) 
 // console.log(maxsulotlar);
