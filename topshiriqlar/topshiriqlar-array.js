@@ -365,4 +365,10 @@
 //*57-topshiriq (filter)
 // let arr = [{ism:"Ali", yosh:17}, {ism:"Vali", yosh:22}, {ism:"Guli", yosh:15}];
 // let yosh = arr.filter(n => n.yosh > 18) 
-// console.log(yosh);  
+    // console.log(yosh);  
+
+//* 58-topshiriq (findLastIndex)
+//  let arr = [22, 25, 30, 18, 33, 20];
+//  let harorat = arr.findLastIndex(n => n > 30 )
+//  console.log(harorat);
+ 
