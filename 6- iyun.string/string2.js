@@ -95,3 +95,4 @@
 // let gap = sozlar.join(" ");
 // console.log(gap);
 
+
