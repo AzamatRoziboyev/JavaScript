@@ -161,3 +161,39 @@
 //* 37 topshiriq
 // let matn = "jAVAsCRIPT";
 // console.log(matn.charAt(0).toUpperCase() + matn.slice(1).toLowerCase());
+
+//* 38 topshiriq 
+// let matn = "abc";
+// let teskari = matn.split("").reverse().join("");
+// let natija = teskari.split("").reverse().join("");
+// console.log(natija);
+
+//* 39 topshiriq
+// let arr = "salom"
+// console.log(arr.split("a"));
+
+//* 40 topshiriq
+//^chatgpt
+// let matn = "aabbcc";
+// let sanoq = {};
+// let engKop = "";
+// let max = 0;
+// for (let harf of matn) {
+//     sanoq[harf] = (sanoq[harf] || 0) + 1;
+
+//     if (sanoq[harf] > max) {
+//         max = sanoq[harf];
+//         engKop = harf;
+//     }
+// }
+// console.log(engKop);
+
+//* 41 topshiriq
+// let title = "salom dunyo uzbekiston";
+// let titled = title
+//   .split(" ")
+//   .map((w) => w[0].toUpperCase() + w.slice(1))
+//   .join(" ");
+// console.log(titled)
+
+//* 42 topshiriq
