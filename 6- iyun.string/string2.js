@@ -67,5 +67,9 @@
 // let arr = "Hello world"
 // console.log(arr.slice(6));
 
+//* 17 topshiriq
+let arr = "ali@gmail.com"
+console.log(arr.slice(4));
+
 
 
