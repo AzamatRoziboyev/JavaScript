@@ -61,4 +61,6 @@
 
 //* 15 topshiriq
 let arr = "Dasturlash"
+console.log(arr.slice(6));
+
 
