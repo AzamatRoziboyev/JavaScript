@@ -64,6 +64,8 @@
 // console.log(arr.slice(6));
 
 //* 16 topshiriq 
+// let arr = "Hello world"
+// console.log(arr.slice(6));
 
 
 
