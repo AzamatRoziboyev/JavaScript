@@ -77,6 +77,8 @@
 
 //* 19 topshiriq
 let arr = "Dasturlash"
+console.log(arr.length > 10);
+
 
 
 
