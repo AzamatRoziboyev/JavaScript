@@ -84,9 +84,9 @@
 // console.log(arr.replaceAll("olma", "anor"));
 
 //* 21 topshiriq
-let matn = "Narx: 15000 so'm";
-let raqamlar = matn.match(/\d+/g);
-console.log(raqamlar);
+// let matn = "Narx: 15000 so'm";
+// let raqamlar = matn.match(/\d+/g);
+// console.log(raqamlar);
 
 
 
