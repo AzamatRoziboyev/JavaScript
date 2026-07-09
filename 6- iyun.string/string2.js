@@ -2,3 +2,5 @@
 let arr = "salom dunyo"
 let kattaHarf = arr.toUpperCase("salom dunyo")
 console.log(kattaHarf);
+
+//* 2 topshiriq
