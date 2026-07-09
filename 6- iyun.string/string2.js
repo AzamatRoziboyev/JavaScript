@@ -88,5 +88,5 @@
 // let raqamlar = matn.match(/\d+/g);
 // console.log(raqamlar);
 
-
+//* 22 topshiriq
 
