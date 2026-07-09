@@ -90,5 +90,8 @@
 // console.log(raqamlar);
 
 //* 22 topshiriq
-
+//^chatgpt
+let sozlar = ["Men", "o'qiyman"];
+let gap = sozlar.join(" ");
+console.log(gap);
 
