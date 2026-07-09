@@ -72,6 +72,11 @@
 // console.log(arr.slice(4));
 
 //* 18 topshiriq
+// let arr = "JavaScript"
+// console.log(arr.split("").reverse().join(""));
+
+//* 19 topshiriq
+let arr = "Dasturlash"
 
 
 
