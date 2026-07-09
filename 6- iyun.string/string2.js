@@ -79,6 +79,12 @@
 // let arr = "Dasturlash"
 // console.log(arr.length > 10);
 
+//* 20 topshiriq
+// let arr = "Men olma yedim"
+// console.log(arr.replaceAll("olma", "anor"));
+
+//* 21 topshiriq
+
 
 
 
