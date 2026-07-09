@@ -60,7 +60,7 @@
 // console.log(arr.replaceAll("a", "o"));
 
 //* 15 topshiriq
-let arr = "Dasturlash"
-console.log(arr.slice(6));
+// let arr = "Dasturlash"
+// console.log(arr.slice(6));
 
 
