@@ -96,4 +96,6 @@
 // console.log(gap);
 
 //* 23 topshiriq
+// let arr = "Dasturlash"
+// console.log(arr.slice("2", "7"));
 
