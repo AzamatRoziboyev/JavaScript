@@ -109,4 +109,6 @@
 // let arr = "   JavaScript   "
 // console.log(arr.trim());
 
+//* 26 topshiriq
+
 
