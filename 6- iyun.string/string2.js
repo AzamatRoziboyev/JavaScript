@@ -76,8 +76,8 @@
 // console.log(arr.split("").reverse().join(""));
 
 //* 19 topshiriq
-let arr = "Dasturlash"
-console.log(arr.length > 10);
+// let arr = "Dasturlash"
+// console.log(arr.length > 10);
 
 
 
