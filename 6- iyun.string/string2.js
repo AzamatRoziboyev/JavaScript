@@ -99,3 +99,12 @@
 // let arr = "Dasturlash"
 // console.log(arr.slice("2", "7"));
 
+//* 24 topshiriq 
+//^chatgpt
+let matn = "Salom123";
+let natija = /^[A-Za-z]+$/.test(matn);
+console.log(natija);
+
+//* 25 topshiriq
+
+
