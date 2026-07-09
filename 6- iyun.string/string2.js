@@ -63,4 +63,7 @@
 // let arr = "Dasturlash"
 // console.log(arr.slice(6));
 
+//* 16 topshiriq 
+
+
 
