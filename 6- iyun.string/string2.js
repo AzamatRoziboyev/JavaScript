@@ -95,4 +95,4 @@
 // let gap = sozlar.join(" ");
 // console.log(gap);
 
-//* 
+//* 23 topshiriq
