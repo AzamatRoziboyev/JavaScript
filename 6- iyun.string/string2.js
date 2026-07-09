@@ -110,5 +110,54 @@
 // console.log(arr.trim());
 
 //* 26 topshiriq
+// let arr = "document.pdf"
+// console.log(arr.slice(9));
 
+//* 27 topshiriq
+// let arr = "abc"
+// console.log("abc".padStart(10, "*"));
 
+//* 28 topshiriq
+// let arr =  "Men JS o'rganyapman"
+// console.log(arr.lastIndexOf("JS"));
+
+//* 29 topshiriq
+// let arr = "bir ikk uch"
+// console.log(arr.replaceAll(" ", ","));
+
+//* 30 topshiriq
+// let arr = "salom"
+// console.log(arr.split(""));
+
+//* 31 topshiriq
+// let arr =  "https://google.com"
+// console.log(arr.startsWith("https://"));
+
+//* 32 topshiriq
+// let arr = "Mening Blog Postim"
+// console.log(arr.toLowerCase().replaceAll(" ", "-"));
+
+//* 33 topshiriq
+// let arr = "JavaScript"
+// let natija = arr.slice("0", "4")
+// let natija1 = arr.substring("0", "4") 
+// console.log("slice:", natija);
+// console.log("substring:", natija1);
+
+//* 34 topshiriq
+// let arr = "Bu bir gap"
+// console.log(arr.split(" ").length);
+
+//* 35 topshiriq
+//^chatgpt
+// let matn = "a1b2c3";
+// let natija = matn.replace(/\D/g, "");
+// console.log(natija);
+
+//* 36 topshiriq
+// let arr = "123"
+// console.log(arr.padEnd("5", "."));
+
+//* 37 topshiriq
+// let matn = "jAVAsCRIPT";
+// console.log(matn.charAt(0).toUpperCase() + matn.slice(1).toLowerCase());
