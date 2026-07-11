@@ -233,3 +233,4 @@
 // console.log(natija);
 
 //* 47 topshiriq
+let arr = "bu bu gap gap takror"
