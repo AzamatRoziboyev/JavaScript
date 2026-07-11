@@ -206,3 +206,7 @@
 // let matn = "salom";
 // let natija = matn.replace(/[aeiou]/g, "");
 // console.log(natija);
+
+//* 44 topshiriq
+// let arr = "men dastur yozaman"
+// console.log(arr.split(" ").reverse().join(" "));
