@@ -197,3 +197,6 @@
 // console.log(titled)
 
 //* 42 topshiriq 
+// let arr = "kiyik"
+// let bb = arr.split("").reverse().join("")
+// console.log(arr === bb);
