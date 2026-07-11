@@ -233,4 +233,19 @@
 // console.log(natija);
 
 //* 47 topshiriq
-let arr = "bu bu gap gap takror"
+//^chatgpt
+// let matn = "bu bu gap gap takror";
+// let sozlar = matn.split(" ");
+// let sanoq = {};
+// let natija = [];
+// for (let soz of sozlar) {
+//     sanoq[soz] = (sanoq[soz] || 0) + 1;
+// }
+// for (let soz in sanoq) {
+//     if (sanoq[soz] > 1) {
+//         natija.push(soz);
+//     }
+// }
+// console.log(natija);
+
+//*
