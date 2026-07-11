@@ -210,3 +210,5 @@
 //* 44 topshiriq
 // let arr = "men dastur yozaman"
 // console.log(arr.split(" ").reverse().join(" "));
+
+//* 45 topshiriq
