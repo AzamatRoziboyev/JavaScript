@@ -213,8 +213,10 @@
 
 //* 45 topshiriq
 //^chatgpt
-let matn = "a1b2c3d4";
-let raqamlar = matn.match(/\d/g);
-let yigindi = raqamlar.reduce((sum, raqam) => sum + Number(raqam), 0);
-console.log(yigindi);
+// let matn = "a1b2c3d4";
+// let raqamlar = matn.match(/\d/g);
+// let yigindi = raqamlar.reduce((sum, raqam) => sum + Number(raqam), 0);
+// console.log(yigindi);
+
+//* 46 topshiriq
 
