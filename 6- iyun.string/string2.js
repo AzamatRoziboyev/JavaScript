@@ -251,3 +251,8 @@
 //* 48 topshiriq
 // let arr = "<h1>Salom</h1><p>Dunyo</p>"
 // console.log(arr.replace(/\<[^>]*\>/g, ""));
+
+//* 49 topshiriq
+// let matn = "A";
+// let kod = matn.charCodeAt(0);
+// console.log(kod)
