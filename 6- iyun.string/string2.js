@@ -248,4 +248,6 @@
 // }
 // console.log(natija);
 
-//*
+//* 48 topshiriq
+// let arr = "<h1>Salom</h1><p>Dunyo</p>"
+// console.log(arr.replace(/\<[^>]*\>/g, ""));
