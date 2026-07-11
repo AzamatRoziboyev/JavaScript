@@ -202,3 +202,7 @@
 // console.log(arr === bb);
 
 //* 43 topshiriq
+//^ chatgpt
+// let matn = "salom";
+// let natija = matn.replace(/[aeiou]/g, "");
+// console.log(natija);
