@@ -219,4 +219,15 @@
 // console.log(yigindi);
 
 //* 46 topshiriq
-
+//^chatgpt
+let matn = "men dastur yozaman";
+let natija = matn
+  .split(" ")
+  .map((soz, index) => {
+    if (index === 0) {
+      return soz.toLowerCase();
+    }
+    return soz.charAt(0).toUpperCase() + soz.slice(1).toLowerCase();
+  })
+  .join("");
+console.log(natija);
