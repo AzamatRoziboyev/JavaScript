@@ -258,8 +258,8 @@
 // console.log(kod)
 
 //* 51 topshriq
-let matn = "men dasturlashni o'rganyapman";
-let engUzun = matn
-  .split(" ")
-  .reduce((uzun, soz) => soz.length > uzun.length ? soz : uzun);
-console.log(engUzun)
+// let matn = "men dasturlashni o'rganyapman";
+// let engUzun = matn
+//   .split(" ")
+//   .reduce((uzun, soz) => soz.length > uzun.length ? soz : uzun);
+// console.log(engUzun)
