@@ -262,4 +262,4 @@
 // let engUzun = matn
 //   .split(" ")
 //   .reduce((uzun, soz) => soz.length > uzun.length ? soz : uzun);
-// console.log(engUzun)
+// console.log(engUzun)44
