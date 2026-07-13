@@ -288,3 +288,5 @@
 // console.log(arr.replaceAll(" ", "").length);
 
 //* 55 topshiriq
+// let arr = "a|b|c|d"
+// console.log(arr.replaceAll("|", "").split(""));
