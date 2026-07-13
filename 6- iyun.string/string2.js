@@ -283,3 +283,8 @@
     
 // }
 
+//* 54 topshiriq
+// let arr = "salom dunyo"
+// console.log(arr.replaceAll(" ", "").length);
+
+//* 55 topshiriq
