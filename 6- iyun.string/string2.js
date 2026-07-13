@@ -268,3 +268,6 @@
 // let arr = "Men 25 yoshdaman, 2026 yil"
 // let a = arr.match(/\d+/g)
 // console.log(a);
+
+//* 52 topshiriq
+let
