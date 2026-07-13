@@ -265,6 +265,6 @@
 // console.log(engUzun)44
 
 //* 51 topshiriq
-let arr = "Men 25 yoshdaman, 2026 yil"
-let a = arr.match(/\d/g).join("")
-console.log(a);
+// let arr = "Men 25 yoshdaman, 2026 yil"
+// let a = arr.match(/\d+/g)
+// console.log(a);
