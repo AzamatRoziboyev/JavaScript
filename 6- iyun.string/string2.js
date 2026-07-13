@@ -265,3 +265,4 @@
 // console.log(engUzun)44
 
 //* 51 topshiriq
+let arr = "Men 25 yoshdaman, 2026 yil"
