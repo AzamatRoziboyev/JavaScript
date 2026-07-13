@@ -41,5 +41,5 @@ const shoxruzbek = {
   baholari: [5, 5, 4, 5, 5]
 };
 console.log(shoxruzbek);
-console.log(shoxruzbek.familiya);
+// console.log(shoxruzbek.familiya);
 
