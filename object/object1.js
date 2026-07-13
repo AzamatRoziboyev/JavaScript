@@ -42,4 +42,6 @@ const shoxruzbek = {
 };
 console.log(shoxruzbek);
 console.log(shoxruzbek.familiya);
+console.log(shoxruzbek.boyi);
+
 
