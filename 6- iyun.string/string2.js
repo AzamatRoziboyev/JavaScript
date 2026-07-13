@@ -266,4 +266,5 @@
 
 //* 51 topshiriq
 let arr = "Men 25 yoshdaman, 2026 yil"
-console.log(arr.match(/\D/g));
+let a = arr.match(/\d/g).join("")
+console.log(a);
