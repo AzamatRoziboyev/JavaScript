@@ -257,7 +257,7 @@
 // let kod = matn.charCodeAt(0);
 // console.log(kod)
 
-//* 51 topshriq
+//* 50 topshriq
 // let matn = "men dasturlashni o'rganyapman";
 // let engUzun = matn
 //   .split(" ")
