@@ -270,5 +270,16 @@
 // console.log(a);
 
 //* 52 topshiriq
-let arr = "myVariableName"
-console.log(arr.replaceAll("", "_"));
+//^chatgpt
+// let matn = "myVariableName";
+// let snakeCase = matn.replace(/[A-Z]/g, harf => "_" + harf.toLowerCase());
+// console.log(snakeCase);;
+
+//* 53 topshiriq
+// let arr = "men dastur yozaman"
+// let a = arr.split(" ")
+// for (let i of a) {
+//     console.log(i.length);
+    
+// }
+
