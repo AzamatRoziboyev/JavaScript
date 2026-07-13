@@ -270,4 +270,5 @@
 // console.log(a);
 
 //* 52 topshiriq
-let
+let arr = "myVariableName"
+console.log(arr.replaceAll("", "_"));
