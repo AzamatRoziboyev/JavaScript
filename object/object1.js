@@ -40,6 +40,8 @@ const shoxruzbek = {
   inglizTiliniOrganmoqda: true,
   baholari: [5, 5, 4, 5, 5]
 };
+shoxruzbek.lager = "Lagerga bormadi"
+
 console.log(shoxruzbek);
 // console.log(shoxruzbek.familiya);
 
