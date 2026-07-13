@@ -264,3 +264,4 @@
 //   .reduce((uzun, soz) => soz.length > uzun.length ? soz : uzun);
 // console.log(engUzun)44
 
+//* 51 topshiriq
