@@ -325,6 +325,6 @@
 
 //* 60 topshiriq
 //^chatgpt
-// let matn = "salom";
-// let natija = matn.match(/[aeiouo']/g).join("");
-// console.log(natija);
+let matn = "salom";
+let natija = matn.match(/[aeiouo']/g).join("");
+console.log(natija);
