@@ -290,3 +290,41 @@
 //* 55 topshiriq
 // let arr = "a|b|c|d"
 // console.log(arr.replaceAll("|", "").split(""));
+
+//* 56 topshiriq {e harflarni indeksni topish}
+// let matn = "elephant";
+// let indekslar = [];
+// let index = matn.indexOf("e");
+// while (index !== -1) {
+//     indekslar.push(index);
+//     index = matn.indexOf("e", index + 1);
+// }
+// console.log(indekslar);
+
+//* 57 topshiriq
+// let arr = "123"
+// console.log(arr.padEnd("5", "#"));
+
+//* 58 topshiriq
+// let arr = "JavaScript"
+// let a = arr.charAt("2") + arr.charAt(4)
+// console.log(a);
+
+//* 59 topshiriq 
+//^chatgpt
+// let matn = "HeLlO";
+// let natija = "";
+// for (let i = 0; i < matn.length; i++) {
+//     if (matn[i] === matn[i].toUpperCase()) {
+//         natija += matn[i].toLowerCase();
+//     } else {
+//         natija += matn[i].toUpperCase();
+//     }
+// }
+// console.log(natija);
+
+//* 60 topshiriq
+//^chatgpt
+// let matn = "salom";
+// let natija = matn.match(/[aeiouo']/g).join("");
+// console.log(natija);
