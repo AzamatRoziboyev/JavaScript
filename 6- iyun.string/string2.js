@@ -334,9 +334,9 @@
 // console.log(arr === arr.toLowerCase());
 
 //* 62 topshiriq
-let arr = "men dastur yozaman"
-console.log(arr.length);
-
+// let arr = "men dastur yozaman"
+// let a = arr.split(" ");
+// console.log(a.length, a);
 
 //* 63 topshiriq 
 // let arr =  "salem"
