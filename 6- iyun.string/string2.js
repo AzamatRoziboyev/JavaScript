@@ -329,3 +329,4 @@
 // let natija = matn.match(/[aeiouo']/g).join("");
 // console.log(natija);
 
+//* 61 topshiriq
