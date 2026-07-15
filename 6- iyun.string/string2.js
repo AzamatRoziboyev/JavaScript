@@ -353,3 +353,5 @@
 //* 65 topshiriq
 // let arr = "Men 25 yoshdaman"
 // console.log(arr.replaceAll("25", "XX"));
+
+//* 66 topshiriq
