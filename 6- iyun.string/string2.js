@@ -358,3 +358,4 @@
 // let arr = "**salom**"
 // console.log(arr.slice(2, 7));
 
+//* 67 topahiriq
