@@ -355,3 +355,4 @@
 // console.log(arr.replaceAll("25", "XX"));
 
 //* 66 topshiriq
+let arr = "**salom**","*"
