@@ -332,3 +332,9 @@
 //* 61 topshiriq
 // let arr = "salom"
 // console.log(arr === arr.toLowerCase());
+
+//* 62 topshiriq 
+// let arr =  "salem"
+// console.log(arr.replaceAll("e", "a").replace("a", "e"));
+
+//* 63 topshiriq 
