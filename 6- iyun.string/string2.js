@@ -349,3 +349,4 @@
 //     natija.push(matn.slice(i, i + 3));
 // }
 // console.log(natija);
+
