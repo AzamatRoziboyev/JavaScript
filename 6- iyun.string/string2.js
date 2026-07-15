@@ -333,14 +333,19 @@
 // let arr = "salom"
 // console.log(arr === arr.toLowerCase());
 
-//* 62 topshiriq 
+//* 62 topshiriq
+let arr = "men dastur yozaman"
+console.log(arr.length);
+
+
+//* 63 topshiriq 
 // let arr =  "salem"
 // console.log(arr.replaceAll("e", "a").replace("a", "e"));
 
-//* 63 topshiriq 
-let matn = "abcdefghi";
-let natija = [];
-for (let i = 0; i < matn.length; i += 3) {
-    natija.push(matn.slice(i, i + 3));
-}
-console.log(natija);
+//* 64 topshiriq 
+// let matn = "abcdefghi";
+// let natija = [];
+// for (let i = 0; i < matn.length; i += 3) {
+//     natija.push(matn.slice(i, i + 3));
+// }
+// console.log(natija);
