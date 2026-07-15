@@ -338,6 +338,6 @@
 // console.log(arr.replaceAll("e", "a").replace("a", "e"));
 
 //* 63 topshiriq 
-let arr = "abcdefghi"
-let a = arr.slice(",", " ")
-console.log(a);
+// let arr = "abcdefghi"
+// let a = arr.slice(",", " ")
+// console.log(a);
