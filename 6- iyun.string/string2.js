@@ -350,3 +350,6 @@
 // }
 // console.log(natija);
 
+//* 65 topshiriq
+// let arr = "Men 25 yoshdaman"
+// console.log(arr.replaceAll("25", "XX"));
