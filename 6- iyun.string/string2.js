@@ -339,5 +339,5 @@
 
 //* 63 topshiriq 
 let arr = "abcdefghi"
-let a = arr.split(",")
+let a = arr.slice(",", " ")
 console.log(a);
