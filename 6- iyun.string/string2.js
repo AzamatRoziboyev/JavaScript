@@ -338,6 +338,9 @@
 // console.log(arr.replaceAll("e", "a").replace("a", "e"));
 
 //* 63 topshiriq 
-// let arr = "abcdefghi"
-// let a = arr.slice(",", " ")
-// console.log(a);
+let matn = "abcdefghi";
+let natija = [];
+for (let i = 0; i < matn.length; i += 3) {
+    natija.push(matn.slice(i, i + 3));
+}
+console.log(natija);
