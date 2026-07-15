@@ -330,3 +330,5 @@
 // console.log(natija);
 
 //* 61 topshiriq
+// let arr = "salom"
+// console.log(arr === arr.toLowerCase());
