@@ -399,6 +399,6 @@
 // console.log(arr.toUpperCase());
 
 //* 75 topshiriq
-let arr = "cba"
-let a = arr.split("").sort().join("")
-console.log(a);
+// let arr = "cba"
+// let a = arr.split("").sort().join("")
+// console.log(a);
