@@ -374,4 +374,4 @@
 // console.log(arr.toLowerCase().replaceAll(" ", ""));
 
 //* 70 topshiriq
-let arr
+let arr =
