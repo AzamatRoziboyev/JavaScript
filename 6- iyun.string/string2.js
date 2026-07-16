@@ -383,8 +383,8 @@
 
 //* 72 topshiriq
 //^ chatgpt
-let matn = "men dastur yozaman";
-let natija = matn
-  .split(" ")
-  .map(soz => soz[0] + soz[soz.length - 1]);
-console.log(natija);
+// let matn = "men dastur yozaman";
+// let natija = matn
+//   .split(" ")
+//   .map(soz => soz[0] + soz[soz.length - 1]);
+// console.log(natija);
