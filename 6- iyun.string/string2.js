@@ -359,3 +359,7 @@
 // console.log(arr.slice(2, 7));
 
 //* 67 topahiriq
+let matn = "salom";
+for (let i = 0; i < matn.length; i++) {
+  console.log(matn[i]);
+}
