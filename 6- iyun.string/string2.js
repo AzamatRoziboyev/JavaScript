@@ -369,3 +369,9 @@
 // let a = arr.split("javascript").length -1
 // console.log(a);
 
+//* 69 topshiriq
+// let arr = "Salom Dunyo"
+// console.log(arr.toLowerCase().replaceAll(" ", ""));
+
+//* 70 topshiriq
+let arr =
