@@ -365,11 +365,7 @@
 // }
 
 //* 68 topshiriq
-let arr ="javascript va javascript"
-for(let i of arr) {
-    if(i === arr.length) {
-        console.log(i);
-        
-    }
-}
+// let arr ="javascript va javascript"
+// let a = arr.split("javascript").length -1
+// console.log(a);
 
