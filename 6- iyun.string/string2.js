@@ -393,3 +393,6 @@
 // let arr = "salom dunyo"
 // let a = arr.split(" ").length -1
 // console.log(a);
+
+//* 74 topshiriq
+let 
