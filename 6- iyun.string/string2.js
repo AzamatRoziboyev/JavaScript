@@ -376,3 +376,7 @@
 //* 70 topshiriq
 // let arr = "a1b2c3"
 // console.log(arr.match(/\d+/g).join(""));
+
+//* 71 topshiriq
+// let arr = "banana olma uzum"
+// console.log(arr.split(" "));
