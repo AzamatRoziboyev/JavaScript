@@ -374,4 +374,5 @@
 // console.log(arr.toLowerCase().replaceAll(" ", ""));
 
 //* 70 topshiriq
-let arr = "a1b2c3"
+// let arr = "a1b2c3"
+// console.log(arr.match(/\d+/g).join(""));
