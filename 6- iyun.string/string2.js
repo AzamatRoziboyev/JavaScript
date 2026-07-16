@@ -388,3 +388,8 @@
 //   .split(" ")
 //   .map(soz => soz[0] + soz[soz.length - 1]);
 // console.log(natija);
+
+//* 73 topshiriq
+// let arr = "salom dunyo"
+// let a = arr.split(" ").length -1
+// console.log(a);
