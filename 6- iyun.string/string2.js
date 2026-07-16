@@ -395,4 +395,5 @@
 // console.log(a);
 
 //* 74 topshiriq
-let 
+// let arr = "salom dunyo"
+// console.log(arr.toUpperCase());
