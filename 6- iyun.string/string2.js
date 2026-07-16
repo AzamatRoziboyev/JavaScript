@@ -365,4 +365,5 @@
 // }
 
 //* 68 topshiriq
+let arr =  "javascript va javascript"
 
