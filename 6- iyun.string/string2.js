@@ -380,3 +380,6 @@
 //* 71 topshiriq
 // let arr = "banana olma uzum"
 // console.log(arr.split(" "));
+
+//* 72 topshiriq
+let arr 
