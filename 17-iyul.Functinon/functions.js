@@ -12,7 +12,7 @@
 //     console.log(a / b);
     
 // }
-kopaytma(5, 10)
+// kopaytma(5, 10)
 
 //* Arrow  function
 // const bolinma = (a, b,) => a * b
