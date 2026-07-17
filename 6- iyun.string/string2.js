@@ -402,3 +402,18 @@
 // let arr = "cba"
 // let a = arr.split("").sort().join("")
 // console.log(a);
+
+//* 76 topshiriq 
+// let arr = "salom"
+
+//* 77 topshiriq
+// let arr = "salom dunyo"
+// console.log(arr.replaceAll(" ", "|"));
+
+//* 78 toshiriq
+// let arr = "12"
+// console.log(arr.padStart("4", "0"));
+
+//* 79 topshiriq
+let arr ="salom dunyo"
+console.log(arr.replaceAll(" ", "").length);
