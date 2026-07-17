@@ -405,11 +405,11 @@
 
 //* 76 topshiriq 
 //^ chatgpt
-let natija = "";
-for (let i = 1; i < matn.length; i += 2) {
-    natija += matn.charAt(i);
-}
-console.log(natija); // "ao"
+// let natija = "";
+// for (let i = 1; i < matn.length; i += 2) {
+//     natija += matn.charAt(i);
+// }
+// console.log(natija); 
 
 //* 77 topshiriq
 // let arr = "salom dunyo"
