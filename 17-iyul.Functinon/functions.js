@@ -1,3 +1,4 @@
+//*Function Decloration
 function bir(a, b,) {
     console.log(a*b);
     console.log(a / b);
