@@ -404,7 +404,12 @@
 // console.log(a);
 
 //* 76 topshiriq 
-// let arr = "salom"
+//^ chatgpt
+let natija = "";
+for (let i = 1; i < matn.length; i += 2) {
+    natija += matn.charAt(i);
+}
+console.log(natija); // "ao"
 
 //* 77 topshiriq
 // let arr = "salom dunyo"
@@ -420,12 +425,13 @@
 
 //* 80 topshiriq
 //^ chatgpt
-let matn = "hello";
-let natija = [];
-for (let i = 0; i < matn.length; i++) {
-    if (matn[i] === "l") {
-        natija.push(i);
-    }
-}
-console.log(natija);
+// let matn = "hello";
+// let natija = [];
+// for (let i = 0; i < matn.length; i++) {
+//     if (matn[i] === "l") {
+//         natija.push(i);
+//     }
+// }
+// console.log(natija);
 
+//* 81 topshiriq
