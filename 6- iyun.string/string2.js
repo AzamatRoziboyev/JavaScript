@@ -415,5 +415,17 @@
 // console.log(arr.padStart("4", "0"));
 
 //* 79 topshiriq
-let arr ="salom dunyo"
-console.log(arr.replaceAll(" ", "").length);
+// let arr ="salom dunyo"
+// console.log(arr.replaceAll(" ", "").length);
+
+//* 80 topshiriq
+//^ chatgpt
+let matn = "hello";
+let natija = [];
+for (let i = 0; i < matn.length; i++) {
+    if (matn[i] === "l") {
+        natija.push(i);
+    }
+}
+console.log(natija);
+
