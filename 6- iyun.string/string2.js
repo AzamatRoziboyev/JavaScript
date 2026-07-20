@@ -441,4 +441,7 @@
 // let arr = "ali@gmail.com"
 
 //* 83 topshiriq
-let arr = "men dastur yozaman"
+// let arr = "men dastur yozaman"
+
+//* 84 topshiriq
+let arr  ="SALOM DUNYO"
