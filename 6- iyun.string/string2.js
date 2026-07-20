@@ -438,4 +438,7 @@
 // let arr =  "Bugun (dushanba) kuni (dars) bor"
 
 //* 82 topshirq
-let arr = "ali@gmail.com"
+// let arr = "ali@gmail.com"
+
+//* 83 topshiriq
+let arr = "men dastur yozaman"
