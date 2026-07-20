@@ -435,4 +435,7 @@
 // console.log(natija);
 
 //* 81 topshiriq
-let arr =  "Bugun (dushanba) kuni (dars) bor"
+// let arr =  "Bugun (dushanba) kuni (dars) bor"
+
+//* 82 topshirq
+let arr = "ali@gmail.com"
