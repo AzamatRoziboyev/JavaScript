@@ -343,12 +343,12 @@
 // console.log(arr.replaceAll("e", "a").replace("a", "e"));
 
 //* 64 topshiriq 
-// let matn = "abcdefghi";
-// let natija = [];
-// for (let i = 0; i < matn.length; i += 3) {
-//     natija.push(matn.slice(i, i + 3));
-// }
-// console.log(natija);
+let matn = "abcdefghi";
+let natija = [];
+for (let i = 0; i < matn.length; i += 3) {
+    natija.push(matn.slice(i, i + 3));
+}
+console.log(natija);
 
 //* 65 topshiriq
 // let arr = "Men 25 yoshdaman"
