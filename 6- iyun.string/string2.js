@@ -435,3 +435,4 @@
 // console.log(natija);
 
 //* 81 topshiriq
+let arr =  "Bugun (dushanba) kuni (dars) bor"
