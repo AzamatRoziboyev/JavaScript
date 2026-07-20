@@ -444,6 +444,6 @@
 // let arr = "men dastur yozaman"
 
 //* 84 topshiriq
-let arr  ="SALOM DUNYO"
-let a = arr.split(" ").map((w) => w[0].toLowerCase() + w.split().join(" ")) 
-console.log(a);
+// let arr  ="SALOM DUNYO"
+// let a = arr.split(" ").map((w) => w[0].toLowerCase() + w.split().join(" ")) 
+// console.log(a);
