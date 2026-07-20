@@ -445,3 +445,5 @@
 
 //* 84 topshiriq
 let arr  ="SALOM DUNYO"
+let a = arr.split(" ").map((w) => w[0].toUpperCase() + w.split(1).join(" ")) 
+console.log(a);
