@@ -19,3 +19,4 @@
 // const bo = (a, b) => a / b
 // console.log(bolinma(5, 10), bo(5, 10));
 
+//* 
