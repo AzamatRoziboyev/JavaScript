@@ -33,3 +33,4 @@ const obyekt = {
         }
     }
 }
+obyekt.azamat()
