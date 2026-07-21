@@ -41,4 +41,4 @@
 // console.log(juftm(2));
 // console.log(juftm(3));
 
-
+//* 8 topshiriq
