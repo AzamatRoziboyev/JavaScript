@@ -50,3 +50,14 @@
 // console.log(salomlash("Azamat"));
 
 //* 9 topshiriq
+function arr(yosh) {
+    if (yosh >= 18){
+        return "Voyaga yetgan"
+    }
+    else {
+        return "Voyaga yetmagan"
+    }
+}
+console.log(arr(20));
+console.log(arr(16));
+
