@@ -35,10 +35,9 @@
 // console.log(kvadrat(5));
 
 //* 7 topshiriq
-// function juftm(a) {
-//     if (juftm % 2 == 0){
-//         console.log(juftm);
+function juftm(a) {
+    if (juftm % 2 == 0){
+        console.log(juftm);
         
-//     }
-// }
-// juftm(2)
+    }
+}
