@@ -35,3 +35,25 @@
 // console.log(kvadrat(5));
 
 //* 7 topshiriq
+// function juftm(a) {
+//     if (juftm % 2 == 0){
+//         console.log(juftm);
+        
+//     }
+// }
+// juftm(2)
+const obyekt = {
+    arr: [2],
+    ro: function () {
+        for (let i of this.arr) {
+            if (i % 2 == 0){
+                console.log(true);
+                
+            }else {
+                console.log(false);
+                
+            }
+        }
+    }
+}
+juftm.ro(2)
