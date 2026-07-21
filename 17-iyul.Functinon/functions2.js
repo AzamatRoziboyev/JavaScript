@@ -29,3 +29,5 @@
 //* 5 topshiriq
 // const kopaytma = (a, b) => a * b
 // console.log(kopaytma( 4, 6));
+
+//* 6 topshiriq
