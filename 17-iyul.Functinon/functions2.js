@@ -27,3 +27,5 @@
 // ayirma(15, 5)
 
 //* 5 topshiriq
+const kopaytma = (a, b) => a * b
+console.log(kopaytma( 4, 6));
