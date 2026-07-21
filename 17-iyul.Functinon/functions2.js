@@ -25,3 +25,5 @@
     
 // }
 // ayirma(15, 5)
+
+//* 5 topshiriq
