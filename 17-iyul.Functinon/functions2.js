@@ -42,3 +42,8 @@
 // console.log(juftm(3));
 
 //* 8 topshiriq
+// function salomlash(ism = "Mehmon") {
+//   return `Salom, ${ism}!`;
+// }
+// console.log(salomlash());          
+// console.log(salomlash("Azamat"));
