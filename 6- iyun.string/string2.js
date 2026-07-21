@@ -435,18 +435,4 @@
 // console.log(natija);
 
 //* 81 topshiriq
-// let arr =  "Bugun (dushanba) kuni (dars) bor"
-// let a = arr.slice("Bugun")
-// console.log(a);
 
-
-//* 82 topshirq
-// let arr = "ali@gmail.com"
-
-//* 83 topshiriq
-// let arr = "men dastur yozaman"
-
-//* 84 topshiriq
-// let arr  ="SALOM DUNYO"
-// let a = arr.split(" ").map((w) => w[0].toLowerCase() + w.split().join(" ")) 
-// console.log(a);
