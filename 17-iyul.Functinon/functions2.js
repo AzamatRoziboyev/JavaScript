@@ -33,3 +33,5 @@
 //* 6 topshiriq
 // const kvadrat = x => x * x;
 // console.log(kvadrat(5));
+
+//* 7 topshiriq
