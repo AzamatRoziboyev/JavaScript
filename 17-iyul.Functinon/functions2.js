@@ -42,6 +42,7 @@
 // console.log(juftm(3));
 
 //* 8 topshiriq
+//^chatgpt
 // function salomlash(ism = "Mehmon") {
 //   return `Salom, ${ism}!`;
 // }
