@@ -13,8 +13,8 @@
 // ismChqar("Azamat")
 
 //* 3 topshiriq
-function son(a, b) {
-    console.log(a + b);
+// function son(a, b) {
+//     console.log(a + b);
     
-}
-son(5, 7)
+// }
+// son(5, 7)
