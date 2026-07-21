@@ -20,8 +20,8 @@
 // son(5, 7)
 
 //* 4 topshiriq
-const ayirma = function (a, b) {
-    console.log(a - b);
+// const ayirma = function (a, b) {
+//     console.log(a - b);
     
-}
-ayirma(15, 5)
+// }
+// ayirma(15, 5)
