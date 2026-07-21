@@ -6,8 +6,8 @@ function arr() {
 arr()
 
 //* 2 topshiriq
-function ismChqar(ism) {
-    console.log(`Salom, ${ism}!`);
+// function ismChqar(ism) {
+//     console.log(`Salom, ${ism}!`);
     
-}
-ismChqar("Azamat")
+// }
+// ismChqar("Azamat")
