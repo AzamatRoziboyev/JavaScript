@@ -48,3 +48,5 @@
 // }
 // console.log(salomlash());          
 // console.log(salomlash("Azamat"));
+
+//* 9 topshiriq
