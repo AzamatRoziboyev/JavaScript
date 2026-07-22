@@ -38,6 +38,6 @@ function qoshish(a, b) {
 function tanishtrir(ism, ...hobbilar) {
   return `${ism} sevimli mashg'ulotlari: ${hobbilar.join(", ")}larni sevadi!`
 }
-console.log(tanishtrir("Saidjon", "dasturlash", "fudbol", "roblox", "anime"));
+// console.log(tanishtrir("Saidjon", "dasturlash", "fudbol", "roblox", "anime"));
 
 
