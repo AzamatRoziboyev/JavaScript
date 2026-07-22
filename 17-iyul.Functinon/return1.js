@@ -12,11 +12,11 @@
 
 // _______________________________________________________
 
-function daraja(a) {
-  return a ** 2
-}
+// function daraja(a) {
+//   return a ** 2
+// }
 
-console.log(daraja(2))
+// console.log(daraja(2))
 
 // _______________________________________________________
 function darajaa(b) {
