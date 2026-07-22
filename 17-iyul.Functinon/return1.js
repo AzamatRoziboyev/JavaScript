@@ -24,5 +24,5 @@
 //   return "Return funksiyaga qaytaradi"
 // }
 
-// darajaa(2)
+// darajaa(2)      
 // console.log(darajaa(2))
