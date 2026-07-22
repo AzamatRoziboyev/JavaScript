@@ -31,7 +31,7 @@ function darajaa(b) {
 function qoshish(a, b) {
     return a + b
 }
-console.log(qoshish(5, 20));
-console.log(qoshish(5)); //! NaN - Not a Number
+// console.log(qoshish(5, 20));
+// console.log(qoshish(5)); //! NaN - Not a Number
 
 
