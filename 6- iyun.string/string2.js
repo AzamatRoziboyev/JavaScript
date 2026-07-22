@@ -435,4 +435,13 @@
 // console.log(natija);
 
 //* 81 topshiriq
-let arr =
+// let matn = "Bugun (dushanba) kuni (dars) bor"
+// let arr = matn.split(" ")
+// let newArr = []
+// for (let i of arr) {
+//     if (i[0] === "(") {
+//         newArr.push(i.slice(1, -1))
+//     }
+// }
+// console.log(newArr)
+// console.log(arr)
