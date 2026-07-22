@@ -1,14 +1,14 @@
-function userData() {
-  let ism = prompt("Ismingizni kiriting: ")
-  let familiya = prompt("Familiyangizni kiriting: ")
-  let yosh = Number(prompt("Yoshingizni kiriting: "))
+// function userData() {
+//   let ism = prompt("Ismingizni kiriting: ")
+//   let familiya = prompt("Familiyangizni kiriting: ")
+//   let yosh = Number(prompt("Yoshingizni kiriting: "))
 
-  let malumoti = `Sizning ismingiz ${ism}, familiyangiz ${familiya} va yoshingiz ${yosh}da!`
+//   let malumoti = `Sizning ismingiz ${ism}, familiyangiz ${familiya} va yoshingiz ${yosh}da!`
   
-  console.log(malumoti)
-}
+//   console.log(malumoti)
+// }
 
-userData()
+// userData()
 
 // _______________________________________________________
 
