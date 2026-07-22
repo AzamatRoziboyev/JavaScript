@@ -20,17 +20,17 @@
 // console.log(bolinma(5, 10), bo(5, 10));
 
 //* obyekt
-const obyekt = {
-    ism: "Shaxruzbek",
-    kasbi: "bekorch",
-    arr: [1, 2, 3, 4, 5, 6],
-    azamat: function () {
-        for (let i of this.arr) {
-            if (i % 2 == 0) {
-                console.log(i);
+// const obyekt = {
+//     ism: "Shaxruzbek",
+//     kasbi: "bekorch",
+//     arr: [1, 2, 3, 4, 5, 6],
+//     azamat: function () {
+//         for (let i of this.arr) {
+//             if (i % 2 == 0) {
+//                 console.log(i);
 
-            }
-        }
-    }
-}
+//             }
+//         }
+//     }
+// }
 // obyekt.azamat()
