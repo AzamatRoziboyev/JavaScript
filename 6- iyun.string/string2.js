@@ -390,9 +390,9 @@
 // console.log(natija);
 
 //* 73 topshiriq
-let arr = "salom dunyo"
-let a = arr.split(" ").length -1
-console.log(a);
+// let arr = "salom dunyo"
+// let a = arr.split(" ").length -1
+// console.log(a);
 
 //* 74 topshiriq
 // let arr = "salom dunyo"
