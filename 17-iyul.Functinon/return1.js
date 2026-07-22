@@ -19,10 +19,10 @@
 // console.log(daraja(2))
 
 // _______________________________________________________
-function darajaa(b) {
-  console.log(b ** 3)
-  return "Return funksiyaga qaytaradi"
-}
+// function darajaa(b) {
+//   console.log(b ** 3)
+//   return "Return funksiyaga qaytaradi"
+// }
 
-// darajaa(2)
-console.log(darajaa(2))
+// // darajaa(2)
+// console.log(darajaa(2))
