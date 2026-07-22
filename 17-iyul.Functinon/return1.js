@@ -34,4 +34,10 @@ function qoshish(a, b) {
 // console.log(qoshish(5, 20));
 // console.log(qoshish(5)); //! NaN - Not a Number
 
+// __________________________________________
+function tanishtrir(ism, ...hobbilar) {
+  return `${ism} sevimli mashg'ulotlari: ${hobbilar.join(", ")}larni sevadi!`
+}
+console.log(tanishtrir("Saidjon", "dasturlash", "fudbol", "roblox", "anime"));
+
 
