@@ -26,3 +26,9 @@
 
 // darajaa(2)      
 // console.log(darajaa(2))
+
+// __________________________________________
+function qoshish(a, b) {
+    return a + b
+}
+console.log(qoshish(5, 20));
