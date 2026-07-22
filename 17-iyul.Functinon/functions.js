@@ -16,7 +16,7 @@
 
 //* Arrow  function
 // const bolinma = (a, b,) => a * b
-// const bo = (a, b) => a / b
+// const bo = (a, b) =       > a / b
 // console.log(bolinma(5, 10), bo(5, 10));
 
 //* obyekt
