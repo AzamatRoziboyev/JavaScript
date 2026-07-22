@@ -435,4 +435,4 @@
 // console.log(natija);
 
 //* 81 topshiriq
-
+let arr =
