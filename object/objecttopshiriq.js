@@ -60,4 +60,3 @@
 // }
 // console.log(arr(20));
 // console.log(arr(16));
-
