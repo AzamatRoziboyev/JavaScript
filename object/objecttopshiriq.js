@@ -60,3 +60,5 @@
 // }
 // console.log(arr(20));
 // console.log(arr(16));
+
+//* 10 topshriq
