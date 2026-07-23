@@ -70,5 +70,5 @@
 //     return a + b;
 // }
 // let javob = yigindiReturn(5, 3);
-// console.log(javob); // 8
-// console.log(javob * 2); // 16
+// console.log(javob);
+// console.log(javob * 2);
