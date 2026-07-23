@@ -83,8 +83,6 @@ function engKatta(a, b, c) {
         return c;
     }
 }
-
-// Sinab ko'rish
 console.log(engKatta(10, 25, 15)); // 25
 console.log(engKatta(50, 20, 30)); // 50
 console.log(engKatta(7, 9, 12));   // 12
