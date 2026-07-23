@@ -72,3 +72,12 @@
 // let javob = yigindiReturn(5, 3);
 // console.log(javob);
 // console.log(javob * 2);
+
+//* 11 topshiriq
+function engkatta(a, b, c) {
+    if (engkatta <= 6) {
+        return "Engkatta-son"
+        
+    }
+}
+console.log(engkatta(3, 5, 6));
