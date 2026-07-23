@@ -74,15 +74,18 @@
 // console.log(javob * 2);
 
 //* 11 topshiriq
-function engkatta(a, b, c) {
-    if (engkatta <= 6) {
-        return "6"
-        
-    }
-    else {
-        return "3"
+function engKatta(a, b, c) {
+    if (a >= b && a >= c) {
+        return a;
+    } else if (b >= a && b >= c) {
+        return b;
+    } else {
+        return c;
     }
 }
-console.log(engkatta(3, 5, 6));
-console.log(engkatta(3,5,6));
+
+// Sinab ko'rish
+console.log(engKatta(10, 25, 15)); // 25
+console.log(engKatta(50, 20, 30)); // 50
+console.log(engKatta(7, 9, 12));   // 12
 
