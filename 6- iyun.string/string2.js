@@ -447,4 +447,3 @@
 // console.log(arr)
 
 //* 82 topshiriq
-let arr =  
