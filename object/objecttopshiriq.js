@@ -74,6 +74,7 @@
 // console.log(javob * 2);
 
 //* 11 topshiriq
+//^ chatgpt
 function engKatta(a, b, c) {
     if (a >= b && a >= c) {
         return a;
