@@ -76,8 +76,13 @@
 //* 11 topshiriq
 function engkatta(a, b, c) {
     if (engkatta <= 6) {
-        return "Engkatta-son"
+        return "6"
         
+    }
+    else {
+        return "3"
     }
 }
 console.log(engkatta(3, 5, 6));
+console.log(engkatta(3,5,6));
+
