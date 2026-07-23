@@ -85,6 +85,6 @@
 //     }
 // }
 // console.log(engKatta(10, 25, 15)); // 25
-// console.log(engKatta(50, 20, 30)); // 50
+// console.log(engKatta(50, 20, 30));
 // console.log(engKatta(7, 9, 12)); 
 
