@@ -75,16 +75,16 @@
 
 //* 11 topshiriq
 //^ chatgpt
-function engKatta(a, b, c) {
-    if (a >= b && a >= c) {
-        return a;
-    } else if (b >= a && b >= c) {
-        return b;
-    } else {
-        return c;
-    }
-}
-console.log(engKatta(10, 25, 15)); // 25
-console.log(engKatta(50, 20, 30)); // 50
-console.log(engKatta(7, 9, 12));   // 12
+// function engKatta(a, b, c) {
+//     if (a >= b && a >= c) {
+//         return a;
+//     } else if (b >= a && b >= c) {
+//         return b;
+//     } else {
+//         return c;
+//     }
+// }
+// console.log(engKatta(10, 25, 15)); // 25
+// console.log(engKatta(50, 20, 30)); // 50
+// console.log(engKatta(7, 9, 12));   // 12
 
