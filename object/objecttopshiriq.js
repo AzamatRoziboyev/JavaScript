@@ -62,3 +62,13 @@
 // console.log(arr(16));
 
 //* 10 topshriq
+function yigindiLog(a, b) {
+    console.log(a + b);
+}
+yigindiLog(5, 3); // 8
+function yigindiReturn(a, b) {
+    return a + b;
+}
+let javob = yigindiReturn(5, 3);
+console.log(javob); // 8
+console.log(javob * 2); // 16
