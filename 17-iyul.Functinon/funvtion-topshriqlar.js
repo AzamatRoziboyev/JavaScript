@@ -41,7 +41,7 @@ function masala3(yosh) {
         return "18 yoshdan katta"
     }
 }
-console.log(masala3(1));
+// console.log(masala3(1));
 
 
 // 4-masala: [for] 1 dan berilgan songacha bo'lgan barcha sonlar yig'indisini
