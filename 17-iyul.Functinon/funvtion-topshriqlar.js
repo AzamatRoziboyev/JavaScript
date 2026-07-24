@@ -46,11 +46,16 @@ function masala3(yosh) {
 
 // 4-masala: [for] 1 dan berilgan songacha bo'lgan barcha sonlar yig'indisini
 // hisoblovchi funksiya yozing.
-function masala4(son) {
-        
-    
+function masala4(son1) {
+    let son = Number(prompt("Son kiriting"))
+    let yigindi = 0
+    for (let i = 1; i <= son; i++) {
+        yigindi += i 
+    }
+    return yigindi
 }
-masala4(5)
+// console.log(masala4());
+
 
 
 // 5-masala: [for] Berilgan sonning faktorialini hisoblovchi funksiya yozing.
