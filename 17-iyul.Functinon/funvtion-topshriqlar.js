@@ -34,7 +34,7 @@ function masala2(son) {
 function masala3(yosh) {
     if (yosh <= 13) {
         return "bolalik"
-    } else if (yosh > 13) {
+    } else if (yosh >= 13) {
         return "o'smirlik"
     }
     else {
