@@ -15,14 +15,14 @@ function masala1(a, b) {
 // 2-masala: [if-else] anligini
 // aniqlovchi funksiya yozing. Natija: "musbat", "manfiy" yoki "nol".
 function masala2(son) {
-    if (son % 2 == 0) {
+    if (son > 0) {
         return "bu musbat son"
     }
      else if (son === 0) {
         return "bu son noll"
      }
      else {
-        return "bu son manfiy"
+        return "bu manfiy son"
      }
 }
 console.log(masala2(-2));
