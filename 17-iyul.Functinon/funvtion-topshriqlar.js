@@ -100,7 +100,12 @@ function masala9(son) { }
 function masala10() { }
 
 // 11-masala: [string] Berilgan matnning uzunligini qaytaruvchi funksiya yozing.
-function masala11(matn) { }
+function masala11(matn) { 
+    let matn1 = "salom"
+    console.log(matn1.length);
+    
+}
+matn(matn1)
 
 // 12-masala: [string] Berilgan so'zni teskari tartibda qaytaruvchi funksiya yozing.
 function masala12(soz) { }
