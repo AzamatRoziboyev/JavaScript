@@ -80,7 +80,7 @@ function masala6() {
         }
     }
 }
-masala6()
+// masala6()
 
 // 7-masala: [while] Berilgan sonning raqamlar yig'indisini
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
@@ -113,13 +113,38 @@ function masala13(matn) { }
 function masala14(matn) { }
 
 // 15-masala: [array] Massiv elementlari yig'indisini hisoblovchi funksiya yozing.
-function masala15(massiv) { }
+function masala15(massiv) { 
+    let
+}
 
 // 16-masala: [array] Massivdagi eng katta elementni topuvchi funksiya yozing.
-function masala16(massiv) { }
+function masala16(massiv) { 
+    let katta = 0 
+    for (let i of massiv) {
+        if(i > katta) {
+            katta = i 
+            
+        }
+    }
+    return katta
+}
+// console.log(masala16([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+
 
 // 17-masala: [array] Massivdagi eng kichik elementni topuvchi funksiya yozing.
-function masala17(massiv) { }
+function masala17(massiv) { 
+    function masala16(massiv) { 
+    let katta = 1 
+    for (let i of massiv) {
+        if(i < katta) {
+            katta = i 
+            
+        }
+    }
+    return katta
+}
+}
+console.log(masala16([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
 // yangi massiv qaytaruvchi funksiya yozing.
