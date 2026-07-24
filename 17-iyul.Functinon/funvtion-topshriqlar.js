@@ -47,10 +47,7 @@ function masala3(yosh) {
 // 4-masala: [for] 1 dan berilgan songacha bo'lgan barcha sonlar yig'indisini
 // hisoblovchi funksiya yozing.
 function masala4(son) {
-    for (let i = 1; son > 10; i++) {
-        i += son
-    }     
-    console.log(son);
+        
     
 }
 masala4(5)
