@@ -132,19 +132,17 @@ function masala16(massiv) {
 
 
 // 17-masala: [array] Massivdagi eng kichik elementni topuvchi funksiya yozing.
-function masala17(massiv) { 
-    function masala16(massiv) { 
-    let katta = 1 
+function masala17(massiv) {  
+    let kichik = 1 
     for (let i of massiv) {
-        if(i < katta) {
-            katta = i 
+        if(i < kichik) {
+            kichik = i 
             
         }
     }
-    return katta
+    return kichik
 }
-}
-console.log(masala16([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// console.log(masala17([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
 // yangi massiv qaytaruvchi funksiya yozing.
