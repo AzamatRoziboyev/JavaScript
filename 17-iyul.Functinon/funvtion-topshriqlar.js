@@ -9,12 +9,20 @@ function masala1(a, b) {
     return "b son katta"
    }
 }
-console.log(masala1(2, 3));
+// console.log(masala1(2, 3));
 
 
 // 2-masala: [if-else] anligini
 // aniqlovchi funksiya yozing. Natija: "musbat", "manfiy" yoki "nol".
-function masala2(son) {}
+function masala2(son) {
+    if (a % 2 == 0) {
+        return "bu musbat son"
+    }
+     else if (a === 0) {
+        return "bu son noll"
+     }
+}
+
 
 // 3-masala: [if-else] Berilgan yosh bo'yicha kishi "bolalik" (0-12),
 // "o'smirlik" (13-17), "kattalar" (18dan katta) toifasiga tegishli ekanligini aniqlang.
