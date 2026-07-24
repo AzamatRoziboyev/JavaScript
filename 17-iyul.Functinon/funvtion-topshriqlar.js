@@ -63,7 +63,7 @@ function masala5(son) {
     let son1  = Number(prompt("Soni kiriting"))
     let kopaytma = 0
     for (let i = 1; i <= son; i++) {
-        kopaytma *= 1
+        kopaytma * 1
     } 
     return kopaytma
 }
