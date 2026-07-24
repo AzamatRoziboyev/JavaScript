@@ -116,11 +116,19 @@ function masala12(soz) {
 
 
 // 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
-function masala13(matn) { }
+function masala13(matn) { 
+    return matn.toUpperCase()
+}
+// console.log(masala13("salom"));
+
 
 // 14-masala: [string] Berilgan matnda "salom" so'zi bor-yo'qligini
 // tekshiruvchi funksiya yozing (true/false qaytarsin).
-function masala14(matn) { }
+function masala14(matn) {
+    return matn.indexof()    
+ }
+ console.log();
+ 
 
 // 15-masala: [array] Massiv elementlari yig'indisini hisoblovchi funksiya yozing.
 function masala15(massiv) { 
