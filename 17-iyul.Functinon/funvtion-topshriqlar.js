@@ -25,7 +25,7 @@ function masala2(son) {
         return "bu son manfiy"
      }
 }
-console.log(masala2(2));
+console.log(masala2(-2));
 
 
 
