@@ -73,8 +73,15 @@ function masala5(son) {
 // 6-masala: [for] 1 dan 100 gacha bo'lgan juft sonlarni massivga
 // yig'ib qaytaruvchi funksiya yozing.
 function masala6() {
-    
+    let son = 1
+    for (let i = 1; i <= 100; i++) {
+        if (i % 2 == 0) {
+            console.log(i);
+            
+        }
+    }
 }
+masala6()
 
 // 7-masala: [while] Berilgan sonning raqamlar yig'indisini
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
