@@ -59,7 +59,16 @@ function masala4(son1) {
 
 
 // 5-masala: [for] Berilgan sonning faktorialini hisoblovchi funksiya yozing.
-function masala5(son) {}
+function masala5(son) {
+    let son1  = Number(prompt("Soni kiriting"))
+    let kopaytma = 0
+    for (let i = 1; i <= son; i++) {
+        kopaytma *= 1
+    } 
+    return kopaytma
+}
+console.log(masala5());
+
 
 // 6-masala: [for] 1 dan 100 gacha bo'lgan juft sonlarni massivga
 // yig'ib qaytaruvchi funksiya yozing.
