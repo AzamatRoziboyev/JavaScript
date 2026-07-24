@@ -101,14 +101,19 @@ function masala10() { }
 
 // 11-masala: [string] Berilgan matnning uzunligini qaytaruvchi funksiya yozing.
 function masala11(matn) { 
-    let matn1 = "salom"
-    console.log(matn1.length);
+    return matn.length
+    
     
 }
-matn(matn1)
+// console.log(masala11("Salom dunyo!"));
+
 
 // 12-masala: [string] Berilgan so'zni teskari tartibda qaytaruvchi funksiya yozing.
-function masala12(soz) { }
+function masala12(soz) { 
+    return soz.split("").reverse().join("")
+}
+// console.log(masala12("salom"));
+
 
 // 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
 function masala13(matn) { }
