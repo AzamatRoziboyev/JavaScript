@@ -25,13 +25,24 @@ function masala2(son) {
         return "bu manfiy son"
      }
 }
-console.log(masala2(-2));
+// console.log(masala2(-2));
 
 
 
 // 3-masala: [if-else] Berilgan yosh bo'yicha kishi "bolalik" (0-12),
 // "o'smirlik" (13-17), "kattalar" (18dan katta) toifasiga tegishli ekanligini aniqlang.
-function masala3(yosh) {}
+function masala3(yosh) {
+    if (yosh <= 13) {
+        return "bolalik"
+    } else if (yosh > 13) {
+        return "o'smirlik"
+    }
+    else {
+        return "18 yoshdan katta"
+    }
+}
+console.log(masala3());
+
 
 // 4-masala: [for] 1 dan berilgan songacha bo'lgan barcha sonlar yig'indisini
 // hisoblovchi funksiya yozing.
