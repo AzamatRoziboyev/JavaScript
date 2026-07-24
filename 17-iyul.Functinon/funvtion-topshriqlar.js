@@ -32,16 +32,16 @@ function masala2(son) {
 // 3-masala: [if-else] Berilgan yosh bo'yicha kishi "bolalik" (0-12),
 // "o'smirlik" (13-17), "kattalar" (18dan katta) toifasiga tegishli ekanligini aniqlang.
 function masala3(yosh) {
-    if (yosh <= 13) {
+    if (yosh < 13) {
         return "bolalik"
-    } else if (yosh >= 13) {
+    } else if (yosh >= 13 && yosh <= 17) {
         return "o'smirlik"
     }
     else {
         return "18 yoshdan katta"
     }
 }
-console.log(masala3());
+console.log(masala3(1));
 
 
 // 4-masala: [for] 1 dan berilgan songacha bo'lgan barcha sonlar yig'indisini
