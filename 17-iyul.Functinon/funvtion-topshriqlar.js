@@ -61,8 +61,8 @@ function masala4(son1) {
 // 5-masala: [for] Berilgan sonning faktorialini hisoblovchi funksiya yozing.
 function masala5(son) {
     let son1  = Number(prompt("Soni kiriting"))
-    let kopaytma = 0
-    for (let i = 1; i <= son1; i++) {
+    let kopaytma = 1
+    for (let i = 1; i <= son; i++) {
         kopaytma *= i
     } 
     return kopaytma
