@@ -67,7 +67,7 @@ function masala5(son) {
     } 
     return kopaytma
 }
-console.log(masala5());
+// console.log(masala5());
 
 
 // 6-masala: [for] 1 dan 100 gacha bo'lgan juft sonlarni massivga
