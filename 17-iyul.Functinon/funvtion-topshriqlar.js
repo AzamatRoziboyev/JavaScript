@@ -125,15 +125,21 @@ function masala13(matn) {
 // 14-masala: [string] Berilgan matnda "salom" so'zi bor-yo'qligini
 // tekshiruvchi funksiya yozing (true/false qaytarsin).
 function masala14(matn) {
-    return matn.indexof()    
+    return matn.includes("salom")    
  }
- console.log();
+//  console.log(masala14("salom dunyo"));
  
 
 // 15-masala: [array] Massiv elementlari yig'indisini hisoblovchi funksiya yozing.
 function masala15(massiv) { 
-    let
+    let y = 0;
+  for (let i of massiv) {
+    y += i;
+  }
+  return y;
 }
+// console.log(masala15([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+
 
 // 16-masala: [array] Massivdagi eng katta elementni topuvchi funksiya yozing.
 function masala16(massiv) { 
