@@ -15,13 +15,18 @@ function masala1(a, b) {
 // 2-masala: [if-else] anligini
 // aniqlovchi funksiya yozing. Natija: "musbat", "manfiy" yoki "nol".
 function masala2(son) {
-    if (a % 2 == 0) {
+    if (son % 2 == 0) {
         return "bu musbat son"
     }
-     else if (a === 0) {
+     else if (son === 0) {
         return "bu son noll"
      }
+     else {
+        return "bu son manfiy"
+     }
 }
+console.log(masala2(2));
+
 
 
 // 3-masala: [if-else] Berilgan yosh bo'yicha kishi "bolalik" (0-12),
