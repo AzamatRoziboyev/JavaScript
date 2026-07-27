@@ -170,9 +170,17 @@ function masala17(massiv) {
 
 // 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
 // yangi massiv qaytaruvchi funksiya yozing.
-function masala18(massiv) { 
+function masala18(massiv) {
+    let yangiMassiv = [];
 
+    for (let i = 0; i < massiv.length; i++) {
+        yangiMassiv.push(massiv[i] * 2);
+    }
+
+    return yangiMassiv;
 }
+
+// console.log(masala18([1, 2, 3, 4, 5]));
 
 // 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
