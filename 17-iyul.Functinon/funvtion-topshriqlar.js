@@ -182,11 +182,8 @@ function masala19(massiv) {
     for (let i = 0; i < massiv.length; i++) {
         if (massiv[i] % 2 === 0) {
             juftlar.push(massiv[i]);
-        } else {
-            // Toq son bo'lsa hech narsa qilmaymiz
-        }
+        } 
     }
-
     return juftlar;
 }
 // console.log(masala19([1, 2, 3, 4, 5, 6, 7, 8]));
@@ -195,7 +192,16 @@ function masala19(massiv) {
 
 // 20-masala: [if-else, for] Massivdagi toq sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
-function masala20(massiv) { }
+function masala20(massiv) { 
+    let toq = []
+    for (let i = 0; i < massiv.length; i++) {
+        if (massiv[i] % 2 !== 0) {
+            toq.push(massiv[i])
+        } 
+    }
+    return toq
+}
+// console.log(masala20([1,2,3,4,5,6,7]));
 
 // 21-masala: [object] Ism va yosh parametrlarini qabul qilib,
 // { ism, yosh } ko'rinishida object qaytaruvchi funksiya yozing.
