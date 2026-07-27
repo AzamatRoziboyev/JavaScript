@@ -274,7 +274,7 @@ function masala26(son) {
 
     return natija;
 }
-console.log(masala26(5));
+// console.log(masala26(5));
 
 // 27-masala: [while] Berilgan sonni 2 ga bo'lib, natija 1 dan
 // kichik bo'lguncha bo'lish amalini necha marta bajarish
