@@ -234,7 +234,7 @@ function masala22(obj) {
 function masala23(obj) { 
     return Object.keys(obj)
 }
-// console.log(masala23({ism: "ali", yosh: 20, kasbi: "dasturchi"}));
+console.log(masala23({ism: "ali", yosh: 20, kasbi: "dasturchi"}));
 
 
 // 24-masala: [if-else] Berilgan sonning juft yoki toqligini
