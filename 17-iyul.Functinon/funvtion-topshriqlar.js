@@ -225,8 +225,9 @@ function masala21(ism, yosh) {
 // 22-masala: [object] Berilgan object ichida "ism" xususiyati
 // mavjudligini tekshiruvchi funksiya yozing.
 function masala22(obj) { 
-    
+   return "ism" in obj
 }
+console.log(masala22({ ism: "Ali", yosh: 20 }))
 
 // 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
