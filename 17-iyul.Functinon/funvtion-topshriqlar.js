@@ -170,11 +170,28 @@ function masala17(massiv) {
 
 // 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
 // yangi massiv qaytaruvchi funksiya yozing.
-function masala18(massiv) { }
+function masala18(massiv) { 
+
+}
 
 // 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
-function masala19(massiv) { }
+function masala19(massiv) { 
+     let juftlar = [];
+
+    for (let i = 0; i < massiv.length; i++) {
+        if (massiv[i] % 2 === 0) {
+            juftlar.push(massiv[i]);
+        } else {
+            // Toq son bo'lsa hech narsa qilmaymiz
+        }
+    }
+
+    return juftlar;
+}
+// console.log(masala19([1, 2, 3, 4, 5, 6, 7, 8]));
+
+
 
 // 20-masala: [if-else, for] Massivdagi toq sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
