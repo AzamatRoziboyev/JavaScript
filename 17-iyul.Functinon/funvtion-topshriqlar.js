@@ -219,6 +219,8 @@ function masala21(ism, yosh) {
         yosh: yosh
     }
 }
+console.log(masala21("Ali", 20));
+
 
 // 22-masala: [object] Berilgan object ichida "ism" xususiyati
 // mavjudligini tekshiruvchi funksiya yozing.
