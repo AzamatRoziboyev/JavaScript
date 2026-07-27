@@ -239,7 +239,15 @@ function masala23(obj) {
 
 // 24-masala: [if-else] Berilgan sonning juft yoki toqligini
 // aniqlovchi funksiya yozing.
-function masala24(son) { }
+function masala24(son) { 
+    if (son % 2 == 0) {
+        return "Bu juft son"
+    } else {
+        return "BU toq son"
+    }
+}
+// console.log(masala24(1));
+
 
 // 25-masala: [if-else] Uchta sonni solishtirib, eng kattasini
 // qaytaruvchi funksiya yozing.
