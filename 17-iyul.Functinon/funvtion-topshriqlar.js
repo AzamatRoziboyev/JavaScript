@@ -227,11 +227,15 @@ function masala21(ism, yosh) {
 function masala22(obj) { 
    return "ism" in obj
 }
-console.log(masala22({ ism: "Ali", yosh: 20 }))
+// console.log(masala22({ ism: "Ali", yosh: 20 }))
 
 // 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala23(obj) { }
+function masala23(obj) { 
+    return Object.keys(obj)
+}
+// console.log(masala23({ism: "ali", yosh: 20, kasbi: "dasturchi"}));
+
 
 // 24-masala: [if-else] Berilgan sonning juft yoki toqligini
 // aniqlovchi funksiya yozing.
