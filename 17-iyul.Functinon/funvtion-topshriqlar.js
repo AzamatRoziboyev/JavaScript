@@ -279,7 +279,17 @@ function masala26(son) {
 // 27-masala: [while] Berilgan sonni 2 ga bo'lib, natija 1 dan
 // kichik bo'lguncha bo'lish amalini necha marta bajarish
 // mumkinligini hisoblovchi funksiya yozing.
-function masala27(son) { }
+//* chatgpt
+function masala27(son) {
+    let sanoq = 0;
+    while (son >= 1) {
+        son = son / 2;
+        sanoq++;
+    }
+
+    return sanoq;
+}
+// console.log(masala27(8))
 
 // 28-masala: [string] Berilgan matndagi unli harflar (a, o, e, i, u, ...)
 // sonini hisoblovchi funksiya yozing.
