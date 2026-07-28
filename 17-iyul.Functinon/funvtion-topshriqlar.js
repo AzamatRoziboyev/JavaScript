@@ -304,11 +304,17 @@ function masala28(matn) {
 
 // 29-masala: [string] Ikkita so'zni birlashtirib, orasiga bo'sh joy
 // qo'yib qaytaruvchi funksiya yozing.
-function masala29(soz1, soz2) { }
+function masala29(soz1, soz2) { 
+    return `${soz1} ${soz2}`;
+}
+// console.log(masala29("salom", "dunyo"));
+
 
 // 30-masala: [array] Massivda berilgan element mavjudligini
 // tekshiruvchi funksiya yozing (true/false).
-function masala30(massiv, element) { }
+function masala30(massiv, element) { 
+    
+}
 
 // 31-masala: [array] Massiv ichidagi elementlar sonini
 // (uzunligini) qaytaruvchi funksiya yozing.
