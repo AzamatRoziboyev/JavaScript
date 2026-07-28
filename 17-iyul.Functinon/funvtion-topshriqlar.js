@@ -378,4 +378,4 @@ function masala35(obj1, obj2) {
 let obj1 = { ism: "Ali", yosh: 20 };
 let obj2 = { kasb: "Dasturchi", shahar: "Toshkent" };
 
-console.log(masala35(obj1, obj2));
+// console.log(masala35(obj1, obj2));
