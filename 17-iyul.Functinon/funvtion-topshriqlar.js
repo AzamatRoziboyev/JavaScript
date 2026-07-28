@@ -379,3 +379,4 @@ let obj1 = { ism: "Ali", yosh: 20 };
 let obj2 = { kasb: "Dasturchi", shahar: "Toshkent" };
 
 // console.log(masala35(obj1, obj2));
+//& 27 ta yechdim 
