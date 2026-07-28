@@ -293,7 +293,14 @@ function masala27(son) {
 
 // 28-masala: [string] Berilgan matndagi unli harflar (a, o, e, i, u, ...)
 // sonini hisoblovchi funksiya yozing.
-function masala28(matn) { }
+//* chatgpt
+function masala28(matn) {
+    let unli = matn.toLowerCase().match(/[aeiou]/g);
+    return unli ? unli.length : 0;
+}
+
+// console.log(masala28("salom"));
+
 
 // 29-masala: [string] Ikkita so'zni birlashtirib, orasiga bo'sh joy
 // qo'yib qaytaruvchi funksiya yozing.
