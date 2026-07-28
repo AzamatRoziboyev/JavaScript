@@ -320,15 +320,33 @@ function masala30(massiv, element) {
     }
     return false
 }
-console.log(masala30([1, 2, 3, 4, 5], 8));
+// console.log(masala30([1, 2, 3, 4, 5], 8));
 
 // 31-masala: [array] Massiv ichidagi elementlar sonini
 // (uzunligini) qaytaruvchi funksiya yozing.
-function masala31(massiv) { }
+function masala31(massiv) { 
+    return massiv.length
+}
+// console.log(masala31("Salom"));
+
 
 // 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
 // ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
-function masala32(baho) { }
+function masala32(baho) { 
+    if (baho > 90) {
+        return "A"
+    } else if (baho > 70) {
+        return "B"
+    } else if (baho > 60) {
+        return "C"
+    } else if ( baho >= 40) {
+        return "d"
+    } else {
+        return "F"
+    }
+}
+console.log(masala32(91));
+
 
 // 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
 // topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
