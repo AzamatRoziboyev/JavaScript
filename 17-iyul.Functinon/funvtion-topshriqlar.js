@@ -372,5 +372,5 @@ function masala34(chegara) { }
 // 35-masala: [object] Ikkita object'ni birlashtirib, yangi
 // object qaytaruvchi funksiya yozing.
 function masala35(obj1, obj2) { 
-
+    
 }
