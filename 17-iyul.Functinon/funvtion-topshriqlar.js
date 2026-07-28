@@ -347,7 +347,7 @@ function masala32(baho) {
         "Notogri baxo"
     }
 }
-console.log(masala32());
+console.log(masala32(100));
 
 
 // 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
