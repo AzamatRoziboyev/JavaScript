@@ -347,12 +347,22 @@ function masala32(baho) {
         "Notogri baxo"
     }
 }
-console.log(masala32(100));
+// console.log(masala32(100));
 
 
 // 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
 // topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala33(son) { }
+function masala33(son) {
+    let natija = [];
+    for (let i = 1; i <= son; i++) {
+        if (son % i === 0) {
+            natija.push(i);
+        }
+    }
+
+    return natija;
+}
+console.log(masala33(12));
 
 // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
 // yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
@@ -361,4 +371,6 @@ function masala34(chegara) { }
 
 // 35-masala: [object] Ikkita object'ni birlashtirib, yangi
 // object qaytaruvchi funksiya yozing.
-function masala35(obj1, obj2) { }
+function masala35(obj1, obj2) { 
+
+}
