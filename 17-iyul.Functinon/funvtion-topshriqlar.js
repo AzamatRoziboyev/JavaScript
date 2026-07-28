@@ -367,7 +367,7 @@ console.log(masala33(12));
 // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
 // yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
 // funksiya yozing (necha ta son kerak bo'lganini qaytaring).
-//
+//* chatgpt
 function masala34(chegara) { }
 // 35-masala: [object] Ikkita object'ni birlashtirib, yangi
 // object qaytaruvchi funksiya yozing.
