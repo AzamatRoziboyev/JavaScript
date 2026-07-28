@@ -367,10 +367,15 @@ console.log(masala33(12));
 // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
 // yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
 // funksiya yozing (necha ta son kerak bo'lganini qaytaring).
+//
 function masala34(chegara) { }
-
 // 35-masala: [object] Ikkita object'ni birlashtirib, yangi
 // object qaytaruvchi funksiya yozing.
-function masala35(obj1, obj2) { 
-    
+function masala35(obj1, obj2) {
+    return { ...obj1, ...obj2 };
 }
+
+let obj1 = { ism: "Ali", yosh: 20 };
+let obj2 = { kasb: "Dasturchi", shahar: "Toshkent" };
+
+console.log(masala35(obj1, obj2));
