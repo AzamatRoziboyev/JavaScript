@@ -118,7 +118,7 @@ function masala8(son) {
     }
     return natija
 }
-    console.log(masala8(-5));
+    // console.log(masala8(-5));
 
 
     // 9-masala: [do-while] Foydalanuvchidan kiritilgan son (parametr) manfiy
