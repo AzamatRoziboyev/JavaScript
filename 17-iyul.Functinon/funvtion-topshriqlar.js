@@ -95,7 +95,7 @@ function masala7(son) {
     }
     return y 
 }
-console.log(masala7(12345));
+// console.log(masala7(12345));
 
 
 // 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
