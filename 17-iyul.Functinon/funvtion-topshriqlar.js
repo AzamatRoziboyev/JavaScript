@@ -100,7 +100,16 @@ function masala7(son) {
 
 // 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
 // hisoblovchi (countdown) funksiya yozing, natijalarni massivga yozib qaytaring.
-function masala8(son) { }
+function masala8(son) { 
+    let natija = []
+    while(son >= 1) {
+        natija.push(son)
+        son--
+    }
+    return natija
+}
+console.log(masala8(5));
+
 
 // 9-masala: [do-while] Foydalanuvchidan kiritilgan son (parametr) manfiy
 // bo'lmaguncha uni kamaytirib borishni simulyatsiya qiluvchi funksiya yozing
