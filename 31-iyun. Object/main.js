@@ -26,7 +26,7 @@ function talabaYarat(ism, yosh, kasb) {
 const talaba1 = talabaYarat("Aziza", 23, "Frontend Developer");
 const talaba2 = talabaYarat("Sardor", 27, "Backend Developer");
 
-talaba1.salomBerish();
+// talaba1.salomBerish();
 
 
 
