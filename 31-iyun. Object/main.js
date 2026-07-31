@@ -46,5 +46,5 @@ Talaba.prototype.salomBerish = function() {
 const talabaa1 = new Talaba("Aziza", 23, "Frontend Developer");
 const talabaa2 = new Talaba("Sardor", 27, "Backend Developer");
 
-talabaa1.salomBerish(); // "Salom, men Azizaman"
+talabaa1.salomBerish(); 
 talabaa2.salomBerish();  
