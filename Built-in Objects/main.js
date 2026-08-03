@@ -23,10 +23,10 @@ console.log(sana5)
 // DIQQAT: oy 0'dan boshlanadi! (0 = Yanvar, 11 = Dekabr)
 const sana6 = new Date(2026, 7, 3, 14, 30, 50, 0); // 2026-yil, 8-oy (indeks 7), 3-kun, 14:30
 
-console.log(sana6); // 2026-yil 3-avgust, 14:30:00
+// console.log(sana6); // 2026-yil 3-avgust, 14:30:00
 
 
 // 5) Faqat yil va oy (qolganlari default: kun=1, soat=0, minut=0...)
 const sana7 = new Date(2026, 0); // 2026-yil 1-yanvar, 00:00:00
 
-console.log(sana7)
+// console.log(sana7)
