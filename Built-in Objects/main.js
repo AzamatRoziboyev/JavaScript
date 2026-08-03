@@ -53,3 +53,18 @@ const sana7 = new Date(2026, 0); // 2026-yil 1-yanvar, 00:00:00
 //     Math.ceil(-2.5),
 //     Math.trunc(-2.5),
 // ); // -2 -3 -2 -2
+
+// *  Daraja va ildiz — pow(), sqrt(), cbrt()
+console.log(Math.pow(2, 10)); // 1024 - 2 ning 10-darajasi (2**10 bilan bir xil)
+console.log(Math.pow(5, 2)); // 25 - 5 ning kvadrati
+console.log(Math.pow(2, 0.5)); // 1.414... - kvadrat ildizga teng (chunki 0.5-daraja = ildiz)
+
+// Zamonaviy alternativa - "**" operatori (ES2016+), Math.pow() bilan bir xil natija beradi
+console.log(2 ** 10); // 1024
+
+console.log(Math.sqrt(25)); // 5 - kvadrat ildiz
+console.log(Math.sqrt(2)); // 1.4142135623730951
+console.log(Math.sqrt(-4)); // NaN - manfiy sonning kvadrat ildizi mavjud emas (haqiqiy sonlar orasida)
+
+console.log(Math.cbrt(27)); // 3 - kub ildiz (27 = 3*3*3)
+console.log(Math.cbrt(-8)); // -2 - kub ildiz manfiy sonlar uchun ham ishlaydi!
