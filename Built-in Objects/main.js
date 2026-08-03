@@ -94,10 +94,10 @@ const foydalanuvchi = {
 
 // console.log(foydalanuvchi)
 
-const jsonMalumot = JSON.stringify(foydalanuvchi) // string qiladi
+// const jsonMalumot = JSON.stringify(foydalanuvchi) // string qiladi
 
-console.log(jsonMalumot)
+// console.log(jsonMalumot)
 
-console.log(JSON.parse(jsonMalumot)) // stringi obyekt qiladi
+// console.log(JSON.parse(jsonMalumot)) // stringi obyekt qiladi
 
-console.log(typeof jsonMalumot)
+// console.log(typeof jsonMalumot)
