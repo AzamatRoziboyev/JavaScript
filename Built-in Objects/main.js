@@ -45,7 +45,7 @@ console.log(Math.ceil(-4.9)); // -4 - manfiy sonlarda ham "yuqoriga" (kattaroq t
 console.log(Math.trunc(4.9)); // 4 - kasr qismini shunchaki "kesib tashlaydi" (yaxlitlamaydi)
 console.log(Math.trunc(-4.9)); // -4 - Math.floor'dan farqli, faqat kasr qismini olib tashlaydi
 
-// round, floor, ceil, trunc farqini bitta jadvalda ko'rish:
+// &round, floor, ceil, trunc farqini bitta jadvalda ko'rish:
 console.log(Math.round(2.5), Math.floor(2.5), Math.ceil(2.5), Math.trunc(2.5)); // 3 2 3 2
 console.log(
     Math.round(-2.5),
