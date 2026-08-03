@@ -68,3 +68,36 @@ const sana7 = new Date(2026, 0); // 2026-yil 1-yanvar, 00:00:00
 
 // console.log(Math.cbrt(27)); // 3 - kub ildiz (27 = 3*3*3)
 // console.log(Math.cbrt(-8)); // -2 - kub ildiz manfiy sonlar uchun ham ishlaydi!
+
+//* Math object
+
+// console.log(Math.random())
+
+// ==============================================================================
+// ==============================================================================
+// ==============================================================================
+
+//& JSON
+
+const foydalanuvchi = {
+    familiyasi: "Matyokubov",
+    ism: "Shoxruzbek",
+    yil: 2013,
+    oy: 4,
+    kun: 1,
+    yosh: 13,
+    hobbiy: ["suvga tushish", "kompyuter o'ynash", "velosiped haydash", "darsda uxlash"],
+    manzil: "temirchi mahallasi",
+    kocha: "ortiq otajonov ko'chasi",
+    uy: "67-uy"
+}
+
+// console.log(foydalanuvchi)
+
+const jsonMalumot = JSON.stringify(foydalanuvchi) // string qiladi
+
+console.log(jsonMalumot)
+
+console.log(JSON.parse(jsonMalumot)) // stringi obyekt qiladi
+
+console.log(typeof jsonMalumot)
