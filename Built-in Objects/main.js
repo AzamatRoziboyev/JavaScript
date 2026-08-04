@@ -115,4 +115,4 @@ const sana22 = new Date(1000 * 60 *60)
 
 //& 3) Sana string (ISO 8601 formatida tavsiya etiladi)
 const sana12 = new Date("2026-08-04")
-const sana13 = new Date
+// console.log(sana12);
