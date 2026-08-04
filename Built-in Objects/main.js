@@ -126,12 +126,6 @@ const sana14 = new Date(2026, 7, 4, 10, 44, 0,)
  const sana15 = new Date(2026, 7)
 //  console.log(sana15);
 
-// const add = "shaxruzbek"
-// add = "azamat"
-// console.log(add);
 
-let add = "shaxruzbek"
-add = "azamat"
-console.log(add);
 
  
