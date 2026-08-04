@@ -109,6 +109,6 @@ const hozirr = new Date();
 
 const sana11 = new Date();
 const sana22 = new Date(1000 * 60 *60)
-console.log(sana11);
+// console.log(sana11);
 // console.log(sana22);
 
