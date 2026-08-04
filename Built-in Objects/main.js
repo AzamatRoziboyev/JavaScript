@@ -125,4 +125,5 @@ const sana14 = new Date(2026, 7, 4, 10, 44, 0,)
  // &5) Faqat yil va oy (qolganlari default: kun=1, soat=0, minut=0...)
  const sana15 = new Date(2026, 7)
 //  console.log(sana15);
+
  
