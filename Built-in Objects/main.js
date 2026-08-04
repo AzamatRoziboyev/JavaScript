@@ -101,3 +101,8 @@ const foydalanuvchi = {
 // console.log(JSON.parse(jsonMalumot)) // stringi obyekt qiladi
 
 // console.log(typeof jsonMalumot)
+
+//! Takrorlash
+// *new Date() — obyekt yaratish usullari
+const hozirr = new Date();
+// console.log(hozirr);
