@@ -117,6 +117,8 @@ const sana22 = new Date(1000 * 60 *60)
 const sana12 = new Date("2026-08-04")
 // console.log(sana12);
 
+// &4) Yil, oy, kun, soat, minut, sekund, millisekund (alohida argumentlar)
+//& DIQQAT: oy 0'dan boshlanadi! (0 = Yanvar, 11 = Dekabr)
 const sana14 = new Date(2026, 7, 4, 10, 44, 0,)
 // console.log(sana14);
 
