@@ -11,6 +11,8 @@ const hozirgiOy = new Date().getMonth()
 // console.log(hozirgiOy);
 
 //* 4-topshiriq Hozirgi kun raqamini (1-31 oralig'ida) konsolga chiqaruvchi dastur yozing.
+const hozirgiKun = new Date().getDay()
+console.log(hozirgiKun);
 
 
 
