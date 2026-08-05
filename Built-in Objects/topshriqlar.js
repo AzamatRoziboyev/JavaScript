@@ -23,3 +23,5 @@ const hozirgiVaxt = Date.now()
 // console.log(hozirgiVaxt);
 
 //* 7-topshiriq Hozirgi sanani o'zbek tilida ko'rsatuvchi dastur yozing. (Intl.DateTimeFormat dan foydalaning)
+const uzFormat = new Intl.DateTimeFormat("uz-UZ");
+// console.log(uzFormat.format(sana));
