@@ -12,7 +12,10 @@ const hozirgiOy = new Date().getMonth()
 
 //* 4-topshiriq Hozirgi kun raqamini (1-31 oralig'ida) konsolga chiqaruvchi dastur yozing.
 const hozirgiKun = new Date().getDay()
-console.log(hozirgiKun);
+// console.log(hozirgiKun);
 
+//* 5-topshiriq Hozirgi sanani ISO formatda (YYYY-MM-DDTHH:mm:ss.sssZ) konsolga chiqaruvchi dastur yozing.
+const horirgiSana = new Date().toDateString()
+console.log(horirgiSana);
 
 
