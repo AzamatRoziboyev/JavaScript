@@ -16,6 +16,6 @@ const hozirgiKun = new Date().getDay()
 
 //* 5-topshiriq Hozirgi sanani ISO formatda (YYYY-MM-DDTHH:mm:ss.sssZ) konsolga chiqaruvchi dastur yozing.
 const horirgiSana = new Date().toDateString()
-console.log(horirgiSana);
+// console.log(horirgiSana);
 
-
+//* 6-topshiriq 1970-yil 1-yanvardan hozirgi vaqtgacha bo'lgan millisekundlar sonini konsolga chiqaruvchi dastur yozing.
