@@ -25,3 +25,7 @@ const hozirgiVaxt = Date.now()
 //* 7-topshiriq Hozirgi sanani o'zbek tilida ko'rsatuvchi dastur yozing. (Intl.DateTimeFormat dan foydalaning)
 const uzFormat = new Intl.DateTimeFormat("uz-UZ");
 // console.log(uzFormat.format(sana));
+
+//* 8-topshiriq Hozirgi vaqtga 5 soat qo'shib, yangi vaqtni konsolga chiqaruvchi dastur yozing.
+const hozirgiSoat = new Date().getHours()
+console.log(hozirgiSoat);
