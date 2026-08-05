@@ -29,3 +29,9 @@ const uzFormat = new Intl.DateTimeFormat("uz-UZ");
 //* 8-topshiriq Hozirgi vaqtga 5 soat qo'shib, yangi vaqtni konsolga chiqaruvchi dastur yozing.
 const hozirgiSoat = new Date().getHours()
 // console.log(hozirgiSoat +5);
+
+//&Math Object (9-19 topshiriqlar)
+//* 9-topshiriq Math.PI yordamida Pi sonini konsolga chiqaring.
+const pi = Math.PI
+console.log(pi);
+
