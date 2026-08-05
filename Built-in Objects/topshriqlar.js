@@ -43,6 +43,12 @@ const random = Math.random(0, 1)
 const yaxlitlash = Math.round(4.7)
 // console.log(yaxlitlash);
 
+//* 12-topshiriq 4.9 sonini pastga (floor) yaxlitlang va natijani konsolga chiqaring.
+const pastga = Math.floor(4.9)
+// console.log(pastga);
 
+//* 13-topshiriq 4.1 sonini yuqoriga (ceil) yaxlitlang va natijani konsolga chiqaring.
+const yuqoriga = Math.ceil(4.1)
+console.log(yuqoriga);
 
 
