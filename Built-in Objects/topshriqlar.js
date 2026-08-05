@@ -8,7 +8,7 @@ const hozirgiYil = new Date().getUTCFullYear()
 
 //*3-topshiriq Hozirgi oy raqamini (0-11 oralig'ida) konsolga chiqaruvchi dastur yozing.
 const hozirgiOy = new Date().getMonth()
-console.log(hozirgiOy);
+// console.log(hozirgiOy);
 
 
 
