@@ -10,6 +10,7 @@ const hozirgiYil = new Date().getUTCFullYear()
 const hozirgiOy = new Date().getMonth()
 // console.log(hozirgiOy);
 
+//* 4-topshiriq Hozirgi kun raqamini (1-31 oralig'ida) konsolga chiqaruvchi dastur yozing.
 
 
 
