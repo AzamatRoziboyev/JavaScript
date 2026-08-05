@@ -51,4 +51,15 @@ const pastga = Math.floor(4.9)
 const yuqoriga = Math.ceil(4.1)
 // console.log(yuqoriga);
 
+//* 14-topshiriq [5, 10, 3, 8] massividagi eng katta sonni toping va konsolga chiqaring.
+const max = Math.max(5, 10, 3, 8)
+// console.log(max);
+
+//* 15-topshiriq [5, 10, 3, 8] massividagi eng kichik sonni toping va konsolga chiqaring.
+const min = Math.min(5, 10, 3, 8)
+// console.log(min);
+
+//* 16-topshiriq -7 sonining absolut (modul) qiymatini toping va konsolga chiqaring.
+const abs = Math.abs(-7)
+console.log(abs);
 
