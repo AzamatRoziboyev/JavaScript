@@ -61,5 +61,5 @@ const min = Math.min(5, 10, 3, 8)
 
 //* 16-topshiriq -7 sonining absolut (modul) qiymatini toping va konsolga chiqaring.
 const abs = Math.abs(-7)
-console.log(abs);
+// console.log(abs);
 
