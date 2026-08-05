@@ -20,4 +20,6 @@ const horirgiSana = new Date().toDateString()
 
 //* 6-topshiriq 1970-yil 1-yanvardan hozirgi vaqtgacha bo'lgan millisekundlar sonini konsolga chiqaruvchi dastur yozing.
 const hozirgiVaxt = Date.now()
-console.log(hozirgiVaxt);
+// console.log(hozirgiVaxt);
+
+//* 7-topshiriq Hozirgi sanani o'zbek tilida ko'rsatuvchi dastur yozing. (Intl.DateTimeFormat dan foydalaning)
