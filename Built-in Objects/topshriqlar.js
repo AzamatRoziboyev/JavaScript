@@ -49,6 +49,6 @@ const pastga = Math.floor(4.9)
 
 //* 13-topshiriq 4.1 sonini yuqoriga (ceil) yaxlitlang va natijani konsolga chiqaring.
 const yuqoriga = Math.ceil(4.1)
-console.log(yuqoriga);
+// console.log(yuqoriga);
 
 
