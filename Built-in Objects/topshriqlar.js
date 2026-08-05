@@ -63,3 +63,26 @@ const min = Math.min(5, 10, 3, 8)
 const abs = Math.abs(-7)
 // console.log(abs);
 
+//* 17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
+const daraja = Math.pow(2, 3)
+// console.log(daraja);
+
+//* 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
+const kvadrat = Math.sqrt(16)
+// console.log(kvadrat);
+
+//* 19-topshiriq 27 ning kub ildizini toping va konsolga chiqaring.
+const kub = Math.cbrt(27)
+// console.log(kub);
+
+//* 20-topshiriq JavaScriptdagi maksimal xavfsiz butun sonni (MAX_SAFE_INTEGER) konsolga chiqaring.
+const maksimal = Number.MAX_SAFE_INTEGER
+// console.log(maksimal);
+
+//* 21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
+const butunSon = Number.isInteger(42)
+// console.log(butunSon);
+
+//* 22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
+const aa = Number.isNaN(NaN)
+// console.log(aa);
