@@ -19,3 +19,4 @@ const horirgiSana = new Date().toDateString()
 // console.log(horirgiSana);
 
 //* 6-topshiriq 1970-yil 1-yanvardan hozirgi vaqtgacha bo'lgan millisekundlar sonini konsolga chiqaruvchi dastur yozing.
+const
