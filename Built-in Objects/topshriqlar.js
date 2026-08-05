@@ -28,4 +28,4 @@ const uzFormat = new Intl.DateTimeFormat("uz-UZ");
 
 //* 8-topshiriq Hozirgi vaqtga 5 soat qo'shib, yangi vaqtni konsolga chiqaruvchi dastur yozing.
 const hozirgiSoat = new Date().getHours()
-console.log(hozirgiSoat);
+console.log(hozirgiSoat +5);
