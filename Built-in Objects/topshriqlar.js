@@ -33,5 +33,11 @@ const hozirgiSoat = new Date().getHours()
 //&Math Object (9-19 topshiriqlar)
 //* 9-topshiriq Math.PI yordamida Pi sonini konsolga chiqaring.
 const pi = Math.PI
-console.log(pi);
+// console.log(pi);
+
+//* 10-topshiriq 0 va 1 oralig'ida tasodifiy son hosil qiling va konsolga chiqaring.
+const random = Math.random(0, 1)
+console.log(random);
+
+
 
