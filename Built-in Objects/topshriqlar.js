@@ -37,7 +37,12 @@ const pi = Math.PI
 
 //* 10-topshiriq 0 va 1 oralig'ida tasodifiy son hosil qiling va konsolga chiqaring.
 const random = Math.random(0, 1)
-console.log(random);
+// console.log(random);
+
+//* 11-topshiriq 4.7 sonini eng yaqin butun songa yaxlitlang va natijani konsolga chiqaring.
+const yaxlitlash = Math.round(4.7)
+// console.log(yaxlitlash);
+
 
 
 
