@@ -9,4 +9,8 @@
     margin: 50px auto;
     background-color: red;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: g;
 }
