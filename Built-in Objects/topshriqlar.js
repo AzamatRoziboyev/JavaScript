@@ -86,3 +86,20 @@ const butunSon = Number.isInteger(42)
 //* 22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
 const aa = Number.isNaN(NaN)
 // console.log(aa);
+
+//* 23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
+
+
+//* 24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
+const matn = Number.parseFloat(3.14)
+// console.log(matn);
+
+//* 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
+const faydolonuvch = {
+    ism: "ali",
+    yosh: 25
+}
+const json1 = JSON.stringify(faydolonuvch)
+// console.log(json1);
+
+//* 
