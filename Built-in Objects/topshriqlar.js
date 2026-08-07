@@ -104,3 +104,4 @@ const json1 = JSON.stringify(faydolonuvch)
 // console.log(json1);
 
 //* 26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
+const jsonuser = 
