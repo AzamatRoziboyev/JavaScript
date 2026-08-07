@@ -100,6 +100,6 @@ const faydolonuvch = {
     yosh: 25
 }
 const json1 = JSON.stringify(faydolonuvch)
-// console.log(json1);
+console.log(json1);
 
 //* 
