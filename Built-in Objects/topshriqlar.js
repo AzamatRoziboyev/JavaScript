@@ -105,4 +105,14 @@ const json1 = JSON.stringify(faydolonuvch)
 
 //* 26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
 const jsonuser = '{"name":"Ali","age":25}'
-console.log(JSON.stringify(jsonuser));
+// console.log(JSON.parse(jsonuser));
+
+//*27-topshiriq {name: "Ali", age: 25, password: "123"} ob'ektini JSON ga o'giring, faqat name va age maydonlari qolsin. (replacer funksiyasidan foydalaning)
+const obekt = {
+    name: "Ali", 
+    age: 25,
+    password: "123"
+} 
+const json2 = JSON.stringify(obekt, ["name", "age"]) 
+console.log(json2);
+
