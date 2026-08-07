@@ -95,6 +95,8 @@ const arr = "Salom"
 const matn = Number.parseFloat(3.14)
 // console.log(matn);
 
+//& JSON Object (25-27 topshiriqlar)
+
 //* 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
 const faydolonuvch = {
     ism: "ali",
@@ -115,4 +117,8 @@ const obekt = {
 } 
 const json2 = JSON.stringify(obekt, ["name", "age"]) 
 // console.log(json2);
+
+// & RegExp (28-30 topshiriqlar)
+
+//*28-topshiriq "12345" matnida faqat raqamlar borligini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
 
