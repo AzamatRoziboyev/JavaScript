@@ -11,6 +11,8 @@ main1.style.border = "1px solid red"
 main1.style.margin = "auto"
 main1.style.display = "grid"
 main1.style.gridTemplateColumns = "repeat(3 , 1fr)"
+main1.style.paddingLeft = "25px"
+main1.style.paddingTop = "15px"
 console.log(main1);
 //*======== div
 div.style.width = "300px"
