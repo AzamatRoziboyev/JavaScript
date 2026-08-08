@@ -20,5 +20,8 @@ div.style.fontSize = "25px"
 div1.style.width = "300px"
 div1.style.height = "300px"
 div1.style.backgroundColor = "yellow"
-
+div1.style.display = "flex"
+div1.style.justifyContent = "center"
+div1.style.alignItems = "center"
+div1.style.fontSize = "25px"
 
