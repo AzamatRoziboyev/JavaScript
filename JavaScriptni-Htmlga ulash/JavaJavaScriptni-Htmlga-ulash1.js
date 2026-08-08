@@ -6,13 +6,13 @@ const div4 = document.getElementById('div4')
 const div5 = document.getElementById('div5')
 const div6 = document.getElementById('div6')
 //  const box = document.getElementById('box')
-//  console.log(box);
-//  box.style.backgroundColor = "blue"
-//  box.style.borderRadius = "50%"
-//  box.style
+ console.log(box);
+ box.style.backgroundColor = "blue"
+ box.style.borderRadius = "50%"
+ box.style
 
-//  const lorem = document.getElementById('lorem')
-//  console.log(lorem.length);
+ const lorem = document.getElementById('lorem')
+ console.log(lorem.length);
 
 main1.style.width = "1000px"
 main1.style.height = "300px"
