@@ -1,6 +1,7 @@
 const main1 = document.getElementById('main1')
 const div = document.getElementById('div')
 const div1 = document.getElementById('div1')
+const div2 = document.getElementById('div2')
 main1.style.width = "1000px"
 main1.style.height = "650px"
 main1.style.border = "1px solid red"
@@ -24,4 +25,12 @@ div1.style.display = "flex"
 div1.style.justifyContent = "center"
 div1.style.alignItems = "center"
 div1.style.fontSize = "25px"
-
+//*====== div2
+div2.style.width = "300px"
+div2.style.height = "300px"
+div2.style.backgroundColor = "black"
+div2.style.color = "white"
+div2.style.display = "flex"
+div2.style.justifyContent = "center"
+div2.style.alignItems ="center"
+div2.style.fontSize = "25px"
