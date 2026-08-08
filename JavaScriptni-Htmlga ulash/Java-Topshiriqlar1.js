@@ -2,10 +2,14 @@ const main1 = document.getElementById('main1')
 const div = document.getElementById('div')
 const div1 = document.getElementById('div1')
 const div2 = document.getElementById('div2')
+const div3 = document.getElementById('div3')
+const div4 = document.getElementById('div4')
+const div5 = document.getElementById('div5')
 main1.style.width = "1000px"
 main1.style.height = "650px"
 main1.style.border = "1px solid red"
 main1.style.margin = "auto"
+main1.style.display = "gird"
 console.log(main1);
 //*======== div
 div.style.width = "300px"
@@ -34,3 +38,43 @@ div2.style.display = "flex"
 div2.style.justifyContent = "center"
 div2.style.alignItems ="center"
 div2.style.fontSize = "25px"
+//*====== div3 
+div2.style.width = "300px"
+div2.style.height = "300px"
+div2.style.backgroundColor = "gold"
+div2.style.color = "black"
+div2.style.display = "flex"
+div2.style.justifyContent = "center"
+div2.style.alignItems ="center"
+div2.style.fontSize = "25px"
+div2.style.borderRadius = "10px"
+//* ======= div3
+div3.style.width = "300px"
+div3.style.height = "300px"
+div3.style.backgroundColor = "red"
+div3.style.color = "white"
+div3.style.display = "flex"
+div3.style.justifyContent = "center"
+div3.style.alignItems ="center"
+div3.style.fontSize = "25px"
+div3.style.border = "10px"
+//*======= div4
+div4.style.width = "300px"
+div4.style.height = "300px"
+div4.style.backgroundColor = "green"
+div4.style.color = "white"
+div4.style.display = "flex"
+div4.style.justifyContent = "center"
+div4.style.alignItems ="center"
+div4.style.fontSize = "25px"
+div4.style.borderRadius = "10px"
+//*======= div5
+div5.style.width = "300px"
+div5.style.height = "300px"
+div5.style.backgroundColor = "black"
+div5.style.color = "white"
+div5.style.display = "flex"
+div5.style.justifyContent = "center"
+div5.style.alignItems ="center"
+div5.style.fontSize = "25px"
+div5.style.borderRadius = "10px"
