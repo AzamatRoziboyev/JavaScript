@@ -1,6 +1,3 @@
-//* ======= main1
-
-//* ======= main2
 const main2 = document.getElementById('main2')
 const div = document.getElementById('div')
 const div1 = document.getElementById('div1')
@@ -8,6 +5,9 @@ const div2 = document.getElementById('div2')
 const div3 = document.getElementById('div3')
 const div4 = document.getElementById('div4')
 const div5 = document.getElementById('div5')
+//* ======= main1
+
+//* ======= main2
 main2.style.width = "1000px"
 main2.style.height = "650px"
 main2.style.border = "1px solid red"
