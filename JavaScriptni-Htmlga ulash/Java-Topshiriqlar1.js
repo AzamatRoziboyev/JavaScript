@@ -13,7 +13,30 @@ const p1 = document.getElementById('p1')
 const box2 = document.getElementById('box2')
 const p2 =document.getElementById('p2')
 //* ======= main1
-
+main1.style.width = "100%"
+main1.style.height = "80px"
+main1.style.border = "1px solid black"
+//* ====== box
+box.style.width = "150px"
+box.style.height = "50px"
+box.style.border = "1px solid red"
+box.style.fontSize = "35px"
+box.style.display = "flex"
+box.style.alignItems = "center"
+box.style.justifyContent = "center"
+box.style.fontWeight = "900"
+//* ======= box1
+box1.style.width = "550px"
+box1.style.height = "50px"
+box1.style.border = "1px solid red"
+box1.style.display = "flex"
+box1.style.justifyContent = "space-between"
+box1.style.alignItems = "center"
+box1.style.fontSize = "25px"
+//* ======== box2
+box2.style.width = "150px"
+box2.style.height = "50px"
+box2.style.border = "1px solid red"
 //* ======= main2
 main2.style.width = "1000px"
 main2.style.height = "650px"
@@ -23,6 +46,7 @@ main2.style.display = "grid"
 main2.style.gridTemplateColumns = "repeat(3 , 1fr)"
 main2.style.paddingLeft = "25px"
 main2.style.paddingTop = "15px"
+main2.style.marginTop = "150px"
 console.log(main1);
 //*======== div
 div.style.width = "300px"
