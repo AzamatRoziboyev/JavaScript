@@ -5,6 +5,13 @@ const div2 = document.getElementById('div2')
 const div3 = document.getElementById('div3')
 const div4 = document.getElementById('div4')
 const div5 = document.getElementById('div5')
+const main1 = document.getElementById('main1')
+const box = document.getElementById('box')
+const p0= document.getElementById('p0')
+const box1 = document.getElementById('box1')
+const p1 = document.getElementById('p1')
+const box2 = document.getElementById('box2')
+const p2 =document.getElementById('p2')
 //* ======= main1
 
 //* ======= main2
