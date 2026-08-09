@@ -1,18 +1,18 @@
-const main1 = document.getElementById('main1')
+const main2 = document.getElementById('main2')
 const div = document.getElementById('div')
 const div1 = document.getElementById('div1')
 const div2 = document.getElementById('div2')
 const div3 = document.getElementById('div3')
 const div4 = document.getElementById('div4')
 const div5 = document.getElementById('div5')
-main1.style.width = "1000px"
-main1.style.height = "650px"
-main1.style.border = "1px solid red"
-main1.style.margin = "auto"
-main1.style.display = "grid"
-main1.style.gridTemplateColumns = "repeat(3 , 1fr)"
-main1.style.paddingLeft = "25px"
-main1.style.paddingTop = "15px"
+main2.style.width = "1000px"
+main2.style.height = "650px"
+main2.style.border = "1px solid red"
+main2.style.margin = "auto"
+main2.style.display = "grid"
+main2.style.gridTemplateColumns = "repeat(3 , 1fr)"
+main2.style.paddingLeft = "25px"
+main2.style.paddingTop = "15px"
 console.log(main1);
 //*======== div
 div.style.width = "300px"
