@@ -40,7 +40,7 @@ box2.style.border = "1px solid red"
 box2.style.fontSize = "25px"
 box2.style.display = "flex"
 box2.style.justifyContent = "center"
-box2
+box2.style.alignItems = 
 //* ======= main2
 main2.style.width = "1000px"
 main2.style.height = "650px"
