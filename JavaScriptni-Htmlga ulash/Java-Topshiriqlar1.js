@@ -1,3 +1,6 @@
+//* ======= main1
+
+//* ======= main2
 const main2 = document.getElementById('main2')
 const div = document.getElementById('div')
 const div1 = document.getElementById('div1')
