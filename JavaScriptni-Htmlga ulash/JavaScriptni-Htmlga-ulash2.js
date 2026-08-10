@@ -18,3 +18,5 @@ div.style.alignItems = "center"
 div.style.flexDirection = "column"
 div.style.justifyContent = "center"
 div.style.borderRadius = "10px"
+
+//*======= main1
