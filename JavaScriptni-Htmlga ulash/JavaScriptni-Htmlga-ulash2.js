@@ -46,7 +46,7 @@ const ichkiDivlar = document.querySelectorAll("#divv div")
 ichkiDivlar.forEach((ichki) => {
     ichki.style.border = "2px solid red";
     ichki.style.width = "300px"
-    ichki.style.height = "200px"
+    ichki.style.height = "150px"
     ichki.style.overflow = "scroll"
 
 });
