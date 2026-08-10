@@ -20,6 +20,6 @@ div.style.justifyContent = "center"
 div.style.borderRadius = "10px"
 
 //*======= main1
-const main1 = document.createElement('main1')
-main1.innerHTML = "<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?</p>"
+const div = document.createElement('div')
+div.innerHTML = "<div><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta, accusantium asperiores saepe aliquid quas, iusto culpa dolor non beatae ut cupiditate facilis eaque mollitia delectus nemo. Ipsam ut reiciendis rem beatae, qui optio ab exercitationem dicta iure nobis ullam ratione dolorum nostrum dolore recusandae? Facere voluptatibus in non quo?</p></div>"
 p.id = "p"
