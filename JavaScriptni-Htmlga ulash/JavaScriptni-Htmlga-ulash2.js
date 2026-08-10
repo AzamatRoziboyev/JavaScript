@@ -31,20 +31,22 @@ div.innerHTML= `
    
 
 `
-div.id = "div"
-const tashqidiv = document.getElementById('div')
+div.id = "divv"
+const tashqidiv = document.getElementById('divv')
 tashqidiv.style.width = "2000px"
 tashqidiv.style.height = "500px"
 tashqidiv.style.border = "1px solid red"
 tashqidiv.style.margin = "100px auto"
 tashqidiv.style.display = "flex"
+tashqidiv.style.justifyContent = "space-around"
+tashqidiv.style.alignItems = "center"
 
-
-const ichkiDivlar = document.querySelectorAll("ichki")
+const ichkiDivlar = document.querySelectorAll("#divv div")
 
 ichkiDivlar.forEach((ichki) => {
     ichki.style.border = "2px solid red";
-    ichki.style.width = "1000px"
-    ichki.style.height = "500px"
+    ichki.style.width = "300px"
+    ichki.style.height = "200px"
     ichki.style.overflow = "scroll"
+
 });
