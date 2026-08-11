@@ -46,11 +46,12 @@ tashqidiv.style.backgroundColor = "white"
 const ichkiDivlar = document.querySelectorAll("#divv div")
 
 ichkiDivlar.forEach((ichki) => {
-    ichki.style.border = "2px solid red";
+    ichki.style.boxShadow = "0px 1px 10px 1px ";
     ichki.style.width = "250px"
     ichki.style.height = "300px"
     ichki.style.overflow = "scroll"
     ichki.style.textAlign = "center"
     ichki.style.padding = "10px"
+    ichki.style.borderRadius = "20px"
 
 });
