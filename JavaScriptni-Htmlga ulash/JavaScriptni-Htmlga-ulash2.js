@@ -45,8 +45,10 @@ const ichkiDivlar = document.querySelectorAll("#divv div")
 
 ichkiDivlar.forEach((ichki) => {
     ichki.style.border = "2px solid red";
-    ichki.style.width = "300px"
-    ichki.style.height = "150px"
+    ichki.style.width = "250px"
+    ichki.style.height = "300px"
     ichki.style.overflow = "scroll"
+    ichki.style.textAlign = "center"
+    ichki.style.padding = "10px"
 
 });
