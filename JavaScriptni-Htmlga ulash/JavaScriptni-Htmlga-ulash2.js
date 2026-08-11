@@ -36,7 +36,7 @@ const tashqidiv = document.getElementById('divv')
 tashqidiv.style.width = "2000px"
 tashqidiv.style.height = "500px"
 tashqidiv.style.boxShadow = "0px 1px 10px 1px"
-tash
+tashqidiv.style.borderRadius = "20px"
 tashqidiv.style.margin = "100px auto"
 tashqidiv.style.display = "flex"
 tashqidiv.style.justifyContent = "space-around"
