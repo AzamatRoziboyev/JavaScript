@@ -40,6 +40,7 @@ tashqidiv.style.margin = "100px auto"
 tashqidiv.style.display = "flex"
 tashqidiv.style.justifyContent = "space-around"
 tashqidiv.style.alignItems = "center"
+tashqidiv.style.backgroundColor = ""
 
 const ichkiDivlar = document.querySelectorAll("#divv div")
 
