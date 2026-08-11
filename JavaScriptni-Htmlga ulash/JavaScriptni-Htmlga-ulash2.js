@@ -42,6 +42,7 @@ tashqidiv.style.borderRadius = "20px"
 tashqidiv.style.margin = "100px auto"
 tashqidiv.style.display = "grid"
 tashqidiv.style.gridTemplateColumns = "repeat(3, 1fr)"
+
 tashqidiv.style.alignItems = "center"
 tashqidiv.style.backgroundColor = "white"
 
