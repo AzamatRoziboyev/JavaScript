@@ -22,3 +22,21 @@ h2 {
     font-size: 30px;
     text-transform: uppercase;
 }
+.div2 {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
