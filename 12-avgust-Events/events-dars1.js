@@ -14,3 +14,21 @@ const div2 = document.getElementById('div2')
 div2.addEventListener("dblclick", () => {
      console.log("Sichqonchani chap tarafni ikki marta bosdingiz !");
 })
+
+const button1 = document.getElementById('button1')
+button1.addEventListener('click', () => {
+    console.log("tolov qilindi");
+    
+    button1.innerHTML =`
+    <button
+    style = "
+    width: 300px;
+    height: 70px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 25px;
+    font-size: 25px;
+    transition: 1s;
+    >Tolov Qilindi!</button>
+    `
+})
