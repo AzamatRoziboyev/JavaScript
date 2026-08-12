@@ -16,8 +16,8 @@ div2.addEventListener("dblclick", () => {
 })
 
 const button1 = document.getElementById('button1')
-button1.addEventListener('click', () => {
-    console.log("tolov qilindi");
+button1.addEventListener("click", () => {
+    console.log("ishladi");
     
     button1.innerHTML =`
     <button
@@ -29,6 +29,6 @@ button1.addEventListener('click', () => {
     font-size: 25px;
     font-size: 25px;
     transition: 1s;
-    >Tolov Qilindi!</button>
+    >✅Tolov Qilindi!</button>
     `
 })
