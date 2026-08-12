@@ -19,7 +19,7 @@ const button1 = document.getElementById('button1')
 button1.addEventListener("click", () => {
     console.log("ishladi");
     
-    button1.innerHTML =`
+    button1.innerHTML = `
     <button
     style = "
     width: 300px;
