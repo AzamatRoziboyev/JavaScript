@@ -9,7 +9,7 @@ div1.addEventListener("click", () => {
     <button style = "width: 100px; height: 60px; border: none; background-color: green; color: white;">Send</button>
 
     `
-})
+})    
 const div2 = document.getElementById('div2')
 div2.addEventListener("dblclick", () => {
      console.log("Sichqonchani chap tarafni ikki marta bosdingiz !");
