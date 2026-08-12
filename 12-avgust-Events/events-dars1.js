@@ -20,15 +20,13 @@ button1.addEventListener("click", () => {
     console.log("ishladi");
     
     button1.innerHTML = `
-    <button
-    style = "
+    <button style = "
     width: 300px;
     height: 70px;
-    background-color: red;
+    background-color: green;
     border-radius: 10px;
     font-size: 25px;
-    font-size: 25px;
     transition: 1s;
-    >✅Tolov Qilindi!</button>
+    >✅ Tolov Qilindi!</button>
     `
 })
