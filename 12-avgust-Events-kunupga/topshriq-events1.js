@@ -1,4 +1,5 @@
 const button = document.getElementById('button')
+const add = document.getElementById('add')
 button.addEventListener("click", () => {
     console.log("ishladi");
     button.innerHTML = `
@@ -10,6 +11,8 @@ button.addEventListener("click", () => {
         border: none;
         border-radius: 12px;
         color: white
+        transition: 2s;
         "> 8/13/2026 </button>
     `
+    add.play()
 })
