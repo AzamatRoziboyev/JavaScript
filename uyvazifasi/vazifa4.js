@@ -20,3 +20,11 @@ switch (til) {
         
 
 }
+let til = "uz"
+switch (til) {
+    case "eng":
+    console.log("Hello");
+    break
+    case
+    
+}
