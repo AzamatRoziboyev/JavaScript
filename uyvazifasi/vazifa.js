@@ -35,3 +35,8 @@ else {
     
 }
 // ===========
+let son = 1
+if (son >= 10) {
+    console.log(son);
+    
+}
