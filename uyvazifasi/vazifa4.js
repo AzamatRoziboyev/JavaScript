@@ -25,6 +25,11 @@ switch (til) {
     case "eng":
     console.log("Hello");
     break
-    case
+    case "ru":
+        console.log("Privet");
+        break
+    default:
+        console.log("siz");
+        
     
 }
