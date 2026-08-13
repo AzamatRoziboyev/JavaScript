@@ -29,7 +29,7 @@ switch (til) {
         console.log("Privet");
         break
     default:
-        console.log("siz");
+        console.log("siz boshqa tilni tanladingiz");
         
     
 }
