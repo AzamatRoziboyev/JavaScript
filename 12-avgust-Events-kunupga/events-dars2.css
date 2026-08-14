@@ -9,6 +9,11 @@
     margin: 100px auto;
     box-shadow: 0px 1px 20px 1px;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
 
 
 }
@@ -16,4 +21,13 @@
     width: 400px;
     height: 400px;
     border-radius: 10px;
+}
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.img1:active, .img2:active, .img3:active, .img4:active, .img5:active, .img6:active {
+    transform: scale(0.9);
+    transition: 0.2s;
 }
