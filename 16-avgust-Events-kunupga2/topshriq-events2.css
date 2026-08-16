@@ -12,8 +12,8 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding-top: 25px;
     flex-wrap: wrap;
+    align-items: center;
 }
 .box {
     width: 367px;

@@ -7,6 +7,8 @@ const btn6 = document.getElementById('btn6')
 const btn7 = document.getElementById('btn7')
 const btn8 = document.getElementById('btn8')
 const btn9 = document.getElementById('btn9')
+const btn10 = document.getElementById('btn10')
+//*=========
 const add1 = document.getElementById('add1')
 const add2 = document.getElementById('add2')
 const add3 = document.getElementById('add3')
@@ -15,6 +17,7 @@ const add6 = document.getElementById('add6')
 const add7 = document.getElementById('add7')
 const add8 = document.getElementById('add8')
 const add9 = document.getElementById('add9')
+const add10 = document.getElementById('add10')
 btn1.addEventListener("click", () => {
     console.log("Ishladi");
     btn1.innerHTML = `
@@ -149,4 +152,19 @@ btn9.addEventListener("click", () => {
         " ><i class="fa-solid fa-pause"></i></button>
     `
     add9.play()
+})
+btn10.addEventListener("click", () => {
+    console.log("Ishladi");
+    btn10.innerHTML = `
+        <button style = "
+         width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(43, 41, 41);
+    color: white;
+        " ><i class="fa-solid fa-pause"></i></button>
+    `
+    add10.play()
 })
