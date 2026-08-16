@@ -18,6 +18,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.box img:hover {
+    cursor: pointer;
+}
 .box .div1 {
     width: 367px;
     height: 80px;
