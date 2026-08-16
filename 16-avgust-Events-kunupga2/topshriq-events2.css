@@ -10,3 +10,16 @@
     box-shadow: 0px 1px 15px 1px gray;
     margin: 120px auto;
 }
+.box {
+    width: 367px;
+    height: 180px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box .div1 {
+    width: 367px;
+    height: 80px;
+    background-color: aqua;
+} 
