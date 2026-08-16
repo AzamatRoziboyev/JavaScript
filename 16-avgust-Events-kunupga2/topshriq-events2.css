@@ -13,7 +13,8 @@
 .box {
     width: 367px;
     height: 180px;
-    border: 1px solid red;
+
+    box-shadow: 0px 1px 5px 1px gray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,7 +25,7 @@
 .box .div1 {
     width: 367px;
     height: 80px;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +34,6 @@
 .box .div1 .camera {
     width: 340px;
     height: 40px;
-    border: 1px solid black;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -51,6 +51,7 @@
     background-color: rgb(43, 41, 41);
     color: white;
     transform: translateY(-20px);
+    box-shadow: 0px 1px 5px 1px black;
 }
 .btn1:hover {
     background-color: rgb(33, 33, 160);
@@ -59,22 +60,43 @@
 .click {
     width: 340px;
     height: 35px;
-    border: 1px solid black;
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .click .spn {
     width: 130px ;
     height: 30px;
-    border: 1px solid red;
     display: flex;
     gap: 20px;
     align-items: center;
 }
 .click .spn span {
-    background-color: rgb(202, 192, 192);
-    border: 1px solid black;
+    background-color: rgb(0, 0, 0, 0.2);
     padding: 2px;
     border-radius: 3px;
+}
+.click .spn span:hover {
+    cursor: pointer;
+}
+.download-box {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-box i {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding-top: 1.2px;
+}
+.download-box i:hover {
+    background-color: rgb(33, 33, 160);
+    cursor: pointer;
 }
