@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding-top: 25px;
     flex-wrap: wrap;
 }
 .box {
@@ -21,6 +22,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.box img {
+    width: 367px;
+    height: 120px;
 }
 .box img:hover {
     cursor: pointer;
@@ -69,7 +74,7 @@
     justify-content: space-between;
 }
 .click .spn {
-    width: 130px ;
+    width: 230px ;
     height: 30px;
     display: flex;
     gap: 20px;
