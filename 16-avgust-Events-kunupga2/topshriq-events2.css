@@ -23,3 +23,21 @@
     height: 80px;
     background-color: aqua;
 } 
+.box .div1 .camera {
+    width: 340px;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+}
+.box .div1 .camera p {
+    font-size: 20px;
+}
+#btn1 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
