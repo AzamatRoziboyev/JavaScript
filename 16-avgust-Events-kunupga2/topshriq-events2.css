@@ -59,7 +59,7 @@
     background-color: rgb(43, 41, 41);
     color: white;
     transform: translateY(-20px);
-    box-shadow: 0px 1px 5px 1px black;
+    box-shadow: 0px 1px 2px 1px black;
 }
 .btn1:hover {
     background-color: rgb(33, 33, 160);
