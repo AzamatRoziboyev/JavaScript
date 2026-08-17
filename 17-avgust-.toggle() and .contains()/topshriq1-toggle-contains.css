@@ -43,6 +43,9 @@ nav .btn {
     border-radius: 15px;
     color: blue;
 }
+.btn:active {
+    transform: scale(0.9);
+}
 .main1 {
     width: 100%;
     height: 100vh;
