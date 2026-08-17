@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(28, 28, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .div1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+nav .div1 {
+    width: 280px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+nav .div2 {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .div2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav .btn {
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 15px;
+    color: blue;
+}
+.main1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(4, 4, 41);
+    color: white;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.main1 h1 {
+    font-weight: 900;
+}
+.main1 .bir {
+    width: 500px;
+    height: 560px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main1 .bir p {
+    font-size: 25px;
+}
+.main1 .bir .b1 {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(82, 82, 243);
+    color: white;
+    border: none;
+}
+.main1 .bir .b2 {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    font-size: 20px;
+}
+.main1 .bir .foter {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    gap: 15px;
+}
+.main1 .ikki {
+    width: 500px;
+    height: 600px;
+
+}
+.main1 .ikki img {
+    width: 500px;
+    height: 500px;
+}
