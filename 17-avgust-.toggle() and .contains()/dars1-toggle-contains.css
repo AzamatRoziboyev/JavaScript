@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.btn {
+    position: absolute;
+    right: 20px;
+    top: 20px; width: 100px; height: 60px; border: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.btn:hover {
+    transform: rotate(100deg);
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.p {
+    text-align: justify;
+    font-size: 20px;
+}
