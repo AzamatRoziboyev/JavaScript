@@ -63,7 +63,6 @@ nav .btn {
 .main1 .bir {
     width: 500px;
     height: 560px;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
