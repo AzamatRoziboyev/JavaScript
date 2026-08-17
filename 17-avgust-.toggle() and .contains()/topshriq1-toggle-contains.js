@@ -1,4 +1,4 @@
-const btn =document.getElementById('btn')
+const btn1 =document.getElementById('btn1')
 btn.addEventListener("click", () => {
     document.body.classList.toggle("light")
 
