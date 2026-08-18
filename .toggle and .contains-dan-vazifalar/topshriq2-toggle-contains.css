@@ -19,5 +19,20 @@
     width: 100px;
     height: 80px;
     font-size: 40px;
-    /* border: none; */
+    border: none;
+    background-color: transparent;
+}
+.btn:hover {
+    transform: rotate(100deg);
+    cursor: pointer;
+}
+.btn:active {
+    transform: scale(0.9);
+}
+h1 {
+    font-size: 50px;
+}
+.dark {
+    background-color: black;
+    color:  white;
 }
