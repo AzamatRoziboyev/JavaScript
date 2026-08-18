@@ -4,6 +4,7 @@
     box-sizing: border-box;
     transition: 1s;
 }
+
 .main {
     width: 800px;
     height: 500px;
@@ -13,8 +14,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
+
 .btn {
     width: 100px;
     height: 80px;
@@ -22,17 +24,21 @@
     border: none;
     background-color: transparent;
 }
+
 .btn:hover {
     transform: rotate(100deg);
     cursor: pointer;
 }
+
 .btn:active {
     transform: scale(0.9);
 }
+
 h1 {
     font-size: 50px;
 }
+
 .dark {
     background-color: black;
-    color:  white;
+    color: white;
 }
