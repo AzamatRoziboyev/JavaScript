@@ -22,7 +22,7 @@
     border: none;
     background-color: transparent;
 }
-.btn:hover {
+.main .btn:hover {
     transform: rotate(100deg);
     cursor: pointer;
 }
