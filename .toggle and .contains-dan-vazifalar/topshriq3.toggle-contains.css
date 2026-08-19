@@ -13,3 +13,9 @@
     margin: 100px auto;
     
 }
+.main .box1 {
+    width: 455px;
+    height: 600px;
+    border-radius: 24px;
+    background-color: rgb(0, 0, 0, 0.2);
+}
