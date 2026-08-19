@@ -30,7 +30,7 @@ function addTudo() {
         if (javob.toLocaleLowerCase() === "ha") {
             li.remove()
         } else if (javob.toLocaleLowerCase()=== "yoq") {
-            
+             li.style.backgroundColor = "orange"
         }
     
         updateCount()
