@@ -4,7 +4,7 @@ const todoList = document.querySelector('#todoList')
 const count = document.querySelector('#count')
 
 addBtn.addEventListener("click", addTudo)
-function addTudo () {
+function addTudo() {
     const text = input.value.trim()
 
     if (text === "") {
@@ -14,7 +14,7 @@ function addTudo () {
     const li = document.createElement("li")
     li.innerHTML = `
         <span>${text}</span>
-        <button class = "delete-btn">O'chrish</button>;
+        <button class="delete-btn">O'chirish</button>
     `
     todoList.appendChild(li)
 
@@ -26,7 +26,11 @@ function addTudo () {
         li.classList.toggle("completed")
     })
     li.querySelector(".delete-btn").addEventListener("click", () => {
-        li.remove()
+        let javob = prompt("siz rostan ham ochirmoqchimsiz")
+        if (javob.toLocaleLowerCase() === "ha") {
+            li.remove()
+        }
+    
         updateCount()
     })
 
