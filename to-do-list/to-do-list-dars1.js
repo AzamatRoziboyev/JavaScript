@@ -35,6 +35,7 @@ function addTudo() {
     
         updateCount()
     })
+    
 
     function updateCount() {
         count.textContent = todoList.children.length
