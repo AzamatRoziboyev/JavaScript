@@ -29,6 +29,8 @@ function addTudo() {
         let javob = prompt("siz rostan ham ochirmoqchimsiz")
         if (javob.toLocaleLowerCase() === "ha") {
             li.remove()
+        } else if (javob.toLocaleLowerCase()=== "yoq") {
+            
         }
     
         updateCount()
