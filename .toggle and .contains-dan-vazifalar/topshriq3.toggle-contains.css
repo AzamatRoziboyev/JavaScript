@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+
+}
+.main {
+    width: 1366px;
+    height: 768px;
+    border: 1px solid black;
+    background-color: #FEDCC5;
+    margin: 100px auto;
+    
+}
