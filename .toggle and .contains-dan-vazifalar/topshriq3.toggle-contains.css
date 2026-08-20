@@ -5,10 +5,22 @@
     transition: 1s;
 
 }
+.btn {
+    width: 70px;
+    height: 70px;
+    border: none;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn:active {
+    transform: scale(0.8);
+}
 .main {
     width: 1366px;
     height: 768px;
-    border: 1px solid black;
     background-color: #FEDCC5;
     margin: 100px auto;
     display: flex;
@@ -19,12 +31,15 @@
     width: 455px;
     height: 600px;
     border-radius: 24px;
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgba(141, 135, 135, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 55px;
 }
 .main .box1 .your-logo {
     width: 200px;
     height: 80px;
-    border: 1px solid black;
 }
 .main .box1 .your-logo small {
     color: #F25019;
@@ -35,7 +50,110 @@
 .main .box1 .email {
     width: 335px;
     height: 64px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.main .box1 .email label {
+    font-size: 15px;
+}
+.main .box1 .email input {
+    width: 335px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 10px;
+    font-size: 18px;
+
+}
+.main .box1 .password {
+     width: 335px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main .box1 .password label {
+     font-size: 15px;
+}
+.main .box1 .password input {
+     width: 335px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+.main .box1 .p {
+    width: 335px;
+    height: 17px;
+    color: #F25019;
+    display: flex;
+    justify-content: end;
+}
+.main .box1 .s1 {
+    display: block;
+    text-align: center;
+}
+.main .box1 .button {
+    width: 335px;
+    height: 32px;
+    background-color: #F25019;
+    border: none;
+    border-radius: 4px;
+   color: white; 
+   font-size: 20px;
+}
+.main .box1 .google {
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.main .box1 .google i {
+    width: 72px;
+    height: 35px;
+    border-radius: 28px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.main .box1 .p1 {
+    text-align: center;
+}
+.main .box1 .p1 b {
+    color: #F25019;
+}
+body.dark {
+    background-color: black;
+}
+body.your-log h1 {
+    color: white;
+}
+body.email label {
+    color: white;
+}
+body.password label {
+    color: white;
+}
+body.button {
+    background-color: aqua;
+    color: white;
+}
+body.s1 {
+    color: blue;
+}
+body.google i {
+    color: white;
+    background-color: blue;
+}
+body.p1 {
+    color: white;
+}
+body.p1 b {
+    color: #F25019;
 }
