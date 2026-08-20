@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 
 }
 .btn:active {
@@ -129,31 +130,37 @@
     color: #F25019;
 }
 body.dark {
-    background-color: black;
-}
-body.your-log h1 {
-    color: white;
-}
-body.email label {
-    color: white;
-}
-body.password label {
-    color: white;
-}
-body.button {
-    background-color: aqua;
-    color: white;
-}
-body.s1 {
-    color: blue;
-}
-body.google i {
-    color: white;
-    background-color: blue;
-}
-body.p1 {
-    color: white;
-}
-body.p1 b {
-    color: #F25019;
-}
+     background-color: black;
+        }
+        body.main {
+        background-color: black;
+        }
+        body.main .box1 {
+        background-color: transparent;
+        }
+        body.your-log h1 {
+        color: white;
+        }
+        body.email label {
+        color: white;
+        }
+        body.password label {
+        color: white;
+        }
+        body.button {
+        background-color: aqua;
+        color: white;
+        }
+        body.s1 {
+        color: blue;
+        }
+        body.google i {
+        color: white;
+        background-color: blue;
+        }
+        body.p1 {
+        color: white;
+        }
+        body.p1 b {
+        color: #F25019;
+        }
