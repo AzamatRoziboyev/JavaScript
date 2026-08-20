@@ -5,6 +5,7 @@
     transition: 1s;
 
 }
+
 .btn {
     width: 70px;
     height: 70px;
@@ -16,9 +17,11 @@
     background-color: transparent;
 
 }
+
 .btn:active {
     transform: scale(0.8);
 }
+
 .main {
     width: 1366px;
     height: 768px;
@@ -26,8 +29,10 @@
     margin: 100px auto;
     display: flex;
     align-items: center;
-    
+    justify-content: space-around;
+
 }
+
 .main .box1 {
     width: 455px;
     height: 600px;
@@ -38,16 +43,20 @@
     justify-content: space-between;
     padding: 25px 55px;
 }
+
 .main .box1 .your-logo {
     width: 200px;
     height: 80px;
 }
+
 .main .box1 .your-logo small {
     color: #F25019;
 }
+
 .main .box1 .your-logo h1 {
     font-size: 50px;
 }
+
 .main .box1 .email {
     width: 335px;
     height: 64px;
@@ -55,9 +64,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main .box1 .email label {
     font-size: 15px;
 }
+
 .main .box1 .email input {
     width: 335px;
     height: 40px;
@@ -67,24 +78,28 @@
     font-size: 18px;
 
 }
+
 .main .box1 .password {
-     width: 335px;
+    width: 335px;
     height: 64px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main .box1 .password label {
-     font-size: 15px;
+    font-size: 15px;
 }
+
 .main .box1 .password input {
-     width: 335px;
+    width: 335px;
     height: 40px;
     border: none;
     border-radius: 4px;
     padding: 0px 10px;
     font-size: 18px;
 }
+
 .main .box1 .p {
     width: 335px;
     height: 17px;
@@ -92,19 +107,22 @@
     display: flex;
     justify-content: end;
 }
+
 .main .box1 .s1 {
     display: block;
     text-align: center;
 }
+
 .main .box1 .button {
     width: 335px;
     height: 32px;
     background-color: #F25019;
     border: none;
     border-radius: 4px;
-   color: white; 
-   font-size: 20px;
+    color: white;
+    font-size: 20px;
 }
+
 .main .box1 .google {
     width: 250px;
     height: 35px;
@@ -113,6 +131,7 @@
     text-align: center;
 
 }
+
 .main .box1 .google i {
     width: 72px;
     height: 35px;
@@ -123,44 +142,63 @@
     justify-content: center;
     font-size: 25px;
 }
+
 .main .box1 .p1 {
     text-align: center;
 }
+
 .main .box1 .p1 b {
     color: #F25019;
 }
+
+.main img {
+    width: 674px;
+    height: 593px;
+
+}
+
 body.dark {
-     background-color: black;
-        }
-        body.main {
-        background-color: black;
-        }
-        body.main .box1 {
-        background-color: transparent;
-        }
-        body.your-log h1 {
-        color: white;
-        }
-        body.email label {
-        color: white;
-        }
-        body.password label {
-        color: white;
-        }
-        body.button {
-        background-color: aqua;
-        color: white;
-        }
-        body.s1 {
-        color: blue;
-        }
-        body.google i {
-        color: white;
-        background-color: blue;
-        }
-        body.p1 {
-        color: white;
-        }
-        body.p1 b {
-        color: #F25019;
-        }
+    background-color: black;
+}
+
+body.dark .main {
+    background-color: white;
+}
+
+body.dark .main .box1 {
+    background-color: rgb(9, 228, 20);
+}
+
+body.dark .your-log h1 {
+    color: white;
+}
+
+body.dark .email label {
+    color: white;
+}
+
+body.dark .password label {
+    color: white;
+}
+
+body.dark .button {
+    background-color: aqua;
+    color: white;
+}
+
+body.dark .s1 {
+    color: blue;
+}
+
+body.dark .google i {
+    color: white;
+    background-color: blue;
+}
+
+body.dark .p1 {
+    color: white;
+}
+
+body.dark .p1 b {
+    color: #F25019;
+}
