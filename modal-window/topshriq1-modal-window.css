@@ -4,19 +4,26 @@
     box-sizing: border-box;
     transition: 1s;
 }
-/* .navbar {
+.navbar {
     width: 100%;
     height: 100vh;
     /* background-color: rgb(0, 0, 0, 0.5); */
-    display: flex;
-    justify-content: center;
-    align-items: center; */
 
 
-/* } */
-.navbar nav {
+}
+nav {
     width: 100%;
     height: 80px;
-    box-shadow: 0px 5px 1px gray;
-    
+    box-shadow: 0px 1px 15px gray;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+nav .login-btn {
+    width: 90px;
+    height: 25px;
+
 }
