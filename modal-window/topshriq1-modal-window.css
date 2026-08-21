@@ -19,11 +19,28 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 25px;
 
 
 }
 nav .login-btn {
-    width: 90px;
-    height: 25px;
-
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+nav .sign-up {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+}
+.navbar .login {
+    width: 100%;
+    height: 100vh;
+    
 }
