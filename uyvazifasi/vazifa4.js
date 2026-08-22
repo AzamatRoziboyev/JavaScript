@@ -20,7 +20,7 @@ switch (til) {
         
 
 }
-let til = "uz"
+let t = "uz"
 switch (til) {
     case "eng":
     console.log("Hello");
