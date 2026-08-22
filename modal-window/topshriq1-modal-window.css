@@ -173,5 +173,19 @@ nav .sign-up {
     height: 30px;
     padding: 0px 10px;
 }
-sig
+.sign form .label3 {
+    width: 280px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.sign form .label3 input {
+    width: 280px;
+    height: 30px;
+    padding: 0px 15px;
+
+}
+.sign foreignOb
 
