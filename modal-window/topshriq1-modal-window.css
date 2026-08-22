@@ -134,6 +134,17 @@ nav .sign-up {
 .sign form div {
     width: 250px;
     height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign form div h1 {
+    font-size: 25px;
+
+}
+.sign form div .btn {
+    font-size: 25px;
+    border: none;
     
 }
 
