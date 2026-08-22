@@ -131,6 +131,9 @@ nav .sign-up {
     padding: 20px;
     border-radius: 12px;
 }
-
-
+.sign form div {
+    width: 250px;
+    height: 30px;
+    
+}
 
