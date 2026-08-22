@@ -1,11 +1,23 @@
 const login = document.querySelector('.login') 
-const sign = document.querySelector('.sign')
 const loginBtn = document.querySelector('.login-btn')
-const p1 = document.querySelector('p1')
+const btn = document.querySelector('.btn')
+// * 2
+const sign = document.querySelector('.sign')
+const signBtn = document.querySelector('.sign-up')
+const btn1 = document.querySelector('.btn1')
+
 loginBtn.addEventListener("click", () => {
     login.classList.add("active")
 })
 loginBtn.addEventListener("click", () => {
-    p1.classList.remove("active")
+    btn.classList.remove("active")
 })
+// *2
+signBtn.addEventListener("click", () => {
+    sign.classList.add("active")
+})
+signBtn.addEventListener("click", () => {
+    btn1.classList.remove("active")
+})
+
 
