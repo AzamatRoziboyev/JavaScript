@@ -187,5 +187,12 @@ nav .sign-up {
     padding: 0px 15px;
 
 }
-.sign foreignOb
+.sign form .btn1 {
+    width: 280px;
+    height: 35px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
 
