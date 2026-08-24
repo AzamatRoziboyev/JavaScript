@@ -34,7 +34,7 @@
     position: fixed;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -44,6 +44,9 @@
     background-color: white;
     border-radius: 12px;
 
+}
+.main .bmw-katta.active {
+    display: flex;
 }
 .main .bmw-katta .bmw img {
     width: 400px;
