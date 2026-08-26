@@ -38,3 +38,36 @@ nav .login .sign-up {
     border: none;
     background-color: transparent;
 }
+.login-katta {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-katta .login-kichik {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-katta .login-kichik .div1 {
+    width: 260px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.login-katta .login-kichik .label {
+    width: 260px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+}
