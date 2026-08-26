@@ -44,9 +44,12 @@ nav .login .sign-up {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     inset: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+}
+.login-katta.active {
+    display: flex;
 }
 .login-katta .login-kichik {
     width: 300px;
