@@ -4,6 +4,7 @@
     box-sizing: border-box;
     transition: 1s;
 }
+
 nav {
     width: 100%;
     height: 80px;
@@ -13,6 +14,7 @@ nav {
     box-shadow: 0px 1px 15px gray;
     padding: 15px;
 }
+
 nav .boshsahifa {
     width: 500px;
     height: 40px;
@@ -20,10 +22,12 @@ nav .boshsahifa {
     justify-content: space-between;
     align-items: center;
 }
+
 nav .boshsahifa a {
     color: black;
     text-decoration: none;
 }
+
 nav .login .login-btn {
     width: 100px;
     height: 35px;
@@ -32,12 +36,14 @@ nav .login .login-btn {
     color: white;
     border-radius: 5px;
 }
+
 nav .login .sign-up {
     width: 100px;
     height: 35px;
     border: none;
     background-color: transparent;
 }
+
 .login-katta {
     width: 100%;
     height: 100vh;
@@ -48,9 +54,11 @@ nav .login .sign-up {
     justify-content: center;
     align-items: center;
 }
+
 .login-katta.active {
     display: flex;
 }
+
 .login-katta .login-kichik {
     width: 300px;
     height: 250px;
@@ -62,12 +70,14 @@ nav .login .sign-up {
     justify-content: space-between;
     border-radius: 5px;
 }
+
 .login-katta .login-kichik .div1 {
     width: 260px;
     height: 30px;
     display: flex;
     justify-content: space-between;
 }
+
 .login-katta .login-kichik .div1 .x {
     width: 40px;
     height: 30px;
@@ -76,6 +86,7 @@ nav .login .sign-up {
     background-color: transparent;
 
 }
+
 .login-katta .login-kichik .label {
     width: 260px;
     height: 50px;
@@ -83,9 +94,11 @@ nav .login .sign-up {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .login-katta .login-kichik .label input {
     padding: 0px 10px;
 }
+
 .login-katta .login-kichik .label1 {
     width: 260px;
     height: 50px;
@@ -93,9 +106,11 @@ nav .login .sign-up {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .login-katta .login-kichik .label1 input {
     padding: 0px 10px;
 }
+
 .login-katta .login-kichik .close-btn {
     width: 260px;
     height: 30px;
