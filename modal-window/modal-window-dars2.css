@@ -34,7 +34,7 @@
     font-size: 20px;
 }
 
-.main .bmw-katta {
+.main .bmw-katta, .main .mers-katta{
     position: fixed;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.7);
@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.main .bmw-katta .bmw {
+.main .bmw-katta .bmw, .main .mers-katta .mers{
     width: 400px;
     height: 260px;
     background-color: white;
@@ -54,14 +54,17 @@
 .main .bmw-katta.active {
     display: flex;
 }
+.main .mers-katta.bmw-katta.active {
+    display: flex;
+}
 
-.main .bmw-katta .bmw img {
+.main .bmw-katta .bmw img, .main .mers-katta .mers img {
     width: 400px;
     border-radius: 5px;
 
 }
 
-.main .bmw-katta .bmw .close-btn {
+.main .bmw-katta .bmw .close-btn, .main .mers-katta .mers .close-btn1 {
     width: 400px;
     height: 30px;
     border: none;
