@@ -51,20 +51,20 @@
 
 }
 
-.main .bmw-katta.active {
-    display: flex;
-}
-.main .mers-katta.bmw-katta.active {
+.main .bmw-katta.active,
+.main .mers-katta.active {
     display: flex;
 }
 
-.main .bmw-katta .bmw img, .main .mers-katta .mers img {
+.main .bmw-katta .bmw img, 
+.main .mers-katta .mers img {
     width: 400px;
     border-radius: 5px;
 
 }
 
-.main .bmw-katta .bmw .close-btn, .main .mers-katta .mers .close-btn1 {
+.main .bmw-katta .bmw .close-btn, 
+.main .mers-katta .mers .close-btn1 {
     width: 400px;
     height: 30px;
     border: none;
