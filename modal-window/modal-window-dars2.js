@@ -12,9 +12,9 @@ bmwBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     bmwKatta.classList.remove("active")
 })
-bmwBtn.addEventListener("click", () => {
-    bmwKatta.classList.add("active")
+mersBtn.addEventListener("click", () => {
+    mersKatta.classList.add("active")
 })
-closeBtn.addEventListener("click", () => {
-    bmwKatta.classList.remove("active")
+closeBtn1.addEventListener("click", () => {
+    mersKatta.classList.remove("active")
 })
