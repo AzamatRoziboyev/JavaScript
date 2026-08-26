@@ -50,24 +50,53 @@ nav .login .sign-up {
 }
 .login-katta .login-kichik {
     width: 300px;
-    height: 200px;
+    height: 250px;
+    padding: 20px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
 }
 .login-katta .login-kichik .div1 {
     width: 260px;
     height: 30px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+}
+.login-katta .login-kichik .div1 .x {
+    width: 40px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+
 }
 .login-katta .login-kichik .label {
     width: 260px;
-    height: 40px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid red;
+}
+.login-katta .login-kichik .label input {
+    padding: 0px 10px;
+}
+.login-katta .login-kichik .label1 {
+    width: 260px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-katta .login-kichik .label1 input {
+    padding: 0px 10px;
+}
+.login-katta .login-kichik .close-btn {
+    width: 260px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
 }
