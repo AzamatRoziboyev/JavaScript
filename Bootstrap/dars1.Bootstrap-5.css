@@ -118,6 +118,17 @@ nav .login .sign-up {
     background-color: blue;
     color: white;
 }
+.mahshulotlar {
+    width: 1700px;
+    height: 1300px;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 92px;
+}
+.card {
+    height: 620px;
+}
 .a1-katta {
     width: 100%;
     height: 100vh;
