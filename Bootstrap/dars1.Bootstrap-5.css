@@ -166,6 +166,7 @@ nav .login .sign-up {
     background-color: white;
     padding: 20px;
     text-align: justify;
+    border-radius: 12px;
 }
 .a2-katta .a2-kichik .a2-close{
     width: 250px;

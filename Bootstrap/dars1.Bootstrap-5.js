@@ -5,6 +5,10 @@ const closebtn = document.querySelector('.close-btn')
 const a1 = document.querySelector('.a1')
 const a1Katta = document.querySelector('.a1-katta')
 const a1Close = document.querySelector('.a1-close')
+// *
+const a2 = document.querySelector(".a2")
+const a2Katta = document.querySelector('.a2-katta')
+const a2Close = document.querySelector('.a2-close')
 
 loginBtn.addEventListener("click", () => {
     loginKatta.classList.add("active")
@@ -18,4 +22,11 @@ a1.addEventListener("click", () => {
 })
 a1Close.addEventListener("click", () => {
     a1Katta.classList.remove("active")
+})
+//* a2
+a2.addEventListener("click", () => {
+    a2Katta.classList.add("active")
+})
+a2Close.addEventListener("click", () => {
+    a2Katta.classList.remove("active")
 })
