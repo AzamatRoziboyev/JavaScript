@@ -118,3 +118,7 @@ nav .login .sign-up {
     background-color: blue;
     color: white;
 }
+.carousel-item img {
+    width: 2000px;
+    height: 800px;
+}
