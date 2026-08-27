@@ -118,6 +118,27 @@ nav .login .sign-up {
     background-color: blue;
     color: white;
 }
+.a1-katta {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.a1-katta.active {
+    display: flex;
+}
+.a1-katta .a1-kichik {
+    width: 380px;
+    height: 280px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
 .carousel-item img {
     width: 2000px;
     height: 800px;
