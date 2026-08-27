@@ -131,12 +131,20 @@ nav .login .sign-up {
 .a1-katta.active {
     display: flex;
 }
-.a1-katta form {
+.a1-katta .a1-kichik {
     width: 380px;
     height: 280px;
     background-color: white;
     padding: 25px;
     border-radius: 12px;
+}
+.a1-katta .a1-kichik .a1-close {
+    width: 330px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: ;
+
 }
 
 .carousel-item img {
