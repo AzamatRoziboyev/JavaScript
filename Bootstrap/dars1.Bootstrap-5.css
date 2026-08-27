@@ -118,6 +118,7 @@ nav .login .sign-up {
     background-color: blue;
     color: white;
 }
+
 .mahshulotlar {
     width: 1700px;
     height: 1300px;
@@ -126,9 +127,22 @@ nav .login .sign-up {
     grid-template-columns: repeat(4, 1fr);
     padding-left: 92px;
 }
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
 .card {
     height: 620px;
 }
+
 .a1-katta {
     width: 100%;
     height: 100vh;
@@ -139,9 +153,11 @@ nav .login .sign-up {
     justify-content: center;
     align-items: center;
 }
+
 .a1-katta.active {
     display: flex;
 }
+
 .a1-katta .a1-kichik {
     width: 380px;
     height: 280px;
@@ -149,6 +165,7 @@ nav .login .sign-up {
     padding: 25px;
     border-radius: 12px;
 }
+
 .a1-katta .a1-kichik .a1-close {
     width: 330px;
     height: 30px;
@@ -158,8 +175,9 @@ nav .login .sign-up {
     color: white;
 
 }
+
 .a2-katta {
-        width: 100%;
+    width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
@@ -168,9 +186,11 @@ nav .login .sign-up {
     justify-content: center;
     align-items: center;
 }
+
 .a2-katta.active {
     display: flex;
 }
+
 .a2-katta .a2-kichik {
     width: 300px;
     height: 230px;
@@ -179,7 +199,8 @@ nav .login .sign-up {
     text-align: justify;
     border-radius: 12px;
 }
-.a2-katta .a2-kichik .a2-close{
+
+.a2-katta .a2-kichik .a2-close {
     width: 250px;
     height: 30px;
     border: none;
@@ -188,6 +209,7 @@ nav .login .sign-up {
     color: white;
 
 }
+
 .a3-katta {
     width: 100%;
     height: 100vh;
@@ -198,9 +220,11 @@ nav .login .sign-up {
     justify-content: center;
     align-items: center;
 }
+
 .a3-katta.active {
     display: flex;
 }
+
 .a3-katta .a3-kichik {
     width: 400px;
     height: 280px;
@@ -208,6 +232,7 @@ nav .login .sign-up {
     border-radius: 12px;
     background-color: white;
 }
+
 .a3-katta .a3-kichik .a3-close {
     width: 340px;
     height: 30px;
@@ -217,6 +242,7 @@ nav .login .sign-up {
     color: white;
 
 }
+
 .carousel-item img {
     width: 2000px;
     height: 800px;
