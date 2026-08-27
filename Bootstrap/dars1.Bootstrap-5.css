@@ -131,7 +131,7 @@ nav .login .sign-up {
 .a1-katta.active {
     display: flex;
 }
-.a1-katta .a1-kichik {
+.a1-katta form {
     width: 380px;
     height: 280px;
     background-color: white;
