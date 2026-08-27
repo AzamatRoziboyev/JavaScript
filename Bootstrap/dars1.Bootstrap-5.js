@@ -4,6 +4,7 @@ const closebtn = document.querySelector('.close-btn')
 // *
 const a1 = document.querySelector('.a1')
 const a1Katta = document.querySelector('.a1-katta')
+const a1Close = document.querySelector('.a1-close')
 
 loginBtn.addEventListener("click", () => {
     loginKatta.classList.add("active")
@@ -14,4 +15,7 @@ closebtn.addEventListener("click", () => {
 //* a1
 a1.addEventListener("click", () => {
     a1Katta.classList.add("active")
+})
+a1Close.addEventListener("click", () => {
+    a1Katta.classList.remove("active")
 })

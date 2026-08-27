@@ -153,9 +153,12 @@ nav .login .sign-up {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     inset: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+}
+.a2-katta.active {
+    display: flex;
 }
 .a2-katta .a2-kichik {
     width: 300px;
