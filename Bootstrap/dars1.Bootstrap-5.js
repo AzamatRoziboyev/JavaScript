@@ -11,7 +11,7 @@ loginBtn.addEventListener("click", () => {
 closebtn.addEventListener("click", () => {
     loginKatta.classList.remove("active")
 })
-
+//* a1
 a1.addEventListener("click", () => {
     a1Katta.classList.add("active")
 })
