@@ -8,6 +8,39 @@
       <link rel="stylesheet" href="add-to-card1.css">
 </head>
 <body>
-    
+    <header class="header">
+        <h1><i class="fas fa-store"></i> Maxsulotlar</h1>
+        <button class="cart-btn" id="openCartBtn">
+            <i class="fas fa-shopping-bag"></i>
+             <span>Savat</span>
+            <span class="cart-badge" id="cartCounter">0</span>
+        </button>
+    </div>
+</header>
+    <!-- * maxsulotlar Girid -->
+    <div class="products-grid" id="productsGrid">
+    <!-- ! <!-- MODAL (savat oynasi) --> -->
+      <div class="cart-modal-overlay" id="cartOverlay"></div>
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-modal-header">
+            <h2><i class="fas fa-shopping-bag"></i> Savatcha</h2>
+            <button class="close-modal-btn" id="closeCartBtn">&times;</button>
+        </div>
+
+        <div class="cart-items-container" id="cartItemsContainer">
+            <div class="empty-cart-msg" id="emptyCartMsg">
+                <i class="fas fa-box-open"></i>
+                <p>Savat hozircha bo'sh</p>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Jami:</span>
+                <span id="cartTotalPrice">0 so‘m</span>
+            </div>
+        </div>
+    </div>
+    <script src="add-to-card1.js"></script>
 </body>
 </html>
