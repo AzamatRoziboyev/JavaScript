@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>add-to-card1</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <link rel="stylesheet" href="add-to-card1.css">
+    <title>Savatcha</title>
+    <!-- Font Awesome ikonkalar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="add-to-card1.css">
 </head>
 <body>
+    <!-- HEADER: Sarlavha va savat tugmasi -->
     <header class="header">
-        <h1><i class="fas fa-store"></i> Maxsulotlar</h1>
+        <h1><i class="fas fa-store"></i> Mahsulotlar</h1>
         <button class="cart-btn" id="openCartBtn">
             <i class="fas fa-shopping-bag"></i>
-             <span>Savat</span>
+            <span>Savat</span>
             <span class="cart-badge" id="cartCounter">0</span>
         </button>
-    </div>
-</header>
-    <!-- * maxsulotlar Girid -->
-    <div class="products-grid" id="productsGrid">
-    <!-- ! <!-- MODAL (savat oynasi) -->
-      <div class="cart-modal-overlay" id="cartOverlay"></div>
+    </header>
+
+    <!-- MAHSULOTLAR GRID -->
+    <div class="products-grid" id="productsGrid"></div>
+
+    <!-- MODAL (savat oynasi) -->
+    <div class="cart-modal-overlay" id="cartOverlay"></div>
     <div class="cart-modal" id="cartModal">
         <div class="cart-modal-header">
             <h2><i class="fas fa-shopping-bag"></i> Savatcha</h2>
@@ -41,6 +44,7 @@
             </div>
         </div>
     </div>
+
     <script src="add-to-card1.js"></script>
 </body>
 </html>
