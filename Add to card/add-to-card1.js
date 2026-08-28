@@ -148,3 +148,30 @@ function updateCartUI() {
   cartTotalPriceEl.textContent = formatPrice(getTotalPrice());
   cartCounter.textContent = getTotalItems();
 }
+// ============================================
+//* 8. MODALNI OCHISH / YOPISH
+// ============================================
+function openCartModal() {
+  cartModal.classList.add("open");
+  cartOverlay.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
+function closeCartModal() {
+  cartModal.classList.remove("open");
+  cartOverlay.classList.remove("active");
+  document.body.style.overflow = "";
+}
+
+openCartBtn.addEventListener("click", openCartModal);
+closeCartBtn.addEventListener("click", closeCartModal);
+cartOverlay.addEventListener("click", closeCartModal);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeCartModal();
+});
+
+// ============================================
+//* 9. ISHGA TUSHIRISH
+// ============================================
+renderProducts();
+updateCartUI();
