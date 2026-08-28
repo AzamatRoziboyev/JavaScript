@@ -1,24 +1,26 @@
+/* ---------- GLOBAL ---------- */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    transition: 0.3s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 body {
-    background-color: #f4f7fc;
-    padding: 32px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: #f4f7fc;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-/* *header */
+
+/* ---------- HEADER ---------- */
 .header {
-    width: 100%;
-    max-width: 1100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
 }
 .header h1 {
   color: #1e293b;
@@ -26,9 +28,9 @@ body {
 .cart-btn {
   background: white;
   border: 1px solid #e2e8f0;
-  padding: 10px 25px;
+  padding: 0.75rem 1.8rem;
   border-radius: 60px;
-  font-size: 17px;
+  font-size: 1.1rem;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -37,8 +39,7 @@ body {
   transition: 0.2s;
 }
 .cart-btn:hover {
-  background: blue;
-  color: white;
+  background: #f8fafc;
   transform: scale(1.02);
 }
 .cart-badge {
@@ -49,27 +50,29 @@ body {
   min-width: 28px;
   text-align: center;
 }
-/* * /* ---------- MAHSULOTLAR ---------- */ */
+
+/* ---------- MAHSULOTLAR ---------- */
 .products-grid {
   width: 100%;
   max-width: 1100px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 36px;
+  gap: 2rem;
 }
-.products-grid {
-  width: 100%;
-  max-width: 1100px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 36px;
+.product-card {
+  background: white;
+  border-radius: 24px;
+  padding: 1.2rem 1rem 1.5rem;
+  border: 1px solid #eef2f6;
+  text-align: center;
+  transition: 0.2s;
 }
 .product-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.04);
 }
 .product-emoji {
-  font-size: 72px;
+  font-size: 4rem;
 }
 .product-name {
   font-weight: 600;
@@ -95,7 +98,8 @@ body {
   background: #1d4ed8;
   transform: scale(1.02);
 }
-/** ---------- MODAL (savat) ---------- */
+
+/* ---------- MODAL (savat) ---------- */
 .cart-modal-overlay {
   position: fixed;
   top: 0;
