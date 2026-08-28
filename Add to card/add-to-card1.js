@@ -2,10 +2,36 @@
 const products = [
   { id: 1, name: "Noutbuk", emoji: "💻", price: 4200000 },
   { id: 2, name: "Smartfon", emoji: "📱", price: 2800000 },
-  { id: 3, name: "Naushniklar", emoji: "🎧", price: 450000 },
-  { id: 4, name: "Soat", emoji: "⌚", price: 890000 },
+  { id: 3, name: "Naushnik", emoji: "🎧", price: 450000 },
+  { id: 4, name: "Aqlli soat", emoji: "⌚️", price: 890000 },
   { id: 5, name: "Kamera", emoji: "📷", price: 3100000 },
   { id: 6, name: "Planshet", emoji: "📟", price: 2200000 },
+  { id: 7, name: "Sichqoncha", emoji: "🖱", price: 180000 },
+  { id: 8, name: "Klaviatura", emoji: "⌨️", price: 350000 },
+  { id: 9, name: "Monitor", emoji: "🖥", price: 1950000 },
+  { id: 10, name: "Printer", emoji: "🖨", price: 1250000 },
+
+  { id: 11, name: "Powerbank", emoji: "🔋", price: 250000 },
+  { id: 12, name: "USB fleshka", emoji: "💾", price: 120000 },
+  { id: 13, name: "Wi-Fi Router", emoji: "📡", price: 420000 },
+  { id: 14, name: "Bluetooth Kolonka", emoji: "🔊", price: 380000 },
+  { id: 15, name: "Web-kamera", emoji: "🎥", price: 520000 },
+  { id: 16, name: "Mikrofon", emoji: "🎙", price: 650000 },
+  { id: 17, name: "Gaming Sichqoncha", emoji: "🖱", price: 290000 },
+  { id: 18, name: "Gaming Klaviatura", emoji: "⌨️", price: 580000 },
+  { id: 19, name: "Gaming Quloqchin", emoji: "🎧", price: 720000 },
+  { id: 20, name: "Laptop Sumkasi", emoji: "💼", price: 320000 },
+
+  { id: 21, name: "Smart TV", emoji: "📺", price: 4500000 },
+  { id: 22, name: "Elektron kitob", emoji: "📖", price: 980000 },
+  { id: 23, name: "Fotoapparat", emoji: "📸", price: 5600000 },
+  { id: 24, name: "Dron", emoji: "🚁", price: 3900000 },
+  { id: 25, name: "VR Ko‘zoynak", emoji: "🥽", price: 2100000 },
+  { id: 26, name: "USB Kabel", emoji: "🔌", price: 85000 },
+  { id: 27, name: "Telefon G‘ilofi", emoji: "📱", price: 95000 },
+  { id: 28, name: "Telefon Zaryadkasi", emoji: "🔌", price: 180000 },
+  { id: 29, name: "SSD Disk", emoji: "💽", price: 850000 },
+  { id: 30, name: "Proyektor", emoji: "📽", price: 2750000 },
 ];
 
 //* 2. SAVAT HOLATI (state)
