@@ -1,7 +1,28 @@
-// Konvertni ochish
+const bgMusic = document.getElementById('bgMusic');
+const musicBtn = document.getElementById('musicToggleBtn');
+
+// Konvertni ochish va musiqani boshlash
 function openEnvelope() {
   document.getElementById('envelope-screen').classList.add('hidden');
   document.getElementById('main-screen').classList.remove('hidden');
+  
+  // Musiqani ijro etish
+  bgMusic.play().then(() => {
+    musicBtn.innerText = "⏸";
+  }).catch(err => {
+    console.log("Audio ijro etishda xatolik:", err);
+  });
+}
+
+// Musiqani to'xtatish yoki qayta yoqish
+function toggleMusic() {
+  if (bgMusic.paused) {
+    bgMusic.play();
+    musicBtn.innerText = "⏸";
+  } else {
+    bgMusic.pause();
+    musicBtn.innerText = "▶";
+  }
 }
 
 // Sanani ko'rsatish

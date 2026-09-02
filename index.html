@@ -9,6 +9,11 @@
 </head>
 <body>
 
+  <!-- Musiqa manbasi -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
   <div class="container">
     
     <!-- 1. KONVERT EKRANI -->
@@ -28,6 +33,9 @@
     <!-- 2. ASOSIY TAKLIFNOMA EKRANI -->
     <div id="main-screen" class="screen hidden">
       
+      <!-- Musiqa tugmasi (pauza/play) -->
+      <button id="musicToggleBtn" class="music-control-btn" onclick="toggleMusic()">⏸</button>
+
       <!-- Muqova -->
       <div class="hero-section">
         <h1 class="names">Samandar<br>&<br>Dildora</h1>
