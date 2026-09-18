@@ -24,7 +24,7 @@ prevBtn.addEventListener("click", () => {
 
 function updateCarousel() {
     // Yo'lakni chapga surish (minus qiymat)
-    const moveAmount = hisoblagich * cardWidth
+    const moveAmount = -hisoblagich * cardWidth
     // CSS transform  orqali hatrakatlantirish
     track.style.transform = `translateX(${moveAmount}px)`
 }
