@@ -17,4 +17,19 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 }
-.carusel-window 
+.carusel-track {
+    display: flex;
+
+}
+.card {
+    min-width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 8px;
+}
